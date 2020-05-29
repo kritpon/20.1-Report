@@ -1,0 +1,34 @@
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\report2015\bin\Debug\report2015.exe.config
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\report2015\obj\Debug\report2015.vbproj.ResolveComReference.cache
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\report2015\obj\Debug\report2015.exe
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\report2015\obj\Debug\report2015.xml
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\report2015\obj\Debug\report2015.pdb
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\report2015\bin\Debug\report2015.exe
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\report2015\bin\Debug\report2015.pdb
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\report2015\bin\Debug\report2015.xml
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\report2015\obj\Debug\report2015.frmFindStk.resources
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\report2015\obj\Debug\report2015.frmFindStk2.resources
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\report2015\obj\Debug\report2015.frmFindWH.resources
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\report2015\obj\Debug\report2015.frmRptByDoc.resources
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\report2015\obj\Debug\report2015.frmRptChart.resources
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\report2015\obj\Debug\report2015.frmSearchSale.resources
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\report2015\obj\Debug\report2015.Resources.resources
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\report2015\obj\Debug\report2015.searchCus.resources
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\report2015\obj\Debug\report2015.vbproj.GenerateResource.Cache
+D:\GoogleDrive\DEV2015\20.1 Report\report2015\bin\Debug\report2015.exe.config
+D:\GoogleDrive\DEV2015\20.1 Report\report2015\obj\Debug\report2015.vbproj.ResolveComReference.cache
+D:\GoogleDrive\DEV2015\20.1 Report\report2015\obj\Debug\report2015.exe
+D:\GoogleDrive\DEV2015\20.1 Report\report2015\obj\Debug\report2015.xml
+D:\GoogleDrive\DEV2015\20.1 Report\report2015\obj\Debug\report2015.pdb
+D:\GoogleDrive\DEV2015\20.1 Report\report2015\bin\Debug\report2015.exe
+D:\GoogleDrive\DEV2015\20.1 Report\report2015\bin\Debug\report2015.pdb
+D:\GoogleDrive\DEV2015\20.1 Report\report2015\bin\Debug\report2015.xml
+D:\GoogleDrive\DEV2015\20.1 Report\report2015\obj\Debug\report2015.frmFindStk.resources
+D:\GoogleDrive\DEV2015\20.1 Report\report2015\obj\Debug\report2015.frmFindStk2.resources
+D:\GoogleDrive\DEV2015\20.1 Report\report2015\obj\Debug\report2015.frmFindWH.resources
+D:\GoogleDrive\DEV2015\20.1 Report\report2015\obj\Debug\report2015.frmRptByDoc.resources
+D:\GoogleDrive\DEV2015\20.1 Report\report2015\obj\Debug\report2015.frmRptChart.resources
+D:\GoogleDrive\DEV2015\20.1 Report\report2015\obj\Debug\report2015.frmSearchSale.resources
+D:\GoogleDrive\DEV2015\20.1 Report\report2015\obj\Debug\report2015.Resources.resources
+D:\GoogleDrive\DEV2015\20.1 Report\report2015\obj\Debug\report2015.searchCus.resources
+D:\GoogleDrive\DEV2015\20.1 Report\report2015\obj\Debug\report2015.vbproj.GenerateResource.Cache

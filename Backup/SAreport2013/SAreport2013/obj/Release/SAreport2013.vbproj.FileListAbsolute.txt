@@ -1,0 +1,44 @@
+D:\DEV\Report\SAreport2013\SAreport2013\bin\Release\SAreport2013.exe
+D:\DEV\Report\SAreport2013\SAreport2013\bin\Release\SAreport2013.pdb
+D:\DEV\Report\SAreport2013\SAreport2013\bin\Release\SAreport2013.xml
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Release\ResolveAssemblyReference.cache
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.vbproj.ResolveComReference.cache
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.frmFindStk.resources
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.frmFindWH.resources
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.frmReport2.resources
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.frmSearchSale.resources
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.Resources.resources
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.searchCus.resources
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.vbproj.GenerateResource.Cache
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.exe
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.xml
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.pdb
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.frmFindStk2.resources
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.frmRptChart.resources
+D:\DEV\Report\SAreport2013\SAreport2013\bin\Release\SAreport2013.exe.manifest
+D:\DEV\Report\SAreport2013\SAreport2013\bin\Release\SAreport2013.application
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.exe.manifest
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.application
+D:\DEV\Report\SAreport2013\SAreport2013\bin\Release\Microsoft.Office.Interop.Excel.dll
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\bin\Release\SAreport2013.exe.manifest
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\bin\Release\SAreport2013.application
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\bin\Release\SAreport2013.exe
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\bin\Release\SAreport2013.pdb
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\bin\Release\SAreport2013.xml
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\bin\Release\Microsoft.Office.Interop.Excel.dll
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Release\ResolveAssemblyReference.cache
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.vbproj.ResolveComReference.cache
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.frmFindStk.resources
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.frmFindStk2.resources
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.frmFindWH.resources
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.frmReport2.resources
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.frmRptChart.resources
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.frmSearchSale.resources
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.Resources.resources
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.searchCus.resources
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.vbproj.GenerateResource.Cache
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.exe.manifest
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.application
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.exe
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.xml
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Release\SAreport2013.pdb

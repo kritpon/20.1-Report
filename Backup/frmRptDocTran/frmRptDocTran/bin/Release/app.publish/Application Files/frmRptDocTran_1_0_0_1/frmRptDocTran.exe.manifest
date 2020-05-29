@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="frmRptDocTran.exe" version="1.0.0.1" publicKeyToken="7d7850bb211981b6" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="frmRptDocTran" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="frmRptDocTran.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Interop.Excel" version="11.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Vbe.Interop" version="12.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="office" version="12.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="frmRptDocTran.exe" size="181760">
+      <assemblyIdentity name="frmRptDocTran" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>FvUTKJDK+zT5D3nCB/K2tkoEZMw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=BD_Kritpon\Kritpon" issuerKeyHash="2e808107c367b2d2042527939f6468ff4b526d52" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>L3wMnmK/6LmE5E2lkxQQ2EpSrSQ=</DigestValue></Reference></SignedInfo><SignatureValue>ZfRDH7qEqonaWCEWeQYntNWAjn+yWydgT/wq0ZZCoWG9hDMD9BuXC33LnYjFWEcLl+KDW1L+OAK+kTd3ZvCQWSoCwym+V8FT2FAL8ObSnNuHCAb7E18z9mCtsKVyPEVv9Tv3VAbqMpD5n4LLrdSChQkHh+PgvD+64TgBHxDvrPk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yKPtXgfOUz+VCnO/1OLoQ0sTiCiKAeWROA9D6jxhOldm+AyGN0yvm2Im0x6II5kkAuIYlOqy7InD5C9IqXLOSyLdVKo+y6ThgWmEiBvww4fm4+Qsv+Ym5qiOjMH3ezXvqz1L9EHv1q0J3NQaduj7zBNaqf7cImShGgVRCtH/Nm8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="24ad524ad8101493a54de484b9e8bf629e0c7c2f" Description="" Url=""><as:assemblyIdentity name="frmRptDocTran.exe" version="1.0.0.1" publicKeyToken="7d7850bb211981b6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BD_Kritpon\Kritpon</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>OlWqyBt6hWR5WrzSrI3SUAkr0j0=</DigestValue></Reference></SignedInfo><SignatureValue>gZP4QbKBWZV5YByV4jM5q56QEKzc8J6ZPt2nQbJo0MbdQptA0+NxSnTbmx6eZ/Huvn9Oglww5FrTXU9LILmdDNx6c+qmdGL+qFAiv0SmqmdWb1dENX2cEpdIQDZbcWJFAA/pDTsbyJvdlDp9hsWUfkDa3j8TexBYMkckPN5dLnA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yKPtXgfOUz+VCnO/1OLoQ0sTiCiKAeWROA9D6jxhOldm+AyGN0yvm2Im0x6II5kkAuIYlOqy7InD5C9IqXLOSyLdVKo+y6ThgWmEiBvww4fm4+Qsv+Ym5qiOjMH3ezXvqz1L9EHv1q0J3NQaduj7zBNaqf7cImShGgVRCtH/Nm8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQVDaVLhRyFqFPc1FWqjmwGDANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQAQgBEAF8ASwByAGkAdABwAG8AbgBcAEsAcgBpAHQAcABvAG4wHhcNMTIxMTIyMDgzNjA4WhcNMTMxMTIyMTQzNjA4WjAvMS0wKwYDVQQDHiQAQgBEAF8ASwByAGkAdABwAG8AbgBcAEsAcgBpAHQAcABvAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMij7V4HzlM/lQpzv9Ti6ENLE4goigHlkTgPQ+o8YTpXZvgMhjdMr5tiJtMeiCOZJALiGJTqsuyJw+QvSKlyzksi3VSqPsuk4YFphIgb8MOH5uPkLL/mJuaojozB93s176s9S/RB79atCdzUGnbo+8wTWqn+3CJkoRoFUQrR/zZvAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAdLAte+UZ+MqFrPK5XpmxywsdbjSfJrVSFlXPdzbQePTXdkgo7WrG31gpOB+eZFJB7fu8QkjRuZD4BcaKVLv8IxYHN+hM+XEvmaPEUhHIqpxCtE3QLMMj2Y0Jx874X3qo9bqQoqiOUWA/BDh1c9IfGihj9aCFJWOKNEZG/XE5RLg=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

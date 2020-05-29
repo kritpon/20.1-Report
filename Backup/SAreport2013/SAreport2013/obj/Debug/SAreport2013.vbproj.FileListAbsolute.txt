@@ -1,0 +1,87 @@
+C:\Users\kritpon\AppData\Local\Temporary Projects\SAreport2013\bin\Debug\SAreport2013.exe
+C:\Users\kritpon\AppData\Local\Temporary Projects\SAreport2013\bin\Debug\SAreport2013.pdb
+C:\Users\kritpon\AppData\Local\Temporary Projects\SAreport2013\bin\Debug\SAreport2013.xml
+C:\Users\kritpon\AppData\Local\Temporary Projects\SAreport2013\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kritpon\AppData\Local\Temporary Projects\SAreport2013\obj\Debug\SAreport2013.Form1.resources
+C:\Users\kritpon\AppData\Local\Temporary Projects\SAreport2013\obj\Debug\SAreport2013.Resources.resources
+C:\Users\kritpon\AppData\Local\Temporary Projects\SAreport2013\obj\Debug\SAreport2013.vbproj.GenerateResource.Cache
+C:\Users\kritpon\AppData\Local\Temporary Projects\SAreport2013\obj\Debug\SAreport2013.exe
+C:\Users\kritpon\AppData\Local\Temporary Projects\SAreport2013\obj\Debug\SAreport2013.xml
+C:\Users\kritpon\AppData\Local\Temporary Projects\SAreport2013\obj\Debug\SAreport2013.pdb
+C:\Users\kritpon\AppData\Local\Temporary Projects\SAreport2013\obj\Debug\SAreport2013.frmReport2.resources
+C:\Users\kritpon\AppData\Local\Temporary Projects\SAreport2013\obj\Debug\SAreport2013.frmFindStk.resources
+C:\Users\kritpon\AppData\Local\Temporary Projects\SAreport2013\obj\Debug\SAreport2013.frmFindWH.resources
+C:\Users\kritpon\AppData\Local\Temporary Projects\SAreport2013\obj\Debug\SAreport2013.frmSearchSale.resources
+C:\Users\kritpon\AppData\Local\Temporary Projects\SAreport2013\obj\Debug\SAreport2013.searchCus.resources
+C:\Users\kritpon\AppData\Local\Temporary Projects\SAreport2013\obj\Debug\SAreport2013.vbproj.ResolveComReference.cache
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.vbproj.ResolveComReference.cache
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.exe
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.xml
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.pdb
+D:\DEV\Report\SAreport2013\SAreport2013\bin\Debug\SAreport2013.exe
+D:\DEV\Report\SAreport2013\SAreport2013\bin\Debug\SAreport2013.pdb
+D:\DEV\Report\SAreport2013\SAreport2013\bin\Debug\SAreport2013.xml
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Debug\ResolveAssemblyReference.cache
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.frmFindStk.resources
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.frmFindWH.resources
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.frmReport2.resources
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.frmSearchSale.resources
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.Resources.resources
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.searchCus.resources
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.vbproj.GenerateResource.Cache
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.frmFindStk2.resources
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.frmRptChart.resources
+D:\DEV\Report\SAreport2013\SAreport2013\bin\Debug\SAreport2013.exe.manifest
+D:\DEV\Report\SAreport2013\SAreport2013\bin\Debug\SAreport2013.application
+D:\DEV\Report\SAreport2013\SAreport2013\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.exe.manifest
+D:\DEV\Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.application
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.vbproj.ResolveComReference.cache
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.exe
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.xml
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.pdb
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\bin\Debug\SAreport2013.exe.manifest
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\bin\Debug\SAreport2013.application
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\bin\Debug\SAreport2013.exe
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\bin\Debug\SAreport2013.pdb
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\bin\Debug\SAreport2013.xml
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Debug\ResolveAssemblyReference.cache
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.frmFindStk.resources
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.frmFindStk2.resources
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.frmFindWH.resources
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.frmReport2.resources
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.frmRptChart.resources
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.frmSearchSale.resources
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.Resources.resources
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.searchCus.resources
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.vbproj.GenerateResource.Cache
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.exe.manifest
+D:\DEV\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.application
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.vbproj.ResolveComReference.cache
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.exe
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.xml
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.pdb
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\bin\Debug\SAreport2013.exe.manifest
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\bin\Debug\SAreport2013.application
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\bin\Debug\SAreport2013.exe
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\bin\Debug\SAreport2013.pdb
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\bin\Debug\SAreport2013.xml
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.vbprojResolveAssemblyReference.cache
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.frmFindStk.resources
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.frmFindStk2.resources
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.frmFindWH.resources
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.frmReport2.resources
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.frmRptChart.resources
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.frmSearchSale.resources
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.Resources.resources
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.searchCus.resources
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.vbproj.GenerateResource.Cache
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.exe.manifest
+C:\Users\kritpon\Google-Panglas.com\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.application
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.vbproj.ResolveComReference.cache
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.exe
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.xml
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.pdb
+C:\Users\กฤตพน\Google ไดรฟ์\DEV2015\20.1 Report\SAreport2013\SAreport2013\obj\Debug\SAreport2013.vbprojResolveAssemblyReference.cache

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="SAreport2013.exe" version="1.0.0.0" publicKeyToken="54536bda3becd05d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SAreport2013" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SAreport2013.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Interop.Excel" version="14.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Interop.Graph" version="14.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.DataVisualization" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Vbe.Interop" version="14.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="office" version="14.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Windows.Forms.DataVisualization" version="3.5.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SAreport2013.exe" size="244224">
+      <assemblyIdentity name="SAreport2013" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>oh5FwXwuHJhkToGuIPxxOLAWZVw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=BD_kritpon-PC\kritpon" issuerKeyHash="c73fda61e513363109bb8a2ec454956c0be12e98" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>3leNykJ/XByn/bcRHxGyW1dsHGc=</DigestValue></Reference></SignedInfo><SignatureValue>VE1npXTZdQAql7CXExc2dJ4IhUD3hJa3odv12FI5T2KL/5hgtpux/GJ7hA2F4ZBKg11tRnk8sxaRbLaLvYv9BwDS1t5a4leuphvyYAbRbrSm0yiVqs5PK48bERj/ZTBkPvi6YBVtnkrlO6JZlwbnEZ5IqJGOSmukKj6SlLk8PmU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1p31w+DItspFBpZOghbR9vLS11R8jWwDLDkFJXmLzzSlK9U/6cTcmQThdFJRzY/zux3o27FoG96nbi8PNW9ruJ/Tp4CjJHGA4wJCn4Wm46sJBThx4tpO2HmPLv9Tj4qZNZ2WTjNRgMmqnWKXYXP/BzSE+p1FqfC+EvlHHfOSXWU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="671c6c575bb2111f11b7fda71c5c7f42ca8d57de" Description="" Url=""><as:assemblyIdentity name="SAreport2013.exe" version="1.0.0.0" publicKeyToken="54536bda3becd05d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BD_kritpon-PC\kritpon</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>uNbr140yHqKWf3I1P/7wjsNzUfI=</DigestValue></Reference></SignedInfo><SignatureValue>IhvYhfvSJn82kBLruIjujO0qkSbzrFeCQtu5TvPYRep0nZFAOkkyWpKiFKEZQbmwIuZHpzo1szGFobVAIGeUil07c42DFXeRjFBpb5vd5ksut6Jo+nHEuaFLW4joile47aNGVRGOEmB0CY3e/BX9BrI88mQvObaqaBO1auVBxWE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1p31w+DItspFBpZOghbR9vLS11R8jWwDLDkFJXmLzzSlK9U/6cTcmQThdFJRzY/zux3o27FoG96nbi8PNW9ruJ/Tp4CjJHGA4wJCn4Wm46sJBThx4tpO2HmPLv9Tj4qZNZ2WTjNRgMmqnWKXYXP/BzSE+p1FqfC+EvlHHfOSXWU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQYV9jNAlyV4FKKFHWL8SpdDANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioAQgBEAF8AawByAGkAdABwAG8AbgAtAFAAQwBcAGsAcgBpAHQAcABvAG4wHhcNMTQwMjI2MDg1NTU2WhcNMTUwMjI2MTQ1NTU2WjA1MTMwMQYDVQQDHioAQgBEAF8AawByAGkAdABwAG8AbgAtAFAAQwBcAGsAcgBpAHQAcABvAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANad9cPgyLbKRQaWToIW0fby0tdUfI1sAyw5BSV5i880pSvVP+nE3JkE4XRSUc2P87sd6NuxaBvep24vDzVva7if06eAoyRxgOMCQp+FpuOrCQU4ceLaTth5jy7/U4+KmTWdlk4zUYDJqp1il2Fz/wc0hPqdRanwvhL5Rx3zkl1lAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAuTCRnYPkgfEBfPSFMM7QNbjpP1CaFb7jBWzhtPYwSAEjnyImz1jScJimHDftK+esQOaZ+UkOXUP9CpmNziQ61MJzWnH70wppvcStvJ1EvD0VpF192DGLthYaYr9Ly5T1eHqevfQHYTcGbtJbR60W+QU3YtA+G2BFL1AMi0Zj03g=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

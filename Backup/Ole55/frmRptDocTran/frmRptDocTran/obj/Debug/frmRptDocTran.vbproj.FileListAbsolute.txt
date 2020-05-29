@@ -1,0 +1,25 @@
+C:\Users\Kritpon\AppData\Local\Temporary Projects\frmRptDocTran\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kritpon\AppData\Local\Temporary Projects\frmRptDocTran\obj\Debug\frmRptDocTran.frmReport2.resources
+C:\Users\Kritpon\AppData\Local\Temporary Projects\frmRptDocTran\obj\Debug\frmRptDocTran.Resources.resources
+C:\Users\Kritpon\AppData\Local\Temporary Projects\frmRptDocTran\obj\Debug\frmRptDocTran.vbproj.GenerateResource.Cache
+C:\Users\Kritpon\AppData\Local\Temporary Projects\frmRptDocTran\obj\Debug\frmRptDocTran.frmFindStk.resources
+C:\Users\Kritpon\AppData\Local\Temporary Projects\frmRptDocTran\obj\Debug\frmRptDocTran.searchCus.resources
+D:\DEV\frmRptDocTran\frmRptDocTran\obj\Debug\ResolveAssemblyReference.cache
+D:\DEV\frmRptDocTran\frmRptDocTran\obj\Debug\frmRptDocTran.frmFindStk.resources
+D:\DEV\frmRptDocTran\frmRptDocTran\obj\Debug\frmRptDocTran.frmReport2.resources
+D:\DEV\frmRptDocTran\frmRptDocTran\obj\Debug\frmRptDocTran.Resources.resources
+D:\DEV\frmRptDocTran\frmRptDocTran\obj\Debug\frmRptDocTran.searchCus.resources
+D:\DEV\frmRptDocTran\frmRptDocTran\obj\Debug\frmRptDocTran.vbproj.GenerateResource.Cache
+D:\DEV\frmRptDocTran\frmRptDocTran\bin\Debug\frmRptDocTran.exe
+D:\DEV\frmRptDocTran\frmRptDocTran\bin\Debug\frmRptDocTran.pdb
+D:\DEV\frmRptDocTran\frmRptDocTran\bin\Debug\frmRptDocTran.xml
+D:\DEV\frmRptDocTran\frmRptDocTran\obj\Debug\frmRptDocTran.frmSearchSale.resources
+D:\DEV\frmRptDocTran\frmRptDocTran\obj\Debug\frmRptDocTran.exe
+D:\DEV\frmRptDocTran\frmRptDocTran\obj\Debug\frmRptDocTran.xml
+D:\DEV\frmRptDocTran\frmRptDocTran\obj\Debug\frmRptDocTran.pdb
+D:\DEV\frmRptDocTran\frmRptDocTran\bin\Debug\frmRptDocTran.exe.manifest
+D:\DEV\frmRptDocTran\frmRptDocTran\bin\Debug\frmRptDocTran.application
+D:\DEV\frmRptDocTran\frmRptDocTran\obj\Debug\frmRptDocTran.exe.manifest
+D:\DEV\frmRptDocTran\frmRptDocTran\obj\Debug\frmRptDocTran.application
+D:\DEV\frmRptDocTran\frmRptDocTran\obj\Debug\frmRptDocTran.vbproj.ResolveComReference.cache
+D:\DEV\frmRptDocTran\frmRptDocTran\obj\Debug\frmRptDocTran.frmTimer.resources
