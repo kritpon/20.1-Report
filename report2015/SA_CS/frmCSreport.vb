@@ -416,12 +416,12 @@ Public Class frmCSreport
                 lvi = New ListViewItem(anyData)
                 lsvDetail.Items.Add(lvi)
                 If chkRow = 0 Then
-                    lvi.BackColor = Color.AliceBlue
+                    lvi.BackColor = Color.GreenYellow
                     lvi.ForeColor = Color.Black
                     chkRow = 1
 
                 ElseIf chkRow = 1 Then
-                    lvi.BackColor = Color.SkyBlue 'CornflowerBlue 'LightSteelBlue 'DarkOrange
+                    lvi.BackColor = Color.White 'CornflowerBlue 'LightSteelBlue 'DarkOrange
                     lvi.ForeColor = Color.Black
                     chkRow = 0
                 End If
@@ -449,8 +449,8 @@ Public Class frmCSreport
                 lvi = New ListViewItem(anyData)
                 lsvDetail2M.Items.Add(lvi)
                 If chkRow2 = 0 Then
-                    lvi.BackColor = Color.DarkRed 'CornflowerBlue 'LightSteelBlue 'DarkOrange
-                    lvi.ForeColor = Color.White
+                    lvi.BackColor = Color.DarkOrange 'CornflowerBlue 'LightSteelBlue 'DarkOrange
+                    lvi.ForeColor = Color.Black
                     chkRow2 = 1
 
                 ElseIf chkRow2 = 1 Then
@@ -466,7 +466,7 @@ Public Class frmCSreport
                 lvi = New ListViewItem(anyData)
                 lsvDetail6m.Items.Add(lvi)
                 If chkRow3 = 0 Then
-                    lvi.BackColor = Color.Gray 'CornflowerBlue 'LightSteelBlue 'DarkOrange
+                    lvi.BackColor = Color.Brown 'CornflowerBlue 'LightSteelBlue 'DarkOrange
                     lvi.ForeColor = Color.White
                     chkRow3 = 1
 

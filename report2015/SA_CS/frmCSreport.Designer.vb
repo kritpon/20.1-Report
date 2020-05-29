@@ -22,18 +22,18 @@ Partial Class frmCSreport
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim ChartArea1 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend1 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series1 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim ChartArea2 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend2 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series2 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim ChartArea3 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend3 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series3 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim ChartArea4 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend4 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series4 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea5 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend5 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series5 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea6 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend6 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series6 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea7 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend7 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series7 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea8 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend8 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series8 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Me.lsvDetail = New System.Windows.Forms.ListView()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.lbCSname = New System.Windows.Forms.Label()
@@ -533,16 +533,16 @@ Partial Class frmCSreport
         '
         'chartYear
         '
-        ChartArea1.Name = "ChartArea1"
-        Me.chartYear.ChartAreas.Add(ChartArea1)
-        Legend1.Name = "Legend1"
-        Me.chartYear.Legends.Add(Legend1)
+        ChartArea5.Name = "ChartArea1"
+        Me.chartYear.ChartAreas.Add(ChartArea5)
+        Legend5.Name = "Legend1"
+        Me.chartYear.Legends.Add(Legend5)
         Me.chartYear.Location = New System.Drawing.Point(5, 17)
         Me.chartYear.Name = "chartYear"
-        Series1.ChartArea = "ChartArea1"
-        Series1.Legend = "Legend1"
-        Series1.Name = "Series1"
-        Me.chartYear.Series.Add(Series1)
+        Series5.ChartArea = "ChartArea1"
+        Series5.Legend = "Legend1"
+        Series5.Name = "Series1"
+        Me.chartYear.Series.Add(Series5)
         Me.chartYear.Size = New System.Drawing.Size(259, 144)
         Me.chartYear.TabIndex = 24
         Me.chartYear.Text = "Chart1"
@@ -559,16 +559,16 @@ Partial Class frmCSreport
         '
         'chartAct
         '
-        ChartArea2.Name = "ChartArea1"
-        Me.chartAct.ChartAreas.Add(ChartArea2)
-        Legend2.Name = "Legend1"
-        Me.chartAct.Legends.Add(Legend2)
+        ChartArea6.Name = "ChartArea1"
+        Me.chartAct.ChartAreas.Add(ChartArea6)
+        Legend6.Name = "Legend1"
+        Me.chartAct.Legends.Add(Legend6)
         Me.chartAct.Location = New System.Drawing.Point(6, 17)
         Me.chartAct.Name = "chartAct"
-        Series2.ChartArea = "ChartArea1"
-        Series2.Legend = "Legend1"
-        Series2.Name = "Series1"
-        Me.chartAct.Series.Add(Series2)
+        Series6.ChartArea = "ChartArea1"
+        Series6.Legend = "Legend1"
+        Series6.Name = "Series1"
+        Me.chartAct.Series.Add(Series6)
         Me.chartAct.Size = New System.Drawing.Size(265, 144)
         Me.chartAct.TabIndex = 25
         Me.chartAct.Text = "Chart2"
@@ -2050,16 +2050,16 @@ Partial Class frmCSreport
         '
         'chartCusItem
         '
-        ChartArea3.Name = "ChartArea1"
-        Me.chartCusItem.ChartAreas.Add(ChartArea3)
-        Legend3.Name = "Legend1"
-        Me.chartCusItem.Legends.Add(Legend3)
+        ChartArea7.Name = "ChartArea1"
+        Me.chartCusItem.ChartAreas.Add(ChartArea7)
+        Legend7.Name = "Legend1"
+        Me.chartCusItem.Legends.Add(Legend7)
         Me.chartCusItem.Location = New System.Drawing.Point(289, 13)
         Me.chartCusItem.Name = "chartCusItem"
-        Series3.ChartArea = "ChartArea1"
-        Series3.Legend = "Legend1"
-        Series3.Name = "Series1"
-        Me.chartCusItem.Series.Add(Series3)
+        Series7.ChartArea = "ChartArea1"
+        Series7.Legend = "Legend1"
+        Series7.Name = "Series1"
+        Me.chartCusItem.Series.Add(Series7)
         Me.chartCusItem.Size = New System.Drawing.Size(265, 144)
         Me.chartCusItem.TabIndex = 57
         Me.chartCusItem.Text = "Chart1"
@@ -3051,7 +3051,7 @@ Partial Class frmCSreport
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.Size = New System.Drawing.Size(1279, 645)
         Me.TabPage4.TabIndex = 3
-        Me.TabPage4.Text = "Red"
+        Me.TabPage4.Text = "Orang"
         '
         'lsvDetail2M
         '
@@ -3073,7 +3073,7 @@ Partial Class frmCSreport
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.Size = New System.Drawing.Size(1279, 645)
         Me.TabPage5.TabIndex = 4
-        Me.TabPage5.Text = "Gray"
+        Me.TabPage5.Text = "Red"
         '
         'lsvDetail6m
         '
@@ -3103,7 +3103,7 @@ Partial Class frmCSreport
         '
         'Label46
         '
-        Me.Label46.BackColor = System.Drawing.Color.SteelBlue
+        Me.Label46.BackColor = System.Drawing.Color.Brown
         Me.Label46.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.Label46.ForeColor = System.Drawing.Color.White
         Me.Label46.Location = New System.Drawing.Point(929, 296)
@@ -3115,7 +3115,7 @@ Partial Class frmCSreport
         '
         'Label53
         '
-        Me.Label53.BackColor = System.Drawing.Color.OrangeRed
+        Me.Label53.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.Label53.ForeColor = System.Drawing.Color.Black
         Me.Label53.Location = New System.Drawing.Point(929, 236)
@@ -3127,7 +3127,7 @@ Partial Class frmCSreport
         '
         'Label16
         '
-        Me.Label16.BackColor = System.Drawing.Color.Goldenrod
+        Me.Label16.BackColor = System.Drawing.Color.Yellow
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.Black
         Me.Label16.Location = New System.Drawing.Point(929, 174)
@@ -3139,9 +3139,9 @@ Partial Class frmCSreport
         '
         'Label9
         '
-        Me.Label9.BackColor = System.Drawing.Color.DodgerBlue
+        Me.Label9.BackColor = System.Drawing.Color.GreenYellow
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label9.ForeColor = System.Drawing.Color.White
+        Me.Label9.ForeColor = System.Drawing.Color.Black
         Me.Label9.Location = New System.Drawing.Point(929, 121)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(310, 37)
@@ -3151,16 +3151,16 @@ Partial Class frmCSreport
         '
         'chartCusActive
         '
-        ChartArea4.Name = "ChartArea1"
-        Me.chartCusActive.ChartAreas.Add(ChartArea4)
-        Legend4.Name = "Legend1"
-        Me.chartCusActive.Legends.Add(Legend4)
+        ChartArea8.Name = "ChartArea1"
+        Me.chartCusActive.ChartAreas.Add(ChartArea8)
+        Legend8.Name = "Legend1"
+        Me.chartCusActive.Legends.Add(Legend8)
         Me.chartCusActive.Location = New System.Drawing.Point(3, 7)
         Me.chartCusActive.Name = "chartCusActive"
-        Series4.ChartArea = "ChartArea1"
-        Series4.Legend = "Legend1"
-        Series4.Name = "Series1"
-        Me.chartCusActive.Series.Add(Series4)
+        Series8.ChartArea = "ChartArea1"
+        Series8.Legend = "Legend1"
+        Series8.Name = "Series1"
+        Me.chartCusActive.Series.Add(Series8)
         Me.chartCusActive.Size = New System.Drawing.Size(929, 623)
         Me.chartCusActive.TabIndex = 58
         Me.chartCusActive.Text = "Chart1"
