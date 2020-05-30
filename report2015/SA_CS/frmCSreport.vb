@@ -9,87 +9,87 @@ Public Class frmCSreport
 
     Sub formatGrid1()
 
-        lsvDetail.Columns.Add("#", 50, HorizontalAlignment.Right)
-        lsvDetail.Columns.Add("รหัสลูกค้า", 2, HorizontalAlignment.Left)
-        lsvDetail.Columns.Add("รายชื่อลูกค้า", 250, HorizontalAlignment.Left)
-        lsvDetail.Columns.Add("พนักงานขาย", 70, HorizontalAlignment.Left)
-        lsvDetail.Columns.Add("ผู้ติดต่อ", 150, HorizontalAlignment.Left)
-        lsvDetail.Columns.Add("เขตการขาย", 130, HorizontalAlignment.Left)
-        lsvDetail.Columns.Add("Tel", 180, HorizontalAlignment.Left)        '
+        lsvGreen.Columns.Add("#", 50, HorizontalAlignment.Right)
+        lsvGreen.Columns.Add("รหัสลูกค้า", 2, HorizontalAlignment.Left)
+        lsvGreen.Columns.Add("รายชื่อลูกค้า", 250, HorizontalAlignment.Left)
+        lsvGreen.Columns.Add("พนักงานขาย", 70, HorizontalAlignment.Left)
+        lsvGreen.Columns.Add("ผู้ติดต่อ", 150, HorizontalAlignment.Left)
+        lsvGreen.Columns.Add("เขตการขาย", 130, HorizontalAlignment.Left)
+        lsvGreen.Columns.Add("Tel", 180, HorizontalAlignment.Left)        '
         'lsvDetail.Columns.Add("กำไรปี-ปัจจุบัน", 120, HorizontalAlignment.Right)
 
         'lsvDetail.Columns.Add("KPI รวม", 100, HorizontalAlignment.Right)
         'lsvDetail.Columns.Add("KPI GP", 100, HorizontalAlignment.Right)
         'lsvDetail.Columns.Add("KPI TT", 100, HorizontalAlignment.Right)
-        lsvDetail.Columns.Add("ประเมินขาย/ปี", 120, HorizontalAlignment.Right)
-        lsvDetail.Columns.Add("ขาย-ปัจจุบัน", 120, HorizontalAlignment.Right)
-        lsvDetail.Columns.Add("ระยะขาดการติดต่อ", 150, HorizontalAlignment.Right)
-        lsvDetail.View = View.Details
-        lsvDetail.GridLines = True
+        lsvGreen.Columns.Add("ประเมินขาย/ปี", 120, HorizontalAlignment.Right)
+        lsvGreen.Columns.Add("ขาย-ปัจจุบัน", 120, HorizontalAlignment.Right)
+        lsvGreen.Columns.Add("ระยะขาดการติดต่อ", 150, HorizontalAlignment.Right)
+        lsvGreen.View = View.Details
+        lsvGreen.GridLines = True
         'chkCol = True
 
-        lsvDetail1M.Columns.Add("#", 50, HorizontalAlignment.Right)
-        lsvDetail1M.Columns.Add("รหัสลูกค้า", 2, HorizontalAlignment.Left)
-        lsvDetail1M.Columns.Add("รายชื่อลูกค้า", 250, HorizontalAlignment.Left)
-        lsvDetail1M.Columns.Add("พนักงานขาย", 70, HorizontalAlignment.Left)
-        lsvDetail1M.Columns.Add("ผู้ติดต่อ", 150, HorizontalAlignment.Left)
-        lsvDetail1M.Columns.Add("เขตการขาย", 130, HorizontalAlignment.Left)
-        lsvDetail1M.Columns.Add("Tel", 180, HorizontalAlignment.Left)
+        lsvYellow.Columns.Add("#", 50, HorizontalAlignment.Right)
+        lsvYellow.Columns.Add("รหัสลูกค้า", 2, HorizontalAlignment.Left)
+        lsvYellow.Columns.Add("รายชื่อลูกค้า", 250, HorizontalAlignment.Left)
+        lsvYellow.Columns.Add("พนักงานขาย", 70, HorizontalAlignment.Left)
+        lsvYellow.Columns.Add("ผู้ติดต่อ", 150, HorizontalAlignment.Left)
+        lsvYellow.Columns.Add("เขตการขาย", 130, HorizontalAlignment.Left)
+        lsvYellow.Columns.Add("Tel", 180, HorizontalAlignment.Left)
         '
         'lsvDetail.Columns.Add("กำไรปี-ปัจจุบัน", 120, HorizontalAlignment.Right)
 
         'lsvDetail.Columns.Add("KPI รวม", 100, HorizontalAlignment.Right)
         'lsvDetail.Columns.Add("KPI GP", 100, HorizontalAlignment.Right)
         'lsvDetail.Columns.Add("KPI TT", 100, HorizontalAlignment.Right)
-        lsvDetail1M.Columns.Add("ประเมินขาย/ปี", 120, HorizontalAlignment.Right)
-        lsvDetail1M.Columns.Add("ขาย-ปัจจุบัน", 120, HorizontalAlignment.Right)
-        lsvDetail1M.Columns.Add("ระยะขาดการติดต่อ", 150, HorizontalAlignment.Right)
+        lsvYellow.Columns.Add("ประเมินขาย/ปี", 120, HorizontalAlignment.Right)
+        lsvYellow.Columns.Add("ขาย-ปัจจุบัน", 120, HorizontalAlignment.Right)
+        lsvYellow.Columns.Add("ระยะขาดการติดต่อ", 150, HorizontalAlignment.Right)
 
-        lsvDetail1M.View = View.Details
-        lsvDetail1M.GridLines = True
+        lsvYellow.View = View.Details
+        lsvYellow.GridLines = True
         'chkCol = True
 
-        lsvDetail2M.Columns.Add("#", 50, HorizontalAlignment.Right)
-        lsvDetail2M.Columns.Add("รหัสลูกค้า", 2, HorizontalAlignment.Left)
-        lsvDetail2M.Columns.Add("รายชื่อลูกค้า", 250, HorizontalAlignment.Left)
-        lsvDetail2M.Columns.Add("พนักงานขาย", 70, HorizontalAlignment.Left)
-        lsvDetail2M.Columns.Add("ผู้ติดต่อ", 150, HorizontalAlignment.Left)
-        lsvDetail2M.Columns.Add("เขตการขาย", 130, HorizontalAlignment.Left)
-        lsvDetail2M.Columns.Add("Tel", 180, HorizontalAlignment.Left)
+        lsvOrang.Columns.Add("#", 50, HorizontalAlignment.Right)
+        lsvOrang.Columns.Add("รหัสลูกค้า", 2, HorizontalAlignment.Left)
+        lsvOrang.Columns.Add("รายชื่อลูกค้า", 250, HorizontalAlignment.Left)
+        lsvOrang.Columns.Add("พนักงานขาย", 70, HorizontalAlignment.Left)
+        lsvOrang.Columns.Add("ผู้ติดต่อ", 150, HorizontalAlignment.Left)
+        lsvOrang.Columns.Add("เขตการขาย", 130, HorizontalAlignment.Left)
+        lsvOrang.Columns.Add("Tel", 180, HorizontalAlignment.Left)
         '
         'lsvDetail.Columns.Add("กำไรปี-ปัจจุบัน", 120, HorizontalAlignment.Right)
 
         'lsvDetail.Columns.Add("KPI รวม", 100, HorizontalAlignment.Right)
         'lsvDetail.Columns.Add("KPI GP", 100, HorizontalAlignment.Right)
         'lsvDetail.Columns.Add("KPI TT", 100, HorizontalAlignment.Right)
-        lsvDetail2M.Columns.Add("ประเมินขาย/ปี", 120, HorizontalAlignment.Right)
-        lsvDetail2M.Columns.Add("ขาย-ปัจจุบัน", 120, HorizontalAlignment.Right)
-        lsvDetail2M.Columns.Add("ระยะขาดการติดต่อ", 150, HorizontalAlignment.Right)
+        lsvOrang.Columns.Add("ประเมินขาย/ปี", 120, HorizontalAlignment.Right)
+        lsvOrang.Columns.Add("ขาย-ปัจจุบัน", 120, HorizontalAlignment.Right)
+        lsvOrang.Columns.Add("ระยะขาดการติดต่อ", 150, HorizontalAlignment.Right)
 
-        lsvDetail2M.View = View.Details
-        lsvDetail2M.GridLines = True
+        lsvOrang.View = View.Details
+        lsvOrang.GridLines = True
         'chkCol = True
 
 
-        lsvDetail6M.Columns.Add("#", 50, HorizontalAlignment.Right)
-        lsvDetail6M.Columns.Add("รหัสลูกค้า", 2, HorizontalAlignment.Left)
-        lsvDetail6m.Columns.Add("รายชื่อลูกค้า", 250, HorizontalAlignment.Left)
-        lsvDetail6m.Columns.Add("พนักงานขาย", 70, HorizontalAlignment.Left)
-        lsvDetail6m.Columns.Add("ผู้ติดต่อ", 150, HorizontalAlignment.Left)
-        lsvDetail6m.Columns.Add("เขตการขาย", 130, HorizontalAlignment.Left)
-        lsvDetail6m.Columns.Add("Tel", 180, HorizontalAlignment.Left)
+        lsvRed.Columns.Add("#", 50, HorizontalAlignment.Right)
+        lsvRed.Columns.Add("รหัสลูกค้า", 2, HorizontalAlignment.Left)
+        lsvRed.Columns.Add("รายชื่อลูกค้า", 250, HorizontalAlignment.Left)
+        lsvRed.Columns.Add("พนักงานขาย", 70, HorizontalAlignment.Left)
+        lsvRed.Columns.Add("ผู้ติดต่อ", 150, HorizontalAlignment.Left)
+        lsvRed.Columns.Add("เขตการขาย", 130, HorizontalAlignment.Left)
+        lsvRed.Columns.Add("Tel", 180, HorizontalAlignment.Left)
         '
         'lsvDetail.Columns.Add("กำไรปี-ปัจจุบัน", 120, HorizontalAlignment.Right)
 
         'lsvDetail.Columns.Add("KPI รวม", 100, HorizontalAlignment.Right)
         'lsvDetail.Columns.Add("KPI GP", 100, HorizontalAlignment.Right)
         'lsvDetail.Columns.Add("KPI TT", 100, HorizontalAlignment.Right)
-        lsvDetail6m.Columns.Add("ประเมินขาย/ปี", 120, HorizontalAlignment.Right)
-        lsvDetail6m.Columns.Add("ขาย-ปัจจุบัน", 120, HorizontalAlignment.Right)
-        lsvDetail6m.Columns.Add("ระยะขาดการติดต่อ", 150, HorizontalAlignment.Right)
+        lsvRed.Columns.Add("ประเมินขาย/ปี", 120, HorizontalAlignment.Right)
+        lsvRed.Columns.Add("ขาย-ปัจจุบัน", 120, HorizontalAlignment.Right)
+        lsvRed.Columns.Add("ระยะขาดการติดต่อ", 150, HorizontalAlignment.Right)
 
-        lsvDetail6m.View = View.Details
-        lsvDetail6m.GridLines = True
+        lsvRed.View = View.Details
+        lsvRed.GridLines = True
         'chkCol = True
     End Sub
     Private Sub frmCSreport_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -221,10 +221,10 @@ Public Class frmCSreport
         subDA = New SqlClient.SqlDataAdapter(txtSQL, Conn)
         subDA.Fill(subDS, "csShow")
 
-        lsvDetail.Clear()
-        lsvDetail1M.Clear()
-        lsvDetail2M.Clear()
-        lsvDetail6m.Clear()
+        lsvGreen.Clear()
+        lsvYellow.Clear()
+        lsvOrang.Clear()
+        lsvRed.Clear()
         formatGrid1()
         Dim dblTotalTargetYear As Double = 0
         Dim dblTotalSumAmt As Double = 0
@@ -254,6 +254,10 @@ Public Class frmCSreport
         Dim itemM2 As Integer = 0
         Dim itemM6 As Integer = 0
 
+        lbCusGreenQty.Text = 0
+        lbCusYellowQty.Text = 0
+        lbCusOrangQty.Text = 0
+        lbCusRedQty.Text = 0
 
         For i = 0 To subDS.Tables("csShow").Rows.Count - 1
 
@@ -414,7 +418,8 @@ Public Class frmCSreport
                 itemM0 = itemM0 + 1
                 anyData = New String() {itemM0.ToString("#,##0"), strCusCode, strCusName, strSalesName, strCusContact, strAmphoe, strTelNo, dblTargetYear.ToString("#,##0.00"), dblSumAmt.ToString("#,##0.00"), strLastSales}
                 lvi = New ListViewItem(anyData)
-                lsvDetail.Items.Add(lvi)
+                lsvGreen.Items.Add(lvi)
+                lbCusGreenQty.Text = lbCusGreenQty.Text + 1
                 If chkRow = 0 Then
                     lvi.BackColor = Color.GreenYellow
                     lvi.ForeColor = Color.Black
@@ -430,7 +435,9 @@ Public Class frmCSreport
                 itemM1 = itemM1 + 1
                 anyData = New String() {itemM1.ToString("#,##0"), strCusCode, strCusName, strSalesName, strCusContact, strAmphoe, strTelNo, dblTargetYear.ToString("#,##0.00"), dblSumAmt.ToString("#,##0.00"), strLastSales}
                 lvi = New ListViewItem(anyData)
-                lsvDetail1M.Items.Add(lvi)
+                lsvYellow.Items.Add(lvi)
+                lbCusYellowQty.Text = lbCusYellowQty.Text + 1
+
                 If chkRow1 = 0 Then
                     lvi.BackColor = Color.Yellow 'CornflowerBlue 'LightSteelBlue 'DarkOrange
                     lvi.ForeColor = Color.Black
@@ -447,7 +454,9 @@ Public Class frmCSreport
                 itemM2 = itemM2 + 1
                 anyData = New String() {itemM2.ToString("#,##0"), strCusCode, strCusName, strSalesName, strCusContact, strAmphoe, strTelNo, dblTargetYear.ToString("#,##0.00"), dblSumAmt.ToString("#,##0.00"), strLastSales}
                 lvi = New ListViewItem(anyData)
-                lsvDetail2M.Items.Add(lvi)
+                lsvOrang.Items.Add(lvi)
+                lbCusOrangQty.Text = lbCusOrangQty.Text + 1
+
                 If chkRow2 = 0 Then
                     lvi.BackColor = Color.DarkOrange 'CornflowerBlue 'LightSteelBlue 'DarkOrange
                     lvi.ForeColor = Color.Black
@@ -464,7 +473,8 @@ Public Class frmCSreport
                 itemM6 = itemM6 + 1
                 anyData = New String() {itemM6.ToString("#,##0"), strCusCode, strCusName, strSalesName, strCusContact, strAmphoe, strTelNo, dblTargetYear.ToString("#,##0.00"), dblSumAmt.ToString("#,##0.00"), strLastSales}
                 lvi = New ListViewItem(anyData)
-                lsvDetail6m.Items.Add(lvi)
+                lsvRed.Items.Add(lvi)
+                lbCusRedQty.Text = lbCusRedQty.Text + 1
                 If chkRow3 = 0 Then
                     lvi.BackColor = Color.Brown 'CornflowerBlue 'LightSteelBlue 'DarkOrange
                     lvi.ForeColor = Color.White
@@ -635,13 +645,13 @@ Public Class frmCSreport
         End With
         anyData = New String() {"", "", "", "", "", "", dblTotalTargetYear.ToString("#,##0.00"), dblTotalSumAmt.ToString("#,##0.00"), ""}
         lvi = New ListViewItem(anyData)
-        lsvDetail.Items.Add(lvi)
+        lsvGreen.Items.Add(lvi)
         lvi.BackColor = Color.Black 'CornflowerBlue 'LightSteelBlue 'DarkOrange
         lvi.ForeColor = Color.Yellow
         lbTotalAmt.Text = Format(dblTotalSumAmt, "#,##0.00")
         lbTotalTarget.Text = Format(dblTotalTargetYear, "#,##0.00")
         lbDifAmt.Text = Format(lbTotalAmt.Text - lbTotalTarget.Text, "#,##0.00")
-
+        lbCusTotal.Text = CInt(lbCusGreenQty.Text) + CInt(lbCusYellowQty.Text) + CInt(lbCusOrangQty.Text) + CInt(lbCusRedQty.Text)
         Call showDailyRpt()
 
     End Sub
@@ -968,20 +978,20 @@ Public Class frmCSreport
 
     End Sub
 
-    Private Sub lsvDetail_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lsvDetail.SelectedIndexChanged
+    Private Sub lsvDetail_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lsvGreen.SelectedIndexChanged
 
     End Sub
 
-    Private Sub lsvDetail_DoubleClick(sender As Object, e As EventArgs) Handles lsvDetail.DoubleClick
+    Private Sub lsvDetail_DoubleClick(sender As Object, e As EventArgs) Handles lsvGreen.DoubleClick
 
 
         Dim lvi0 As ListViewItem
         Dim frmChangeCS As New frmChangeCS
 
-        For i = 0 To lsvDetail.SelectedItems.Count - 1
-            lvi0 = lsvDetail.SelectedItems(i)
+        For i = 0 To lsvGreen.SelectedItems.Count - 1
+            lvi0 = lsvGreen.SelectedItems(i)
             ' Dim strGrpID As String = ""
-            selCusID = lsvDetail.Items(lvi0.Index).SubItems(1).Text
+            selCusID = lsvGreen.Items(lvi0.Index).SubItems(1).Text
 
         Next
 
@@ -1069,6 +1079,10 @@ Public Class frmCSreport
     End Sub
 
     Private Sub TabPage1_Click(sender As Object, e As EventArgs) Handles TabPage1.Click
+
+    End Sub
+
+    Private Sub Label60_Click(sender As Object, e As EventArgs) Handles lbCusOrangQty.Click
 
     End Sub
 End Class

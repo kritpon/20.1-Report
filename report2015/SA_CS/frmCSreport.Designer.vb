@@ -28,13 +28,13 @@ Partial Class frmCSreport
         Dim ChartArea6 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
         Dim Legend6 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
         Dim Series6 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim ChartArea7 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend7 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series7 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Dim ChartArea8 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
         Dim Legend8 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
         Dim Series8 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Me.lsvDetail = New System.Windows.Forms.ListView()
+        Dim ChartArea7 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend7 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series7 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Me.lsvGreen = New System.Windows.Forms.ListView()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.lbCSname = New System.Windows.Forms.Label()
         Me.lbCScode = New System.Windows.Forms.Label()
@@ -255,12 +255,16 @@ Partial Class frmCSreport
         Me.Label91 = New System.Windows.Forms.Label()
         Me.Label92 = New System.Windows.Forms.Label()
         Me.Label93 = New System.Windows.Forms.Label()
-        Me.lsvDetail1M = New System.Windows.Forms.ListView()
+        Me.lsvYellow = New System.Windows.Forms.ListView()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
-        Me.lsvDetail2M = New System.Windows.Forms.ListView()
+        Me.lsvOrang = New System.Windows.Forms.ListView()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
-        Me.lsvDetail6m = New System.Windows.Forms.ListView()
+        Me.lsvRed = New System.Windows.Forms.ListView()
         Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.lbCusRedQty = New System.Windows.Forms.Label()
+        Me.lbCusOrangQty = New System.Windows.Forms.Label()
+        Me.lbCusYellowQty = New System.Windows.Forms.Label()
+        Me.lbCusGreenQty = New System.Windows.Forms.Label()
         Me.Label46 = New System.Windows.Forms.Label()
         Me.Label53 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
@@ -270,6 +274,13 @@ Partial Class frmCSreport
         Me.chk0 = New System.Windows.Forms.RadioButton()
         Me.chk100 = New System.Windows.Forms.RadioButton()
         Me.cmbRptDetl = New System.Windows.Forms.Button()
+        Me.Label59 = New System.Windows.Forms.Label()
+        Me.Label60 = New System.Windows.Forms.Label()
+        Me.Label63 = New System.Windows.Forms.Label()
+        Me.Label64 = New System.Windows.Forms.Label()
+        Me.Label66 = New System.Windows.Forms.Label()
+        Me.lbCusTotal = New System.Windows.Forms.Label()
+        Me.lbcustotalStr = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.chartYear, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -297,17 +308,17 @@ Partial Class frmCSreport
         Me.GroupBox11.SuspendLayout()
         Me.SuspendLayout()
         '
-        'lsvDetail
+        'lsvGreen
         '
-        Me.lsvDetail.BackColor = System.Drawing.SystemColors.ScrollBar
-        Me.lsvDetail.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lsvDetail.FullRowSelect = True
-        Me.lsvDetail.HideSelection = False
-        Me.lsvDetail.Location = New System.Drawing.Point(6, 6)
-        Me.lsvDetail.Name = "lsvDetail"
-        Me.lsvDetail.Size = New System.Drawing.Size(1267, 458)
-        Me.lsvDetail.TabIndex = 0
-        Me.lsvDetail.UseCompatibleStateImageBehavior = False
+        Me.lsvGreen.BackColor = System.Drawing.SystemColors.ScrollBar
+        Me.lsvGreen.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lsvGreen.FullRowSelect = True
+        Me.lsvGreen.HideSelection = False
+        Me.lsvGreen.Location = New System.Drawing.Point(6, 6)
+        Me.lsvGreen.Name = "lsvGreen"
+        Me.lsvGreen.Size = New System.Drawing.Size(1267, 458)
+        Me.lsvGreen.TabIndex = 0
+        Me.lsvGreen.UseCompatibleStateImageBehavior = False
         '
         'Label1
         '
@@ -2050,16 +2061,16 @@ Partial Class frmCSreport
         '
         'chartCusItem
         '
-        ChartArea7.Name = "ChartArea1"
-        Me.chartCusItem.ChartAreas.Add(ChartArea7)
-        Legend7.Name = "Legend1"
-        Me.chartCusItem.Legends.Add(Legend7)
+        ChartArea8.Name = "ChartArea1"
+        Me.chartCusItem.ChartAreas.Add(ChartArea8)
+        Legend8.Name = "Legend1"
+        Me.chartCusItem.Legends.Add(Legend8)
         Me.chartCusItem.Location = New System.Drawing.Point(289, 13)
         Me.chartCusItem.Name = "chartCusItem"
-        Series7.ChartArea = "ChartArea1"
-        Series7.Legend = "Legend1"
-        Series7.Name = "Series1"
-        Me.chartCusItem.Series.Add(Series7)
+        Series8.ChartArea = "ChartArea1"
+        Series8.Legend = "Legend1"
+        Series8.Name = "Series1"
+        Me.chartCusItem.Series.Add(Series8)
         Me.chartCusItem.Size = New System.Drawing.Size(265, 144)
         Me.chartCusItem.TabIndex = 57
         Me.chartCusItem.Text = "Chart1"
@@ -2837,7 +2848,7 @@ Partial Class frmCSreport
         'TabPage2
         '
         Me.TabPage2.BackColor = System.Drawing.Color.Gray
-        Me.TabPage2.Controls.Add(Me.lsvDetail)
+        Me.TabPage2.Controls.Add(Me.lsvGreen)
         Me.TabPage2.Controls.Add(Me.Label6)
         Me.TabPage2.Controls.Add(Me.GroupBox1)
         Me.TabPage2.Controls.Add(Me.lbDifAmt)
@@ -2866,7 +2877,7 @@ Partial Class frmCSreport
         Me.TabPage3.Controls.Add(Me.Label91)
         Me.TabPage3.Controls.Add(Me.Label92)
         Me.TabPage3.Controls.Add(Me.Label93)
-        Me.TabPage3.Controls.Add(Me.lsvDetail1M)
+        Me.TabPage3.Controls.Add(Me.lsvYellow)
         Me.TabPage3.Location = New System.Drawing.Point(4, 22)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Size = New System.Drawing.Size(1279, 645)
@@ -2883,6 +2894,7 @@ Partial Class frmCSreport
         Me.Label83.Size = New System.Drawing.Size(29, 17)
         Me.Label83.TabIndex = 23
         Me.Label83.Text = "Diff"
+        Me.Label83.Visible = False
         '
         'GroupBox14
         '
@@ -2964,6 +2976,7 @@ Partial Class frmCSreport
         Me.Label85.TabIndex = 22
         Me.Label85.Text = "Label2"
         Me.Label85.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label85.Visible = False
         '
         'Label88
         '
@@ -2975,6 +2988,7 @@ Partial Class frmCSreport
         Me.Label88.Size = New System.Drawing.Size(51, 17)
         Me.Label88.TabIndex = 19
         Me.Label88.Text = "ขายรวม"
+        Me.Label88.Visible = False
         '
         'Label89
         '
@@ -2986,6 +3000,7 @@ Partial Class frmCSreport
         Me.Label89.TabIndex = 20
         Me.Label89.Text = "Label2"
         Me.Label89.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label89.Visible = False
         '
         'Label90
         '
@@ -2997,6 +3012,7 @@ Partial Class frmCSreport
         Me.Label90.TabIndex = 18
         Me.Label90.Text = "Label2"
         Me.Label90.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label90.Visible = False
         '
         'Label91
         '
@@ -3008,6 +3024,7 @@ Partial Class frmCSreport
         Me.Label91.Size = New System.Drawing.Size(52, 17)
         Me.Label91.TabIndex = 21
         Me.Label91.Text = "เป้า-ขาย"
+        Me.Label91.Visible = False
         '
         'Label92
         '
@@ -3019,6 +3036,7 @@ Partial Class frmCSreport
         Me.Label92.TabIndex = 16
         Me.Label92.Text = "Label2"
         Me.Label92.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label92.Visible = False
         '
         'Label93
         '
@@ -3030,65 +3048,77 @@ Partial Class frmCSreport
         Me.Label93.Size = New System.Drawing.Size(46, 17)
         Me.Label93.TabIndex = 17
         Me.Label93.Text = "จำนวน"
+        Me.Label93.Visible = False
         '
-        'lsvDetail1M
+        'lsvYellow
         '
-        Me.lsvDetail1M.BackColor = System.Drawing.SystemColors.ScrollBar
-        Me.lsvDetail1M.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lsvDetail1M.FullRowSelect = True
-        Me.lsvDetail1M.HideSelection = False
-        Me.lsvDetail1M.Location = New System.Drawing.Point(6, 6)
-        Me.lsvDetail1M.Name = "lsvDetail1M"
-        Me.lsvDetail1M.Size = New System.Drawing.Size(1267, 458)
-        Me.lsvDetail1M.TabIndex = 1
-        Me.lsvDetail1M.UseCompatibleStateImageBehavior = False
+        Me.lsvYellow.BackColor = System.Drawing.SystemColors.ScrollBar
+        Me.lsvYellow.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lsvYellow.FullRowSelect = True
+        Me.lsvYellow.HideSelection = False
+        Me.lsvYellow.Location = New System.Drawing.Point(6, 6)
+        Me.lsvYellow.Name = "lsvYellow"
+        Me.lsvYellow.Size = New System.Drawing.Size(1267, 458)
+        Me.lsvYellow.TabIndex = 1
+        Me.lsvYellow.UseCompatibleStateImageBehavior = False
         '
         'TabPage4
         '
         Me.TabPage4.BackColor = System.Drawing.Color.MistyRose
-        Me.TabPage4.Controls.Add(Me.lsvDetail2M)
+        Me.TabPage4.Controls.Add(Me.lsvOrang)
         Me.TabPage4.Location = New System.Drawing.Point(4, 22)
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.Size = New System.Drawing.Size(1279, 645)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "Orang"
         '
-        'lsvDetail2M
+        'lsvOrang
         '
-        Me.lsvDetail2M.BackColor = System.Drawing.SystemColors.ScrollBar
-        Me.lsvDetail2M.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lsvDetail2M.FullRowSelect = True
-        Me.lsvDetail2M.HideSelection = False
-        Me.lsvDetail2M.Location = New System.Drawing.Point(7, 9)
-        Me.lsvDetail2M.Name = "lsvDetail2M"
-        Me.lsvDetail2M.Size = New System.Drawing.Size(1267, 458)
-        Me.lsvDetail2M.TabIndex = 2
-        Me.lsvDetail2M.UseCompatibleStateImageBehavior = False
+        Me.lsvOrang.BackColor = System.Drawing.SystemColors.ScrollBar
+        Me.lsvOrang.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lsvOrang.FullRowSelect = True
+        Me.lsvOrang.HideSelection = False
+        Me.lsvOrang.Location = New System.Drawing.Point(7, 9)
+        Me.lsvOrang.Name = "lsvOrang"
+        Me.lsvOrang.Size = New System.Drawing.Size(1267, 458)
+        Me.lsvOrang.TabIndex = 2
+        Me.lsvOrang.UseCompatibleStateImageBehavior = False
         '
         'TabPage5
         '
         Me.TabPage5.BackColor = System.Drawing.Color.DarkGray
-        Me.TabPage5.Controls.Add(Me.lsvDetail6m)
+        Me.TabPage5.Controls.Add(Me.lsvRed)
         Me.TabPage5.Location = New System.Drawing.Point(4, 22)
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.Size = New System.Drawing.Size(1279, 645)
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "Red"
         '
-        'lsvDetail6m
+        'lsvRed
         '
-        Me.lsvDetail6m.BackColor = System.Drawing.SystemColors.ScrollBar
-        Me.lsvDetail6m.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lsvDetail6m.FullRowSelect = True
-        Me.lsvDetail6m.HideSelection = False
-        Me.lsvDetail6m.Location = New System.Drawing.Point(6, 7)
-        Me.lsvDetail6m.Name = "lsvDetail6m"
-        Me.lsvDetail6m.Size = New System.Drawing.Size(1267, 458)
-        Me.lsvDetail6m.TabIndex = 3
-        Me.lsvDetail6m.UseCompatibleStateImageBehavior = False
+        Me.lsvRed.BackColor = System.Drawing.SystemColors.ScrollBar
+        Me.lsvRed.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lsvRed.FullRowSelect = True
+        Me.lsvRed.HideSelection = False
+        Me.lsvRed.Location = New System.Drawing.Point(6, 7)
+        Me.lsvRed.Name = "lsvRed"
+        Me.lsvRed.Size = New System.Drawing.Size(1267, 458)
+        Me.lsvRed.TabIndex = 3
+        Me.lsvRed.UseCompatibleStateImageBehavior = False
         '
         'TabPage6
         '
+        Me.TabPage6.Controls.Add(Me.Label66)
+        Me.TabPage6.Controls.Add(Me.lbCusTotal)
+        Me.TabPage6.Controls.Add(Me.lbcustotalStr)
+        Me.TabPage6.Controls.Add(Me.Label59)
+        Me.TabPage6.Controls.Add(Me.Label60)
+        Me.TabPage6.Controls.Add(Me.Label63)
+        Me.TabPage6.Controls.Add(Me.Label64)
+        Me.TabPage6.Controls.Add(Me.lbCusRedQty)
+        Me.TabPage6.Controls.Add(Me.lbCusOrangQty)
+        Me.TabPage6.Controls.Add(Me.lbCusYellowQty)
+        Me.TabPage6.Controls.Add(Me.lbCusGreenQty)
         Me.TabPage6.Controls.Add(Me.Label46)
         Me.TabPage6.Controls.Add(Me.Label53)
         Me.TabPage6.Controls.Add(Me.Label16)
@@ -3101,14 +3131,62 @@ Partial Class frmCSreport
         Me.TabPage6.Text = "กราฟลูกค้า Active"
         Me.TabPage6.UseVisualStyleBackColor = True
         '
+        'lbCusRedQty
+        '
+        Me.lbCusRedQty.BackColor = System.Drawing.Color.Brown
+        Me.lbCusRedQty.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lbCusRedQty.ForeColor = System.Drawing.Color.White
+        Me.lbCusRedQty.Location = New System.Drawing.Point(1079, 296)
+        Me.lbCusRedQty.Name = "lbCusRedQty"
+        Me.lbCusRedQty.Size = New System.Drawing.Size(115, 37)
+        Me.lbCusRedQty.TabIndex = 65
+        Me.lbCusRedQty.Text = "0"
+        Me.lbCusRedQty.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'lbCusOrangQty
+        '
+        Me.lbCusOrangQty.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.lbCusOrangQty.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lbCusOrangQty.ForeColor = System.Drawing.Color.Black
+        Me.lbCusOrangQty.Location = New System.Drawing.Point(1079, 236)
+        Me.lbCusOrangQty.Name = "lbCusOrangQty"
+        Me.lbCusOrangQty.Size = New System.Drawing.Size(115, 37)
+        Me.lbCusOrangQty.TabIndex = 66
+        Me.lbCusOrangQty.Text = "0"
+        Me.lbCusOrangQty.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'lbCusYellowQty
+        '
+        Me.lbCusYellowQty.BackColor = System.Drawing.Color.Yellow
+        Me.lbCusYellowQty.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lbCusYellowQty.ForeColor = System.Drawing.Color.Black
+        Me.lbCusYellowQty.Location = New System.Drawing.Point(1079, 174)
+        Me.lbCusYellowQty.Name = "lbCusYellowQty"
+        Me.lbCusYellowQty.Size = New System.Drawing.Size(115, 37)
+        Me.lbCusYellowQty.TabIndex = 64
+        Me.lbCusYellowQty.Text = "0"
+        Me.lbCusYellowQty.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'lbCusGreenQty
+        '
+        Me.lbCusGreenQty.BackColor = System.Drawing.Color.GreenYellow
+        Me.lbCusGreenQty.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lbCusGreenQty.ForeColor = System.Drawing.Color.Black
+        Me.lbCusGreenQty.Location = New System.Drawing.Point(1079, 121)
+        Me.lbCusGreenQty.Name = "lbCusGreenQty"
+        Me.lbCusGreenQty.Size = New System.Drawing.Size(115, 37)
+        Me.lbCusGreenQty.TabIndex = 63
+        Me.lbCusGreenQty.Text = "0"
+        Me.lbCusGreenQty.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
         'Label46
         '
         Me.Label46.BackColor = System.Drawing.Color.Brown
         Me.Label46.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.Label46.ForeColor = System.Drawing.Color.White
-        Me.Label46.Location = New System.Drawing.Point(929, 296)
+        Me.Label46.Location = New System.Drawing.Point(834, 296)
         Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(310, 37)
+        Me.Label46.Size = New System.Drawing.Size(405, 37)
         Me.Label46.TabIndex = 61
         Me.Label46.Text = "ลูกค้าขาดการติดต่อ 6 เดือน"
         Me.Label46.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -3118,9 +3196,9 @@ Partial Class frmCSreport
         Me.Label53.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.Label53.ForeColor = System.Drawing.Color.Black
-        Me.Label53.Location = New System.Drawing.Point(929, 236)
+        Me.Label53.Location = New System.Drawing.Point(834, 236)
         Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(310, 37)
+        Me.Label53.Size = New System.Drawing.Size(405, 37)
         Me.Label53.TabIndex = 62
         Me.Label53.Text = "ลูกค้าขาดการติดต่อ 2 เดือน"
         Me.Label53.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -3130,9 +3208,9 @@ Partial Class frmCSreport
         Me.Label16.BackColor = System.Drawing.Color.Yellow
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.Black
-        Me.Label16.Location = New System.Drawing.Point(929, 174)
+        Me.Label16.Location = New System.Drawing.Point(834, 174)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(310, 37)
+        Me.Label16.Size = New System.Drawing.Size(405, 37)
         Me.Label16.TabIndex = 60
         Me.Label16.Text = "ลูกค้าขาดการติดต่อ 1 เดือน"
         Me.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -3142,25 +3220,25 @@ Partial Class frmCSreport
         Me.Label9.BackColor = System.Drawing.Color.GreenYellow
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Black
-        Me.Label9.Location = New System.Drawing.Point(929, 121)
+        Me.Label9.Location = New System.Drawing.Point(834, 121)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(310, 37)
+        Me.Label9.Size = New System.Drawing.Size(405, 37)
         Me.Label9.TabIndex = 59
         Me.Label9.Text = "ลูกค้าปกติ"
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'chartCusActive
         '
-        ChartArea8.Name = "ChartArea1"
-        Me.chartCusActive.ChartAreas.Add(ChartArea8)
-        Legend8.Name = "Legend1"
-        Me.chartCusActive.Legends.Add(Legend8)
+        ChartArea7.Name = "ChartArea1"
+        Me.chartCusActive.ChartAreas.Add(ChartArea7)
+        Legend7.Name = "Legend1"
+        Me.chartCusActive.Legends.Add(Legend7)
         Me.chartCusActive.Location = New System.Drawing.Point(3, 7)
         Me.chartCusActive.Name = "chartCusActive"
-        Series8.ChartArea = "ChartArea1"
-        Series8.Legend = "Legend1"
-        Series8.Name = "Series1"
-        Me.chartCusActive.Series.Add(Series8)
+        Series7.ChartArea = "ChartArea1"
+        Series7.Legend = "Legend1"
+        Series7.Name = "Series1"
+        Me.chartCusActive.Series.Add(Series7)
         Me.chartCusActive.Size = New System.Drawing.Size(929, 623)
         Me.chartCusActive.TabIndex = 58
         Me.chartCusActive.Text = "Chart1"
@@ -3209,6 +3287,90 @@ Partial Class frmCSreport
         Me.cmbRptDetl.TabIndex = 47
         Me.cmbRptDetl.Text = "รายละเอียด "
         Me.cmbRptDetl.UseVisualStyleBackColor = False
+        '
+        'Label59
+        '
+        Me.Label59.BackColor = System.Drawing.Color.Brown
+        Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label59.ForeColor = System.Drawing.Color.White
+        Me.Label59.Location = New System.Drawing.Point(1223, 296)
+        Me.Label59.Name = "Label59"
+        Me.Label59.Size = New System.Drawing.Size(53, 37)
+        Me.Label59.TabIndex = 69
+        Me.Label59.Text = "ราย"
+        Me.Label59.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label60
+        '
+        Me.Label60.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label60.ForeColor = System.Drawing.Color.Black
+        Me.Label60.Location = New System.Drawing.Point(1223, 236)
+        Me.Label60.Name = "Label60"
+        Me.Label60.Size = New System.Drawing.Size(53, 37)
+        Me.Label60.TabIndex = 70
+        Me.Label60.Text = "ราย"
+        Me.Label60.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label63
+        '
+        Me.Label63.BackColor = System.Drawing.Color.Yellow
+        Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label63.ForeColor = System.Drawing.Color.Black
+        Me.Label63.Location = New System.Drawing.Point(1223, 174)
+        Me.Label63.Name = "Label63"
+        Me.Label63.Size = New System.Drawing.Size(53, 37)
+        Me.Label63.TabIndex = 68
+        Me.Label63.Text = "ราย"
+        Me.Label63.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label64
+        '
+        Me.Label64.BackColor = System.Drawing.Color.GreenYellow
+        Me.Label64.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label64.ForeColor = System.Drawing.Color.Black
+        Me.Label64.Location = New System.Drawing.Point(1223, 121)
+        Me.Label64.Name = "Label64"
+        Me.Label64.Size = New System.Drawing.Size(53, 37)
+        Me.Label64.TabIndex = 67
+        Me.Label64.Text = "ราย"
+        Me.Label64.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label66
+        '
+        Me.Label66.BackColor = System.Drawing.Color.DodgerBlue
+        Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label66.ForeColor = System.Drawing.Color.White
+        Me.Label66.Location = New System.Drawing.Point(1223, 355)
+        Me.Label66.Name = "Label66"
+        Me.Label66.Size = New System.Drawing.Size(53, 37)
+        Me.Label66.TabIndex = 73
+        Me.Label66.Text = "ราย"
+        Me.Label66.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'lbCusTotal
+        '
+        Me.lbCusTotal.BackColor = System.Drawing.Color.DodgerBlue
+        Me.lbCusTotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lbCusTotal.ForeColor = System.Drawing.Color.White
+        Me.lbCusTotal.Location = New System.Drawing.Point(1079, 355)
+        Me.lbCusTotal.Name = "lbCusTotal"
+        Me.lbCusTotal.Size = New System.Drawing.Size(115, 37)
+        Me.lbCusTotal.TabIndex = 72
+        Me.lbCusTotal.Text = "0"
+        Me.lbCusTotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'lbcustotalStr
+        '
+        Me.lbcustotalStr.BackColor = System.Drawing.Color.DodgerBlue
+        Me.lbcustotalStr.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lbcustotalStr.ForeColor = System.Drawing.Color.White
+        Me.lbcustotalStr.Location = New System.Drawing.Point(834, 355)
+        Me.lbcustotalStr.Name = "lbcustotalStr"
+        Me.lbcustotalStr.Size = New System.Drawing.Size(405, 37)
+        Me.lbcustotalStr.TabIndex = 71
+        Me.lbcustotalStr.Text = "รวมทั้งหมด"
+        Me.lbcustotalStr.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'frmCSreport
         '
@@ -3260,7 +3422,7 @@ Partial Class frmCSreport
 
     End Sub
 
-    Friend WithEvents lsvDetail As ListView
+    Friend WithEvents lsvGreen As ListView
     Friend WithEvents Label1 As Label
     Friend WithEvents lbCSname As Label
     Friend WithEvents lbCScode As Label
@@ -3472,11 +3634,11 @@ Partial Class frmCSreport
     Friend WithEvents Label91 As Label
     Friend WithEvents Label92 As Label
     Friend WithEvents Label93 As Label
-    Friend WithEvents lsvDetail1M As ListView
+    Friend WithEvents lsvYellow As ListView
     Friend WithEvents TabPage4 As TabPage
-    Friend WithEvents lsvDetail2M As ListView
+    Friend WithEvents lsvOrang As ListView
     Friend WithEvents TabPage5 As TabPage
-    Friend WithEvents lsvDetail6m As ListView
+    Friend WithEvents lsvRed As ListView
     Friend WithEvents lbRatio_CusItem6M As Label
     Friend WithEvents Label87 As Label
     Friend WithEvents lbCusItem6M As Label
@@ -3501,4 +3663,15 @@ Partial Class frmCSreport
     Friend WithEvents Label16 As Label
     Friend WithEvents Label53 As Label
     Friend WithEvents Label46 As Label
+    Friend WithEvents lbCusRedQty As Label
+    Friend WithEvents lbCusOrangQty As Label
+    Friend WithEvents lbCusYellowQty As Label
+    Friend WithEvents lbCusGreenQty As Label
+    Friend WithEvents Label59 As Label
+    Friend WithEvents Label60 As Label
+    Friend WithEvents Label63 As Label
+    Friend WithEvents Label64 As Label
+    Friend WithEvents Label66 As Label
+    Friend WithEvents lbCusTotal As Label
+    Friend WithEvents lbcustotalStr As Label
 End Class

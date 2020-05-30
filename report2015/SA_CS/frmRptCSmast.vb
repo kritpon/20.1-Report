@@ -51,27 +51,13 @@
         'txtSQL = txtSQL & "sum(isnull(TrhNow.Trh_Profit,0))as ProfitNow "
 
 
-        txtSQL = txtSQL & "From CSmast "
-        txtSQL = txtSQL & "Left join ArFile  "
+        txtSQL = txtSQL & "From ArFile "
+        txtSQL = txtSQL & "Left join CSMast  "
         txtSQL = txtSQL & "On CSmast.CS_Code=Ar_CS "
 
         txtSQL = txtSQL & "Left Join ArTarget "
         txtSQL = txtSQL & "On Ar_Cus_ID=Ar_Code "
 
-        'txtSQL = txtSQL & "Left Join  "
-        'txtSQL = txtSQL & "("
-        'txtSQL = txtSQL & "Select Trh_Cus,sum(Trh_Amt)as Trh_Amt,"
-        'txtSQL = txtSQL & "sum(Trh_Amt-Trh_Cost_Amt)as Profit "
-        'txtSQL = txtSQL & "From TranDataH  "
-        'txtSQL = txtSQL & "Where Trh_Amt > 0 "
-        'txtSQL = txtSQL & "And (Trh_Type='S' "
-        'txtSQL = txtSQL & "And (Trh_NoType='V' Or Trh_NoType='N' "
-        'txtSQL = txtSQL & "Or Trh_NoType='B' Or Trh_NoType='M' Or Trh_NoType='Y' Or Trh_NoType='Z' ) ) "
-        'txtSQL = txtSQL & "And (Year(Trh_Date)=year(GETDATE())-1)  "
-        'txtSQL = txtSQL & "And ((Month(Trh_Date)>=1) and (Month(Trh_Date)<=month(GetDate())-1))  "
-        'txtSQL = txtSQL & "Group by Trh_Cus"
-        'txtSQL = txtSQL & " ) TrhBefor "
-        'txtSQL = txtSQL & "On Ar_Cus_ID=TrhAfterY.Trh_Cus  "
 
         txtSQL = txtSQL & "Left Join  "
         txtSQL = txtSQL & "("
@@ -89,6 +75,7 @@
         txtSQL = txtSQL & "On Ar_Cus_ID=TrhNow.Trh_Cus  "
 
         txtSQL = txtSQL & "Where  CS_Off='0' "
+        txtSQL = txtSQL & "And Ar_Type='AR' "
         txtSQL = txtSQL & "and not(Ar_sales='SL03'or Ar_Sales='SL14' or Ar_Sales='SL12' or Ar_Sales='SL99' ) "
 
 
