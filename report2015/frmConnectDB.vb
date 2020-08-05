@@ -95,7 +95,7 @@
                 Try
                     frmMenu.ShowDialog()
                 Catch ex As Exception
-                    MsgBox("Error  " & ex.Message)
+                    '  MsgBox("Error  " & ex.Message)
                 End Try
 
 

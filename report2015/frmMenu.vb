@@ -1538,13 +1538,14 @@ Public Class frmMenu
 
 
         With slArea
-            '.AxisX.MinorTickMark.Enabled = False
-            '.AxisX.MinorTickMark.LineColor = Color.Yellow
-            '.BackColor = Color.Gray
+            '  ปรับโปรแกรม 2020-08-05  เอา comment 1542-1548 ออก
+            .AxisX.MinorTickMark.Enabled = False
+            .AxisX.MinorTickMark.LineColor = Color.Yellow
+            .BackColor = Color.Gray
 
-            '.AxisX.LineColor = Color.White
-            '.AxisX.MinorGrid.LineColor = Color.Red
-            '.BorderColor = Color.White
+            .AxisX.LineColor = Color.White
+            .AxisX.MinorGrid.LineColor = Color.Red
+            .BorderColor = Color.White
         End With
         'slArea
 

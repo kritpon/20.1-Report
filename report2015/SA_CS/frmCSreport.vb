@@ -133,7 +133,7 @@ Public Class frmCSreport
         ' Label86.Text = DateTime.DaysInMonth("2019", 1)  วิธีคำนวนจำนวนวันในเดือน
 
         strCScode = lbCScode.Text
-        txtSQL = "Select Ar_Cus_ID,Ar_Name,SL_nickName,Ar_LastSales_Date,Amphoe_Name,AmphoeMast.Country_Name,Ar_Tel_No,AR_Contact,"
+        txtSQL = "Select Ar_Cus_ID,Ar_Name,CS_Name,SL_nickName,Ar_LastSales_Date,Amphoe_Name,AmphoeMast.Country_Name,Ar_Tel_No,AR_Contact,"
 
         txtSQL = txtSQL & "sum(case when (Trhnow.Trh_ProD_Sales='01' or Trhnow.Trh_ProD_Sales='02' or Trhnow.Trh_ProD_Sales='05') then "
         txtSQL = txtSQL & "     isnull(TrhNow.Trh_D_Amt,0) else  0 end ) as sumTrh_AmtNow, "
@@ -166,7 +166,8 @@ Public Class frmCSreport
         txtSQL = txtSQL & "From ArFile "
         txtSQL = txtSQL & "Left Join ArTarget "
         txtSQL = txtSQL & "On Ar_Cus_ID=Ar_Code "
-
+        txtSQL = txtSQL & "Left Join CSmast "
+        txtSQL = txtSQL & "On Ar_CS=CS_Code "
         txtSQL = txtSQL & "Inner Join SalesMan "
         txtSQL = txtSQL & "On Ar_Sales=SL_ID "
 
@@ -202,7 +203,7 @@ Public Class frmCSreport
         End If
         '===========================================================================================
 
-        txtSQL = txtSQL & "Group by  AR_CUS_ID,Ar_Name,SL_nickName,Ar_LastSales_Date ,Amphoe_Name,AmphoeMast.Country_Name,Ar_Tel_No,AR_CONTACT,"
+        txtSQL = txtSQL & "Group by  AR_CUS_ID,Ar_Name,CS_Name,SL_nickName,Ar_LastSales_Date ,Amphoe_Name,AmphoeMast.Country_Name,Ar_Tel_No,AR_CONTACT,"
         txtSQL = txtSQL & "Ar_Sales_Target,Ar_SL_Target,Ar_Profit,AR_GP_SL_Target,Ar_GP_W_Target,"
         txtSQL = txtSQL & "Ar_GP_Profit,Ar_TT_SL_Target,Ar_TT_Profit "
 
@@ -293,7 +294,14 @@ Public Class frmCSreport
 
                 strCusCode = .Item("Ar_Cus_ID")
                 strCusName = .Item("Ar_Name")
-                strSalesName = .Item("SL_nickName")
+                ' ชื่อ CS หรือ Sales 
+                If selOptSL = 0 Then
+                    strSalesName = .Item("SL_nickName")
+                Else
+                    strSalesName = .Item("CS_Name")
+
+                End If
+
 
                 dblTargetYear = .Item("SLTarget")
 

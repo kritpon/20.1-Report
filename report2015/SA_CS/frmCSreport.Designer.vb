@@ -322,19 +322,19 @@ Partial Class frmCSreport
         '
         'Label1
         '
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.BackColor = System.Drawing.Color.White
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.Label1.Location = New System.Drawing.Point(8, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(45, 21)
+        Me.Label1.Size = New System.Drawing.Size(80, 21)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "ชื่อ CS"
+        Me.Label1.Text = "ชื่อ"
         '
         'lbCSname
         '
         Me.lbCSname.BackColor = System.Drawing.Color.YellowGreen
         Me.lbCSname.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lbCSname.Location = New System.Drawing.Point(59, 9)
+        Me.lbCSname.Location = New System.Drawing.Point(94, 9)
         Me.lbCSname.Name = "lbCSname"
         Me.lbCSname.Size = New System.Drawing.Size(148, 21)
         Me.lbCSname.TabIndex = 2
@@ -344,7 +344,7 @@ Partial Class frmCSreport
         '
         Me.lbCScode.BackColor = System.Drawing.Color.OliveDrab
         Me.lbCScode.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lbCScode.Location = New System.Drawing.Point(211, 9)
+        Me.lbCScode.Location = New System.Drawing.Point(246, 9)
         Me.lbCScode.Name = "lbCScode"
         Me.lbCScode.Size = New System.Drawing.Size(74, 21)
         Me.lbCScode.TabIndex = 3
