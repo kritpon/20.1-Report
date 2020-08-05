@@ -397,9 +397,10 @@ Public Class frmBegin
         Me.cboDType.BackColor = System.Drawing.SystemColors.Window
         Me.cboDType.Font = New System.Drawing.Font("Tahoma", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cboDType.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.cboDType.Location = New System.Drawing.Point(102, 540)
+        Me.cboDType.Location = New System.Drawing.Point(68, 360)
+        Me.cboDType.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cboDType.Name = "cboDType"
-        Me.cboDType.Size = New System.Drawing.Size(346, 35)
+        Me.cboDType.Size = New System.Drawing.Size(232, 26)
         Me.cboDType.TabIndex = 1
         Me.cboDType.Text = "ComboBox1"
         '
@@ -408,9 +409,10 @@ Public Class frmBegin
         Me.lbDate01.CalendarFont = New System.Drawing.Font("MS Reference Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbDate01.Font = New System.Drawing.Font("Tahoma", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lbDate01.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.lbDate01.Location = New System.Drawing.Point(1240, 543)
+        Me.lbDate01.Location = New System.Drawing.Point(827, 362)
+        Me.lbDate01.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.lbDate01.Name = "lbDate01"
-        Me.lbDate01.Size = New System.Drawing.Size(202, 34)
+        Me.lbDate01.Size = New System.Drawing.Size(136, 25)
         Me.lbDate01.TabIndex = 2
         '
         'lbStkName
@@ -419,9 +421,10 @@ Public Class frmBegin
         Me.lbStkName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbStkName.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lbStkName.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.lbStkName.Location = New System.Drawing.Point(122, 24)
+        Me.lbStkName.Location = New System.Drawing.Point(81, 16)
+        Me.lbStkName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbStkName.Name = "lbStkName"
-        Me.lbStkName.Size = New System.Drawing.Size(536, 36)
+        Me.lbStkName.Size = New System.Drawing.Size(358, 25)
         Me.lbStkName.TabIndex = 9
         '
         'lbFindStk
@@ -430,9 +433,10 @@ Public Class frmBegin
         Me.lbFindStk.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbFindStk.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lbFindStk.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.lbFindStk.Location = New System.Drawing.Point(660, 24)
+        Me.lbFindStk.Location = New System.Drawing.Point(440, 16)
+        Me.lbFindStk.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbFindStk.Name = "lbFindStk"
-        Me.lbFindStk.Size = New System.Drawing.Size(50, 36)
+        Me.lbFindStk.Size = New System.Drawing.Size(34, 25)
         Me.lbFindStk.TabIndex = 6
         Me.lbFindStk.Text = "..."
         Me.lbFindStk.TextAlign = System.Drawing.ContentAlignment.BottomLeft
@@ -441,17 +445,19 @@ Public Class frmBegin
         '
         Me.Label2.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Blue
-        Me.Label2.Location = New System.Drawing.Point(64, 162)
+        Me.Label2.Location = New System.Drawing.Point(43, 108)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(92, 36)
+        Me.Label2.Size = New System.Drawing.Size(61, 24)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "ª×èÍÊÔ¹¤éÒ"
         '
         'Label1
         '
-        Me.Label1.Location = New System.Drawing.Point(24, 550)
+        Me.Label1.Location = New System.Drawing.Point(16, 367)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(104, 24)
+        Me.Label1.Size = New System.Drawing.Size(69, 16)
         Me.Label1.TabIndex = 14
         Me.Label1.Text = "รายงาน"
         '
@@ -460,18 +466,20 @@ Public Class frmBegin
         Me.lbDate02.CalendarFont = New System.Drawing.Font("MS Reference Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbDate02.Font = New System.Drawing.Font("Tahoma", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lbDate02.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.lbDate02.Location = New System.Drawing.Point(1514, 543)
+        Me.lbDate02.Location = New System.Drawing.Point(1009, 362)
+        Me.lbDate02.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.lbDate02.Name = "lbDate02"
-        Me.lbDate02.Size = New System.Drawing.Size(196, 34)
+        Me.lbDate02.Size = New System.Drawing.Size(132, 25)
         Me.lbDate02.TabIndex = 15
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label3.Location = New System.Drawing.Point(1466, 555)
+        Me.Label3.Location = New System.Drawing.Point(977, 370)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(30, 22)
+        Me.Label3.Size = New System.Drawing.Size(20, 14)
         Me.Label3.TabIndex = 16
         Me.Label3.Text = "ถึง"
         '
@@ -486,9 +494,11 @@ Public Class frmBegin
         Me.GroupBox2.Controls.Add(Me.Label2)
         Me.GroupBox2.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.GroupBox2.ForeColor = System.Drawing.Color.White
-        Me.GroupBox2.Location = New System.Drawing.Point(928, 6)
+        Me.GroupBox2.Location = New System.Drawing.Point(619, 4)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(724, 408)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Size = New System.Drawing.Size(483, 272)
         Me.GroupBox2.TabIndex = 18
         Me.GroupBox2.TabStop = False
         '
@@ -497,10 +507,11 @@ Public Class frmBegin
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Controls.Add(Me.TabPage3)
-        Me.TabControl1.Location = New System.Drawing.Point(12, 80)
+        Me.TabControl1.Location = New System.Drawing.Point(8, 53)
+        Me.TabControl1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(708, 314)
+        Me.TabControl1.Size = New System.Drawing.Size(472, 209)
         Me.TabControl1.TabIndex = 38
         '
         'TabPage1
@@ -511,10 +522,11 @@ Public Class frmBegin
         Me.TabPage1.Controls.Add(Me.optSpec)
         Me.TabPage1.Controls.Add(Me.GroupBox9)
         Me.TabPage1.ForeColor = System.Drawing.Color.Black
-        Me.TabPage1.Location = New System.Drawing.Point(4, 31)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 23)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
-        Me.TabPage1.Size = New System.Drawing.Size(700, 279)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage1.Size = New System.Drawing.Size(464, 182)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Option 1"
         '
@@ -523,9 +535,10 @@ Public Class frmBegin
         Me.chk3T.AutoSize = True
         Me.chk3T.BackColor = System.Drawing.Color.White
         Me.chk3T.ForeColor = System.Drawing.Color.Blue
-        Me.chk3T.Location = New System.Drawing.Point(372, 12)
+        Me.chk3T.Location = New System.Drawing.Point(248, 8)
+        Me.chk3T.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chk3T.Name = "chk3T"
-        Me.chk3T.Size = New System.Drawing.Size(205, 26)
+        Me.chk3T.Size = New System.Drawing.Size(139, 18)
         Me.chk3T.TabIndex = 40
         Me.chk3T.Text = "เลือก  GP - TT -NPD"
         Me.chk3T.UseVisualStyleBackColor = False
@@ -534,9 +547,10 @@ Public Class frmBegin
         '
         Me.chkNot.AutoSize = True
         Me.chkNot.ForeColor = System.Drawing.Color.SaddleBrown
-        Me.chkNot.Location = New System.Drawing.Point(232, 12)
+        Me.chkNot.Location = New System.Drawing.Point(155, 8)
+        Me.chkNot.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkNot.Name = "chkNot"
-        Me.chkNot.Size = New System.Drawing.Size(98, 26)
+        Me.chkNot.Size = New System.Drawing.Size(68, 18)
         Me.chkNot.TabIndex = 39
         Me.chkNot.Text = "ไม่เลือก"
         Me.chkNot.UseVisualStyleBackColor = True
@@ -545,9 +559,10 @@ Public Class frmBegin
         '
         Me.optSpec.AutoSize = True
         Me.optSpec.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.optSpec.Location = New System.Drawing.Point(9, 12)
+        Me.optSpec.Location = New System.Drawing.Point(6, 8)
+        Me.optSpec.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.optSpec.Name = "optSpec"
-        Me.optSpec.Size = New System.Drawing.Size(198, 26)
+        Me.optSpec.Size = New System.Drawing.Size(133, 18)
         Me.optSpec.TabIndex = 38
         Me.optSpec.Text = "ตามการแยกประเภท"
         Me.optSpec.UseVisualStyleBackColor = True
@@ -574,9 +589,11 @@ Public Class frmBegin
         Me.GroupBox9.Controls.Add(Me.cboFactor11)
         Me.GroupBox9.Controls.Add(Me.chkF1)
         Me.GroupBox9.ForeColor = System.Drawing.Color.Black
-        Me.GroupBox9.Location = New System.Drawing.Point(15, 33)
+        Me.GroupBox9.Location = New System.Drawing.Point(10, 22)
+        Me.GroupBox9.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox9.Name = "GroupBox9"
-        Me.GroupBox9.Size = New System.Drawing.Size(669, 222)
+        Me.GroupBox9.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox9.Size = New System.Drawing.Size(446, 148)
         Me.GroupBox9.TabIndex = 37
         Me.GroupBox9.TabStop = False
         '
@@ -585,42 +602,47 @@ Public Class frmBegin
         Me.cboFactor33.BackColor = System.Drawing.Color.YellowGreen
         Me.cboFactor33.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cboFactor33.FormattingEnabled = True
-        Me.cboFactor33.Location = New System.Drawing.Point(336, 100)
+        Me.cboFactor33.Location = New System.Drawing.Point(224, 67)
+        Me.cboFactor33.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cboFactor33.Name = "cboFactor33"
-        Me.cboFactor33.Size = New System.Drawing.Size(223, 32)
+        Me.cboFactor33.Size = New System.Drawing.Size(150, 24)
         Me.cboFactor33.TabIndex = 44
         '
         'lbFactor4
         '
         Me.lbFactor4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.lbFactor4.Location = New System.Drawing.Point(561, 144)
+        Me.lbFactor4.Location = New System.Drawing.Point(374, 96)
+        Me.lbFactor4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbFactor4.Name = "lbFactor4"
-        Me.lbFactor4.Size = New System.Drawing.Size(99, 21)
+        Me.lbFactor4.Size = New System.Drawing.Size(66, 14)
         Me.lbFactor4.TabIndex = 43
         '
         'lbGrpCode
         '
         Me.lbGrpCode.ForeColor = System.Drawing.Color.Black
-        Me.lbGrpCode.Location = New System.Drawing.Point(561, 108)
+        Me.lbGrpCode.Location = New System.Drawing.Point(374, 72)
+        Me.lbGrpCode.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbGrpCode.Name = "lbGrpCode"
-        Me.lbGrpCode.Size = New System.Drawing.Size(90, 21)
+        Me.lbGrpCode.Size = New System.Drawing.Size(60, 14)
         Me.lbGrpCode.TabIndex = 42
         '
         'Label11
         '
         Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(561, 72)
+        Me.Label11.Location = New System.Drawing.Point(374, 48)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(90, 21)
+        Me.Label11.Size = New System.Drawing.Size(60, 14)
         Me.Label11.TabIndex = 41
         Me.Label11.Text = "Label11"
         '
         'Label10
         '
         Me.Label10.ForeColor = System.Drawing.Color.Black
-        Me.Label10.Location = New System.Drawing.Point(561, 27)
+        Me.Label10.Location = New System.Drawing.Point(374, 18)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(90, 21)
+        Me.Label10.Size = New System.Drawing.Size(60, 14)
         Me.Label10.TabIndex = 40
         Me.Label10.Text = "Label10"
         '
@@ -629,36 +651,40 @@ Public Class frmBegin
         Me.cboFactor5.Enabled = False
         Me.cboFactor5.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cboFactor5.FormattingEnabled = True
-        Me.cboFactor5.Location = New System.Drawing.Point(165, 178)
+        Me.cboFactor5.Location = New System.Drawing.Point(110, 119)
+        Me.cboFactor5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cboFactor5.Name = "cboFactor5"
-        Me.cboFactor5.Size = New System.Drawing.Size(163, 32)
+        Me.cboFactor5.Size = New System.Drawing.Size(110, 24)
         Me.cboFactor5.TabIndex = 39
         '
         'cboFactor4
         '
         Me.cboFactor4.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cboFactor4.FormattingEnabled = True
-        Me.cboFactor4.Location = New System.Drawing.Point(165, 140)
+        Me.cboFactor4.Location = New System.Drawing.Point(110, 93)
+        Me.cboFactor4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cboFactor4.Name = "cboFactor4"
-        Me.cboFactor4.Size = New System.Drawing.Size(163, 32)
+        Me.cboFactor4.Size = New System.Drawing.Size(110, 24)
         Me.cboFactor4.TabIndex = 38
         '
         'cboFactor3
         '
         Me.cboFactor3.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cboFactor3.FormattingEnabled = True
-        Me.cboFactor3.Location = New System.Drawing.Point(165, 102)
+        Me.cboFactor3.Location = New System.Drawing.Point(110, 68)
+        Me.cboFactor3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cboFactor3.Name = "cboFactor3"
-        Me.cboFactor3.Size = New System.Drawing.Size(163, 32)
+        Me.cboFactor3.Size = New System.Drawing.Size(110, 24)
         Me.cboFactor3.TabIndex = 37
         '
         'cboFactor2
         '
         Me.cboFactor2.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cboFactor2.FormattingEnabled = True
-        Me.cboFactor2.Location = New System.Drawing.Point(165, 64)
+        Me.cboFactor2.Location = New System.Drawing.Point(110, 43)
+        Me.cboFactor2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cboFactor2.Name = "cboFactor2"
-        Me.cboFactor2.Size = New System.Drawing.Size(163, 32)
+        Me.cboFactor2.Size = New System.Drawing.Size(110, 24)
         Me.cboFactor2.TabIndex = 36
         '
         'cboFactor1
@@ -666,9 +692,10 @@ Public Class frmBegin
         Me.cboFactor1.Enabled = False
         Me.cboFactor1.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cboFactor1.FormattingEnabled = True
-        Me.cboFactor1.Location = New System.Drawing.Point(165, 27)
+        Me.cboFactor1.Location = New System.Drawing.Point(110, 18)
+        Me.cboFactor1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cboFactor1.Name = "cboFactor1"
-        Me.cboFactor1.Size = New System.Drawing.Size(163, 32)
+        Me.cboFactor1.Size = New System.Drawing.Size(110, 24)
         Me.cboFactor1.TabIndex = 35
         '
         'cboFactor55
@@ -676,9 +703,10 @@ Public Class frmBegin
         Me.cboFactor55.BackColor = System.Drawing.Color.YellowGreen
         Me.cboFactor55.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cboFactor55.FormattingEnabled = True
-        Me.cboFactor55.Location = New System.Drawing.Point(336, 177)
+        Me.cboFactor55.Location = New System.Drawing.Point(224, 118)
+        Me.cboFactor55.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cboFactor55.Name = "cboFactor55"
-        Me.cboFactor55.Size = New System.Drawing.Size(223, 32)
+        Me.cboFactor55.Size = New System.Drawing.Size(150, 24)
         Me.cboFactor55.TabIndex = 34
         '
         'chkF5
@@ -686,9 +714,10 @@ Public Class frmBegin
         Me.chkF5.AutoSize = True
         Me.chkF5.Enabled = False
         Me.chkF5.ForeColor = System.Drawing.Color.Black
-        Me.chkF5.Location = New System.Drawing.Point(26, 183)
+        Me.chkF5.Location = New System.Drawing.Point(17, 122)
+        Me.chkF5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkF5.Name = "chkF5"
-        Me.chkF5.Size = New System.Drawing.Size(104, 26)
+        Me.chkF5.Size = New System.Drawing.Size(72, 18)
         Me.chkF5.TabIndex = 33
         Me.chkF5.Text = "Factor5"
         Me.chkF5.UseVisualStyleBackColor = True
@@ -700,19 +729,21 @@ Public Class frmBegin
         Me.cboFactor44.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cboFactor44.FormattingEnabled = True
         Me.cboFactor44.IntegralHeight = False
-        Me.cboFactor44.ItemHeight = 24
-        Me.cboFactor44.Location = New System.Drawing.Point(336, 138)
+        Me.cboFactor44.ItemHeight = 16
+        Me.cboFactor44.Location = New System.Drawing.Point(224, 92)
+        Me.cboFactor44.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cboFactor44.Name = "cboFactor44"
-        Me.cboFactor44.Size = New System.Drawing.Size(223, 32)
+        Me.cboFactor44.Size = New System.Drawing.Size(150, 24)
         Me.cboFactor44.TabIndex = 32
         '
         'chkF4
         '
         Me.chkF4.AutoSize = True
         Me.chkF4.ForeColor = System.Drawing.Color.Black
-        Me.chkF4.Location = New System.Drawing.Point(26, 144)
+        Me.chkF4.Location = New System.Drawing.Point(17, 96)
+        Me.chkF4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkF4.Name = "chkF4"
-        Me.chkF4.Size = New System.Drawing.Size(104, 26)
+        Me.chkF4.Size = New System.Drawing.Size(72, 18)
         Me.chkF4.TabIndex = 31
         Me.chkF4.Text = "Factor4"
         Me.chkF4.UseVisualStyleBackColor = True
@@ -721,9 +752,10 @@ Public Class frmBegin
         '
         Me.chkF3.AutoSize = True
         Me.chkF3.ForeColor = System.Drawing.Color.Black
-        Me.chkF3.Location = New System.Drawing.Point(26, 106)
+        Me.chkF3.Location = New System.Drawing.Point(17, 71)
+        Me.chkF3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkF3.Name = "chkF3"
-        Me.chkF3.Size = New System.Drawing.Size(104, 26)
+        Me.chkF3.Size = New System.Drawing.Size(72, 18)
         Me.chkF3.TabIndex = 29
         Me.chkF3.Text = "Factor3"
         Me.chkF3.UseVisualStyleBackColor = True
@@ -733,18 +765,20 @@ Public Class frmBegin
         Me.cboFactor22.BackColor = System.Drawing.Color.YellowGreen
         Me.cboFactor22.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cboFactor22.FormattingEnabled = True
-        Me.cboFactor22.Location = New System.Drawing.Point(336, 63)
+        Me.cboFactor22.Location = New System.Drawing.Point(224, 42)
+        Me.cboFactor22.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cboFactor22.Name = "cboFactor22"
-        Me.cboFactor22.Size = New System.Drawing.Size(223, 32)
+        Me.cboFactor22.Size = New System.Drawing.Size(150, 24)
         Me.cboFactor22.TabIndex = 28
         '
         'chkF2
         '
         Me.chkF2.AutoSize = True
         Me.chkF2.ForeColor = System.Drawing.Color.Black
-        Me.chkF2.Location = New System.Drawing.Point(26, 69)
+        Me.chkF2.Location = New System.Drawing.Point(17, 46)
+        Me.chkF2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkF2.Name = "chkF2"
-        Me.chkF2.Size = New System.Drawing.Size(104, 26)
+        Me.chkF2.Size = New System.Drawing.Size(72, 18)
         Me.chkF2.TabIndex = 27
         Me.chkF2.Text = "Factor2"
         Me.chkF2.UseVisualStyleBackColor = True
@@ -754,18 +788,20 @@ Public Class frmBegin
         Me.cboFactor11.BackColor = System.Drawing.Color.YellowGreen
         Me.cboFactor11.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cboFactor11.FormattingEnabled = True
-        Me.cboFactor11.Location = New System.Drawing.Point(336, 26)
+        Me.cboFactor11.Location = New System.Drawing.Point(224, 17)
+        Me.cboFactor11.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cboFactor11.Name = "cboFactor11"
-        Me.cboFactor11.Size = New System.Drawing.Size(223, 32)
+        Me.cboFactor11.Size = New System.Drawing.Size(150, 24)
         Me.cboFactor11.TabIndex = 26
         '
         'chkF1
         '
         Me.chkF1.AutoSize = True
         Me.chkF1.ForeColor = System.Drawing.Color.Black
-        Me.chkF1.Location = New System.Drawing.Point(26, 32)
+        Me.chkF1.Location = New System.Drawing.Point(17, 21)
+        Me.chkF1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkF1.Name = "chkF1"
-        Me.chkF1.Size = New System.Drawing.Size(104, 26)
+        Me.chkF1.Size = New System.Drawing.Size(72, 18)
         Me.chkF1.TabIndex = 25
         Me.chkF1.Text = "Factor1"
         Me.chkF1.UseVisualStyleBackColor = True
@@ -773,10 +809,11 @@ Public Class frmBegin
         'TabPage2
         '
         Me.TabPage2.BackColor = System.Drawing.Color.Transparent
-        Me.TabPage2.Location = New System.Drawing.Point(4, 31)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 23)
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
-        Me.TabPage2.Size = New System.Drawing.Size(700, 279)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage2.Size = New System.Drawing.Size(464, 182)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Option 2"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -785,10 +822,11 @@ Public Class frmBegin
         '
         Me.TabPage3.Controls.Add(Me.lbDBName)
         Me.TabPage3.Controls.Add(Me.txtTSQL)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 31)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 23)
+        Me.TabPage3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
-        Me.TabPage3.Size = New System.Drawing.Size(700, 279)
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage3.Size = New System.Drawing.Size(464, 182)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "txtSQL"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -797,28 +835,31 @@ Public Class frmBegin
         '
         Me.lbDBName.AutoSize = True
         Me.lbDBName.ForeColor = System.Drawing.Color.Black
-        Me.lbDBName.Location = New System.Drawing.Point(9, 123)
+        Me.lbDBName.Location = New System.Drawing.Point(6, 82)
+        Me.lbDBName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbDBName.Name = "lbDBName"
-        Me.lbDBName.Size = New System.Drawing.Size(80, 22)
+        Me.lbDBName.Size = New System.Drawing.Size(55, 14)
         Me.lbDBName.TabIndex = 26
         Me.lbDBName.Text = "Label18"
         '
         'txtTSQL
         '
         Me.txtTSQL.ForeColor = System.Drawing.Color.Blue
-        Me.txtTSQL.Location = New System.Drawing.Point(4, 8)
+        Me.txtTSQL.Location = New System.Drawing.Point(3, 5)
+        Me.txtTSQL.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtTSQL.Multiline = True
         Me.txtTSQL.Name = "txtTSQL"
-        Me.txtTSQL.Size = New System.Drawing.Size(757, 106)
+        Me.txtTSQL.Size = New System.Drawing.Size(506, 72)
         Me.txtTSQL.TabIndex = 37
         '
         'optStk
         '
         Me.optStk.AutoSize = True
         Me.optStk.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.optStk.Location = New System.Drawing.Point(12, 33)
+        Me.optStk.Location = New System.Drawing.Point(8, 22)
+        Me.optStk.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.optStk.Name = "optStk"
-        Me.optStk.Size = New System.Drawing.Size(116, 26)
+        Me.optStk.Size = New System.Drawing.Size(78, 18)
         Me.optStk.TabIndex = 17
         Me.optStk.Text = "ตามสินค้า"
         Me.optStk.UseVisualStyleBackColor = True
@@ -826,9 +867,10 @@ Public Class frmBegin
         'lbStkCode
         '
         Me.lbStkCode.BackColor = System.Drawing.Color.Yellow
-        Me.lbStkCode.Location = New System.Drawing.Point(130, 21)
+        Me.lbStkCode.Location = New System.Drawing.Point(87, 14)
+        Me.lbStkCode.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.lbStkCode.Name = "lbStkCode"
-        Me.lbStkCode.Size = New System.Drawing.Size(460, 29)
+        Me.lbStkCode.Size = New System.Drawing.Size(308, 22)
         Me.lbStkCode.TabIndex = 13
         '
         'chkNotDoc
@@ -836,9 +878,10 @@ Public Class frmBegin
         Me.chkNotDoc.AutoSize = True
         Me.chkNotDoc.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.chkNotDoc.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.chkNotDoc.Location = New System.Drawing.Point(416, 213)
+        Me.chkNotDoc.Location = New System.Drawing.Point(277, 142)
+        Me.chkNotDoc.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkNotDoc.Name = "chkNotDoc"
-        Me.chkNotDoc.Size = New System.Drawing.Size(98, 26)
+        Me.chkNotDoc.Size = New System.Drawing.Size(68, 18)
         Me.chkNotDoc.TabIndex = 37
         Me.chkNotDoc.Text = "ไม่เลือก"
         Me.chkNotDoc.UseVisualStyleBackColor = True
@@ -848,18 +891,20 @@ Public Class frmBegin
         Me.txtSelectNo.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.txtSelectNo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSelectNo.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.txtSelectNo.Location = New System.Drawing.Point(141, 201)
+        Me.txtSelectNo.Location = New System.Drawing.Point(94, 134)
+        Me.txtSelectNo.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtSelectNo.MaxLength = 20
         Me.txtSelectNo.Name = "txtSelectNo"
-        Me.txtSelectNo.Size = New System.Drawing.Size(263, 35)
+        Me.txtSelectNo.Size = New System.Drawing.Size(176, 26)
         Me.txtSelectNo.TabIndex = 3
         '
         'chkDocNo
         '
         Me.chkDocNo.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.chkDocNo.Location = New System.Drawing.Point(9, 207)
+        Me.chkDocNo.Location = New System.Drawing.Point(6, 138)
+        Me.chkDocNo.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkDocNo.Name = "chkDocNo"
-        Me.chkDocNo.Size = New System.Drawing.Size(195, 36)
+        Me.chkDocNo.Size = New System.Drawing.Size(130, 24)
         Me.chkDocNo.TabIndex = 2
         Me.chkDocNo.Text = "ส่วนเลขที่"
         '
@@ -875,9 +920,11 @@ Public Class frmBegin
         Me.GroupBox3.Controls.Add(Me.chkValueSum)
         Me.GroupBox3.Controls.Add(Me.GroupBox2)
         Me.GroupBox3.Controls.Add(Me.GroupBox5)
-        Me.GroupBox3.Location = New System.Drawing.Point(9, -3)
+        Me.GroupBox3.Location = New System.Drawing.Point(6, -2)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(1668, 423)
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox3.Size = New System.Drawing.Size(1112, 282)
         Me.GroupBox3.TabIndex = 19
         Me.GroupBox3.TabStop = False
         '
@@ -888,9 +935,10 @@ Public Class frmBegin
         Me.chkSalesYT.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkSalesYT.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.chkSalesYT.ForeColor = System.Drawing.Color.White
-        Me.chkSalesYT.Location = New System.Drawing.Point(18, 357)
+        Me.chkSalesYT.Location = New System.Drawing.Point(12, 238)
+        Me.chkSalesYT.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkSalesYT.Name = "chkSalesYT"
-        Me.chkSalesYT.Size = New System.Drawing.Size(303, 36)
+        Me.chkSalesYT.Size = New System.Drawing.Size(202, 24)
         Me.chkSalesYT.TabIndex = 69
         Me.chkSalesYT.Text = "ตัด YT"
         Me.chkSalesYT.UseVisualStyleBackColor = False
@@ -900,9 +948,10 @@ Public Class frmBegin
         Me.lbReCount.BackColor = System.Drawing.Color.Black
         Me.lbReCount.Font = New System.Drawing.Font("MS Reference Sans Serif", 10.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbReCount.ForeColor = System.Drawing.Color.Lime
-        Me.lbReCount.Location = New System.Drawing.Point(327, 360)
+        Me.lbReCount.Location = New System.Drawing.Point(218, 240)
+        Me.lbReCount.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbReCount.Name = "lbReCount"
-        Me.lbReCount.Size = New System.Drawing.Size(576, 33)
+        Me.lbReCount.Size = New System.Drawing.Size(384, 22)
         Me.lbReCount.TabIndex = 68
         '
         'lbString
@@ -910,9 +959,10 @@ Public Class frmBegin
         Me.lbString.BackColor = System.Drawing.Color.Black
         Me.lbString.Font = New System.Drawing.Font("MS Reference Sans Serif", 10.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbString.ForeColor = System.Drawing.Color.Lime
-        Me.lbString.Location = New System.Drawing.Point(626, 318)
+        Me.lbString.Location = New System.Drawing.Point(417, 212)
+        Me.lbString.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbString.Name = "lbString"
-        Me.lbString.Size = New System.Drawing.Size(278, 33)
+        Me.lbString.Size = New System.Drawing.Size(185, 22)
         Me.lbString.TabIndex = 67
         '
         'chkNoGMB
@@ -922,9 +972,10 @@ Public Class frmBegin
         Me.chkNoGMB.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkNoGMB.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.chkNoGMB.ForeColor = System.Drawing.Color.White
-        Me.chkNoGMB.Location = New System.Drawing.Point(18, 312)
+        Me.chkNoGMB.Location = New System.Drawing.Point(12, 208)
+        Me.chkNoGMB.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkNoGMB.Name = "chkNoGMB"
-        Me.chkNoGMB.Size = New System.Drawing.Size(303, 36)
+        Me.chkNoGMB.Size = New System.Drawing.Size(202, 24)
         Me.chkNoGMB.TabIndex = 29
         Me.chkNoGMB.Text = "ตัด สินค้า GMB"
         Me.chkNoGMB.UseVisualStyleBackColor = False
@@ -934,9 +985,10 @@ Public Class frmBegin
         Me.chkLostProF.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.chkLostProF.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.chkLostProF.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.chkLostProF.Location = New System.Drawing.Point(327, 279)
+        Me.chkLostProF.Location = New System.Drawing.Point(218, 186)
+        Me.chkLostProF.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkLostProF.Name = "chkLostProF"
-        Me.chkLostProF.Size = New System.Drawing.Size(273, 36)
+        Me.chkLostProF.Size = New System.Drawing.Size(182, 24)
         Me.chkLostProF.TabIndex = 28
         Me.chkLostProF.Text = "เลือก-เฉพาะที่ขาดทุน"
         Me.chkLostProF.UseVisualStyleBackColor = False
@@ -946,9 +998,10 @@ Public Class frmBegin
         Me.chkValueCost.BackColor = System.Drawing.Color.RoyalBlue
         Me.chkValueCost.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.chkValueCost.ForeColor = System.Drawing.Color.White
-        Me.chkValueCost.Location = New System.Drawing.Point(630, 279)
+        Me.chkValueCost.Location = New System.Drawing.Point(420, 186)
+        Me.chkValueCost.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkValueCost.Name = "chkValueCost"
-        Me.chkValueCost.Size = New System.Drawing.Size(273, 36)
+        Me.chkValueCost.Size = New System.Drawing.Size(182, 24)
         Me.chkValueCost.TabIndex = 24
         Me.chkValueCost.Text = "เลือก-เฉพาะที่ไม่มีต้นทุน"
         Me.chkValueCost.UseVisualStyleBackColor = False
@@ -960,9 +1013,10 @@ Public Class frmBegin
         Me.chkValueSum.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkValueSum.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.chkValueSum.ForeColor = System.Drawing.Color.Black
-        Me.chkValueSum.Location = New System.Drawing.Point(18, 279)
+        Me.chkValueSum.Location = New System.Drawing.Point(12, 186)
+        Me.chkValueSum.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkValueSum.Name = "chkValueSum"
-        Me.chkValueSum.Size = New System.Drawing.Size(303, 36)
+        Me.chkValueSum.Size = New System.Drawing.Size(202, 24)
         Me.chkValueSum.TabIndex = 22
         Me.chkValueSum.Text = "เลือก-เฉพาะที่มีมูลค่าขาย/ซื้อ"
         Me.chkValueSum.UseVisualStyleBackColor = False
@@ -994,9 +1048,11 @@ Public Class frmBegin
         Me.GroupBox5.Controls.Add(Me.chkSelCustom)
         Me.GroupBox5.Controls.Add(Me.chkOptSale)
         Me.GroupBox5.Controls.Add(Me.lbFindCus)
-        Me.GroupBox5.Location = New System.Drawing.Point(3, 8)
+        Me.GroupBox5.Location = New System.Drawing.Point(2, 5)
+        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(912, 258)
+        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox5.Size = New System.Drawing.Size(608, 172)
         Me.GroupBox5.TabIndex = 20
         Me.GroupBox5.TabStop = False
         '
@@ -1005,9 +1061,10 @@ Public Class frmBegin
         Me.Label12.AutoSize = True
         Me.Label12.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label12.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label12.Location = New System.Drawing.Point(861, 213)
+        Me.Label12.Location = New System.Drawing.Point(574, 142)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(30, 24)
+        Me.Label12.Size = New System.Drawing.Size(22, 17)
         Me.Label12.TabIndex = 73
         Me.Label12.Text = "%"
         '
@@ -1016,18 +1073,20 @@ Public Class frmBegin
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Yellow
         Me.Label4.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label4.Location = New System.Drawing.Point(693, 213)
+        Me.Label4.Location = New System.Drawing.Point(462, 142)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(77, 24)
+        Me.Label4.Size = New System.Drawing.Size(54, 17)
         Me.Label4.TabIndex = 71
         Me.Label4.Text = "% กำไร"
         '
         'txtProfitBit
         '
         Me.txtProfitBit.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.txtProfitBit.Location = New System.Drawing.Point(777, 202)
+        Me.txtProfitBit.Location = New System.Drawing.Point(518, 135)
+        Me.txtProfitBit.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtProfitBit.Name = "txtProfitBit"
-        Me.txtProfitBit.Size = New System.Drawing.Size(80, 36)
+        Me.txtProfitBit.Size = New System.Drawing.Size(55, 27)
         Me.txtProfitBit.TabIndex = 72
         Me.txtProfitBit.Text = "5"
         Me.txtProfitBit.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1038,9 +1097,10 @@ Public Class frmBegin
         Me.lbCusName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbCusName.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lbCusName.ForeColor = System.Drawing.Color.White
-        Me.lbCusName.Location = New System.Drawing.Point(298, 21)
+        Me.lbCusName.Location = New System.Drawing.Point(199, 14)
+        Me.lbCusName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbCusName.Name = "lbCusName"
-        Me.lbCusName.Size = New System.Drawing.Size(593, 36)
+        Me.lbCusName.Size = New System.Drawing.Size(396, 25)
         Me.lbCusName.TabIndex = 14
         '
         'cboNoTypeDoc
@@ -1048,9 +1108,10 @@ Public Class frmBegin
         Me.cboNoTypeDoc.BackColor = System.Drawing.Color.Green
         Me.cboNoTypeDoc.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cboNoTypeDoc.ForeColor = System.Drawing.SystemColors.Info
-        Me.cboNoTypeDoc.Location = New System.Drawing.Point(142, 154)
+        Me.cboNoTypeDoc.Location = New System.Drawing.Point(95, 103)
+        Me.cboNoTypeDoc.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cboNoTypeDoc.Name = "cboNoTypeDoc"
-        Me.cboNoTypeDoc.Size = New System.Drawing.Size(259, 37)
+        Me.cboNoTypeDoc.Size = New System.Drawing.Size(174, 27)
         Me.cboNoTypeDoc.TabIndex = 26
         Me.cboNoTypeDoc.Text = "ComboBox1"
         '
@@ -1059,18 +1120,21 @@ Public Class frmBegin
         Me.cboSale2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.cboSale2.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cboSale2.FormattingEnabled = True
-        Me.cboSale2.Location = New System.Drawing.Point(399, 108)
+        Me.cboSale2.Location = New System.Drawing.Point(266, 72)
+        Me.cboSale2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cboSale2.Name = "cboSale2"
-        Me.cboSale2.Size = New System.Drawing.Size(253, 36)
+        Me.cboSale2.Size = New System.Drawing.Size(170, 26)
         Me.cboSale2.TabIndex = 62
         '
         'GroupBox10
         '
         Me.GroupBox10.Controls.Add(Me.optNoSelNoType)
         Me.GroupBox10.Controls.Add(Me.optSelNoType)
-        Me.GroupBox10.Location = New System.Drawing.Point(411, 142)
+        Me.GroupBox10.Location = New System.Drawing.Point(274, 95)
+        Me.GroupBox10.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox10.Name = "GroupBox10"
-        Me.GroupBox10.Size = New System.Drawing.Size(240, 54)
+        Me.GroupBox10.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox10.Size = New System.Drawing.Size(160, 36)
         Me.GroupBox10.TabIndex = 44
         Me.GroupBox10.TabStop = False
         '
@@ -1078,9 +1142,10 @@ Public Class frmBegin
         '
         Me.optNoSelNoType.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.optNoSelNoType.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.optNoSelNoType.Location = New System.Drawing.Point(106, 20)
+        Me.optNoSelNoType.Location = New System.Drawing.Point(71, 13)
+        Me.optNoSelNoType.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.optNoSelNoType.Name = "optNoSelNoType"
-        Me.optNoSelNoType.Size = New System.Drawing.Size(111, 24)
+        Me.optNoSelNoType.Size = New System.Drawing.Size(74, 16)
         Me.optNoSelNoType.TabIndex = 24
         Me.optNoSelNoType.Text = "ไม่เลือก"
         '
@@ -1089,9 +1154,10 @@ Public Class frmBegin
         Me.optSelNoType.Checked = True
         Me.optSelNoType.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.optSelNoType.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.optSelNoType.Location = New System.Drawing.Point(9, 20)
+        Me.optSelNoType.Location = New System.Drawing.Point(6, 13)
+        Me.optSelNoType.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.optSelNoType.Name = "optSelNoType"
-        Me.optSelNoType.Size = New System.Drawing.Size(135, 24)
+        Me.optSelNoType.Size = New System.Drawing.Size(90, 16)
         Me.optSelNoType.TabIndex = 23
         Me.optSelNoType.TabStop = True
         Me.optSelNoType.Text = "เลือก"
@@ -1103,9 +1169,10 @@ Public Class frmBegin
         Me.chkTypeVat.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkTypeVat.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.chkTypeVat.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.chkTypeVat.Location = New System.Drawing.Point(12, 165)
+        Me.chkTypeVat.Location = New System.Drawing.Point(8, 110)
+        Me.chkTypeVat.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkTypeVat.Name = "chkTypeVat"
-        Me.chkTypeVat.Size = New System.Drawing.Size(115, 26)
+        Me.chkTypeVat.Size = New System.Drawing.Size(79, 18)
         Me.chkTypeVat.TabIndex = 66
         Me.chkTypeVat.Text = "ประเภท V"
         Me.chkTypeVat.UseVisualStyleBackColor = True
@@ -1115,9 +1182,10 @@ Public Class frmBegin
         Me.cboGrpSL2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.cboGrpSL2.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cboGrpSL2.FormattingEnabled = True
-        Me.cboGrpSL2.Location = New System.Drawing.Point(142, 106)
+        Me.cboGrpSL2.Location = New System.Drawing.Point(95, 71)
+        Me.cboGrpSL2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cboGrpSL2.Name = "cboGrpSL2"
-        Me.cboGrpSL2.Size = New System.Drawing.Size(250, 36)
+        Me.cboGrpSL2.Size = New System.Drawing.Size(168, 26)
         Me.cboGrpSL2.TabIndex = 65
         '
         'lbGrpSLCode2
@@ -1126,9 +1194,10 @@ Public Class frmBegin
         Me.lbGrpSLCode2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbGrpSLCode2.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lbGrpSLCode2.ForeColor = System.Drawing.Color.White
-        Me.lbGrpSLCode2.Location = New System.Drawing.Point(142, 108)
+        Me.lbGrpSLCode2.Location = New System.Drawing.Point(95, 72)
+        Me.lbGrpSLCode2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbGrpSLCode2.Name = "lbGrpSLCode2"
-        Me.lbGrpSLCode2.Size = New System.Drawing.Size(65, 36)
+        Me.lbGrpSLCode2.Size = New System.Drawing.Size(44, 25)
         Me.lbGrpSLCode2.TabIndex = 64
         Me.lbGrpSLCode2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -1138,9 +1207,10 @@ Public Class frmBegin
         Me.lbSelSaleID2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbSelSaleID2.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lbSelSaleID2.ForeColor = System.Drawing.Color.White
-        Me.lbSelSaleID2.Location = New System.Drawing.Point(466, 108)
+        Me.lbSelSaleID2.Location = New System.Drawing.Point(311, 72)
+        Me.lbSelSaleID2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbSelSaleID2.Name = "lbSelSaleID2"
-        Me.lbSelSaleID2.Size = New System.Drawing.Size(66, 36)
+        Me.lbSelSaleID2.Size = New System.Drawing.Size(45, 25)
         Me.lbSelSaleID2.TabIndex = 63
         Me.lbSelSaleID2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -1149,9 +1219,10 @@ Public Class frmBegin
         Me.cboGrpSL.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.cboGrpSL.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cboGrpSL.FormattingEnabled = True
-        Me.cboGrpSL.Location = New System.Drawing.Point(144, 64)
+        Me.cboGrpSL.Location = New System.Drawing.Point(96, 43)
+        Me.cboGrpSL.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cboGrpSL.Name = "cboGrpSL"
-        Me.cboGrpSL.Size = New System.Drawing.Size(247, 36)
+        Me.cboGrpSL.Size = New System.Drawing.Size(166, 26)
         Me.cboGrpSL.TabIndex = 57
         '
         'cboSale
@@ -1159,9 +1230,10 @@ Public Class frmBegin
         Me.cboSale.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.cboSale.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cboSale.FormattingEnabled = True
-        Me.cboSale.Location = New System.Drawing.Point(399, 63)
+        Me.cboSale.Location = New System.Drawing.Point(266, 42)
+        Me.cboSale.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cboSale.Name = "cboSale"
-        Me.cboSale.Size = New System.Drawing.Size(253, 36)
+        Me.cboSale.Size = New System.Drawing.Size(170, 26)
         Me.cboSale.TabIndex = 59
         '
         'lbSelSaleID
@@ -1170,9 +1242,10 @@ Public Class frmBegin
         Me.lbSelSaleID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbSelSaleID.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lbSelSaleID.ForeColor = System.Drawing.Color.White
-        Me.lbSelSaleID.Location = New System.Drawing.Point(466, 64)
+        Me.lbSelSaleID.Location = New System.Drawing.Point(311, 43)
+        Me.lbSelSaleID.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbSelSaleID.Name = "lbSelSaleID"
-        Me.lbSelSaleID.Size = New System.Drawing.Size(66, 36)
+        Me.lbSelSaleID.Size = New System.Drawing.Size(45, 25)
         Me.lbSelSaleID.TabIndex = 60
         Me.lbSelSaleID.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -1182,9 +1255,10 @@ Public Class frmBegin
         Me.lbGrpSLCode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbGrpSLCode.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lbGrpSLCode.ForeColor = System.Drawing.Color.White
-        Me.lbGrpSLCode.Location = New System.Drawing.Point(147, 66)
+        Me.lbGrpSLCode.Location = New System.Drawing.Point(98, 44)
+        Me.lbGrpSLCode.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbGrpSLCode.Name = "lbGrpSLCode"
-        Me.lbGrpSLCode.Size = New System.Drawing.Size(64, 36)
+        Me.lbGrpSLCode.Size = New System.Drawing.Size(43, 25)
         Me.lbGrpSLCode.TabIndex = 58
         Me.lbGrpSLCode.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -1192,9 +1266,11 @@ Public Class frmBegin
         '
         Me.GroupBox7.Controls.Add(Me.chkNotSale)
         Me.GroupBox7.Controls.Add(Me.chkSelSale)
-        Me.GroupBox7.Location = New System.Drawing.Point(657, 52)
+        Me.GroupBox7.Location = New System.Drawing.Point(438, 35)
+        Me.GroupBox7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox7.Name = "GroupBox7"
-        Me.GroupBox7.Size = New System.Drawing.Size(234, 54)
+        Me.GroupBox7.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox7.Size = New System.Drawing.Size(156, 36)
         Me.GroupBox7.TabIndex = 43
         Me.GroupBox7.TabStop = False
         '
@@ -1203,9 +1279,10 @@ Public Class frmBegin
         Me.chkNotSale.AutoSize = True
         Me.chkNotSale.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
         Me.chkNotSale.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.chkNotSale.Location = New System.Drawing.Point(132, 20)
+        Me.chkNotSale.Location = New System.Drawing.Point(88, 13)
+        Me.chkNotSale.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkNotSale.Name = "chkNotSale"
-        Me.chkNotSale.Size = New System.Drawing.Size(97, 26)
+        Me.chkNotSale.Size = New System.Drawing.Size(67, 18)
         Me.chkNotSale.TabIndex = 24
         Me.chkNotSale.Text = "ไม่เลือก"
         '
@@ -1214,9 +1291,10 @@ Public Class frmBegin
         Me.chkSelSale.Checked = True
         Me.chkSelSale.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.chkSelSale.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.chkSelSale.Location = New System.Drawing.Point(4, 21)
+        Me.chkSelSale.Location = New System.Drawing.Point(3, 14)
+        Me.chkSelSale.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkSelSale.Name = "chkSelSale"
-        Me.chkSelSale.Size = New System.Drawing.Size(135, 24)
+        Me.chkSelSale.Size = New System.Drawing.Size(90, 16)
         Me.chkSelSale.TabIndex = 23
         Me.chkSelSale.TabStop = True
         Me.chkSelSale.Text = "เลือก Sale"
@@ -1225,9 +1303,11 @@ Public Class frmBegin
         '
         Me.GroupBox1.Controls.Add(Me.chkNotSale2)
         Me.GroupBox1.Controls.Add(Me.chkSelSale2)
-        Me.GroupBox1.Location = New System.Drawing.Point(660, 98)
+        Me.GroupBox1.Location = New System.Drawing.Point(440, 65)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(231, 52)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Size = New System.Drawing.Size(154, 35)
         Me.GroupBox1.TabIndex = 42
         Me.GroupBox1.TabStop = False
         '
@@ -1236,9 +1316,10 @@ Public Class frmBegin
         Me.chkNotSale2.AutoSize = True
         Me.chkNotSale2.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.chkNotSale2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.chkNotSale2.Location = New System.Drawing.Point(128, 18)
+        Me.chkNotSale2.Location = New System.Drawing.Point(85, 12)
+        Me.chkNotSale2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkNotSale2.Name = "chkNotSale2"
-        Me.chkNotSale2.Size = New System.Drawing.Size(97, 26)
+        Me.chkNotSale2.Size = New System.Drawing.Size(67, 18)
         Me.chkNotSale2.TabIndex = 31
         Me.chkNotSale2.Text = "ไม่เลือก"
         '
@@ -1247,9 +1328,10 @@ Public Class frmBegin
         Me.chkSelSale2.Checked = True
         Me.chkSelSale2.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.chkSelSale2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.chkSelSale2.Location = New System.Drawing.Point(3, 16)
+        Me.chkSelSale2.Location = New System.Drawing.Point(2, 11)
+        Me.chkSelSale2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkSelSale2.Name = "chkSelSale2"
-        Me.chkSelSale2.Size = New System.Drawing.Size(144, 33)
+        Me.chkSelSale2.Size = New System.Drawing.Size(96, 22)
         Me.chkSelSale2.TabIndex = 30
         Me.chkSelSale2.TabStop = True
         Me.chkSelSale2.Text = "เลือก Sale"
@@ -1259,9 +1341,10 @@ Public Class frmBegin
         Me.lbCusID.BackColor = System.Drawing.Color.Yellow
         Me.lbCusID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbCusID.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lbCusID.Location = New System.Drawing.Point(147, 21)
+        Me.lbCusID.Location = New System.Drawing.Point(98, 14)
+        Me.lbCusID.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbCusID.Name = "lbCusID"
-        Me.lbCusID.Size = New System.Drawing.Size(104, 36)
+        Me.lbCusID.Size = New System.Drawing.Size(70, 25)
         Me.lbCusID.TabIndex = 13
         Me.lbCusID.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
@@ -1269,18 +1352,20 @@ Public Class frmBegin
         '
         Me.chkOptSale2.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.chkOptSale2.ForeColor = System.Drawing.Color.Black
-        Me.chkOptSale2.Location = New System.Drawing.Point(9, 116)
+        Me.chkOptSale2.Location = New System.Drawing.Point(6, 77)
+        Me.chkOptSale2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkOptSale2.Name = "chkOptSale2"
-        Me.chkOptSale2.Size = New System.Drawing.Size(196, 32)
+        Me.chkOptSale2.Size = New System.Drawing.Size(131, 21)
         Me.chkOptSale2.TabIndex = 32
         Me.chkOptSale2.Text = "Sale ลูกค้า"
         '
         'chkSelCustom
         '
         Me.chkSelCustom.Font = New System.Drawing.Font("MS Reference Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkSelCustom.Location = New System.Drawing.Point(9, 32)
+        Me.chkSelCustom.Location = New System.Drawing.Point(6, 21)
+        Me.chkSelCustom.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkSelCustom.Name = "chkSelCustom"
-        Me.chkSelCustom.Size = New System.Drawing.Size(147, 24)
+        Me.chkSelCustom.Size = New System.Drawing.Size(98, 16)
         Me.chkSelCustom.TabIndex = 16
         Me.chkSelCustom.Text = "เลือกลูกค้า"
         '
@@ -1290,9 +1375,10 @@ Public Class frmBegin
         Me.chkOptSale.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkOptSale.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.chkOptSale.ForeColor = System.Drawing.Color.Black
-        Me.chkOptSale.Location = New System.Drawing.Point(9, 74)
+        Me.chkOptSale.Location = New System.Drawing.Point(6, 49)
+        Me.chkOptSale.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkOptSale.Name = "chkOptSale"
-        Me.chkOptSale.Size = New System.Drawing.Size(144, 24)
+        Me.chkOptSale.Size = New System.Drawing.Size(96, 16)
         Me.chkOptSale.TabIndex = 25
         Me.chkOptSale.Text = "Sale หัวบิล"
         '
@@ -1302,9 +1388,10 @@ Public Class frmBegin
         Me.lbFindCus.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbFindCus.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lbFindCus.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.lbFindCus.Location = New System.Drawing.Point(249, 21)
+        Me.lbFindCus.Location = New System.Drawing.Point(166, 14)
+        Me.lbFindCus.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbFindCus.Name = "lbFindCus"
-        Me.lbFindCus.Size = New System.Drawing.Size(40, 36)
+        Me.lbFindCus.Size = New System.Drawing.Size(27, 25)
         Me.lbFindCus.TabIndex = 15
         Me.lbFindCus.Text = "..."
         Me.lbFindCus.TextAlign = System.Drawing.ContentAlignment.BottomLeft
@@ -1313,9 +1400,10 @@ Public Class frmBegin
         '
         Me.chkDate.AutoSize = True
         Me.chkDate.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.chkDate.Location = New System.Drawing.Point(1173, 552)
+        Me.chkDate.Location = New System.Drawing.Point(782, 368)
+        Me.chkDate.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkDate.Name = "chkDate"
-        Me.chkDate.Size = New System.Drawing.Size(69, 26)
+        Me.chkDate.Size = New System.Drawing.Size(48, 18)
         Me.chkDate.TabIndex = 25
         Me.chkDate.Text = "วันที่"
         Me.chkDate.UseVisualStyleBackColor = True
@@ -1334,9 +1422,11 @@ Public Class frmBegin
         Me.GroupBox4.Controls.Add(Me.chkProDDetl)
         Me.GroupBox4.Controls.Add(Me.chkCost)
         Me.GroupBox4.Controls.Add(Me.chkDispSale)
-        Me.GroupBox4.Location = New System.Drawing.Point(726, 8)
+        Me.GroupBox4.Location = New System.Drawing.Point(484, 5)
+        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(978, 128)
+        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox4.Size = New System.Drawing.Size(652, 85)
         Me.GroupBox4.TabIndex = 24
         Me.GroupBox4.TabStop = False
         '
@@ -1346,9 +1436,10 @@ Public Class frmBegin
         Me.chkCondition.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkCondition.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.chkCondition.ForeColor = System.Drawing.Color.Maroon
-        Me.chkCondition.Location = New System.Drawing.Point(754, 15)
+        Me.chkCondition.Location = New System.Drawing.Point(503, 10)
+        Me.chkCondition.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkCondition.Name = "chkCondition"
-        Me.chkCondition.Size = New System.Drawing.Size(219, 36)
+        Me.chkCondition.Size = New System.Drawing.Size(146, 24)
         Me.chkCondition.TabIndex = 28
         Me.chkCondition.Text = "áÊ´§ Condition"
         '
@@ -1358,9 +1449,10 @@ Public Class frmBegin
         Me.chkGrpBySale.Enabled = False
         Me.chkGrpBySale.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.chkGrpBySale.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.chkGrpBySale.Location = New System.Drawing.Point(507, 180)
+        Me.chkGrpBySale.Location = New System.Drawing.Point(338, 120)
+        Me.chkGrpBySale.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkGrpBySale.Name = "chkGrpBySale"
-        Me.chkGrpBySale.Size = New System.Drawing.Size(223, 28)
+        Me.chkGrpBySale.Size = New System.Drawing.Size(149, 20)
         Me.chkGrpBySale.TabIndex = 24
         Me.chkGrpBySale.TabStop = True
         Me.chkGrpBySale.Text = "ÃÇÁÃÒÂ¡ÒÃµÒÁ Sale"
@@ -1372,9 +1464,10 @@ Public Class frmBegin
         Me.chkGrpByCustom.Enabled = False
         Me.chkGrpByCustom.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.chkGrpByCustom.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.chkGrpByCustom.Location = New System.Drawing.Point(486, 90)
+        Me.chkGrpByCustom.Location = New System.Drawing.Point(324, 60)
+        Me.chkGrpByCustom.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkGrpByCustom.Name = "chkGrpByCustom"
-        Me.chkGrpByCustom.Size = New System.Drawing.Size(247, 28)
+        Me.chkGrpByCustom.Size = New System.Drawing.Size(163, 20)
         Me.chkGrpByCustom.TabIndex = 23
         Me.chkGrpByCustom.TabStop = True
         Me.chkGrpByCustom.Text = "ÃÇÁÃÒÂ¡ÒÃµÒÁÅÙ¡¤éÒ"
@@ -1386,9 +1479,10 @@ Public Class frmBegin
         Me.chkNoGrpBy.Checked = True
         Me.chkNoGrpBy.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.chkNoGrpBy.ForeColor = System.Drawing.Color.Black
-        Me.chkNoGrpBy.Location = New System.Drawing.Point(486, 16)
+        Me.chkNoGrpBy.Location = New System.Drawing.Point(324, 11)
+        Me.chkNoGrpBy.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkNoGrpBy.Name = "chkNoGrpBy"
-        Me.chkNoGrpBy.Size = New System.Drawing.Size(202, 28)
+        Me.chkNoGrpBy.Size = New System.Drawing.Size(137, 20)
         Me.chkNoGrpBy.TabIndex = 22
         Me.chkNoGrpBy.TabStop = True
         Me.chkNoGrpBy.Text = "áÂ¡ÃÒÂÅÐàÍÕÂ´"
@@ -1399,9 +1493,10 @@ Public Class frmBegin
         Me.chkGrpByStk.AutoSize = True
         Me.chkGrpByStk.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.chkGrpByStk.ForeColor = System.Drawing.Color.Black
-        Me.chkGrpByStk.Location = New System.Drawing.Point(486, 54)
+        Me.chkGrpByStk.Location = New System.Drawing.Point(324, 36)
+        Me.chkGrpByStk.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkGrpByStk.Name = "chkGrpByStk"
-        Me.chkGrpByStk.Size = New System.Drawing.Size(275, 28)
+        Me.chkGrpByStk.Size = New System.Drawing.Size(182, 20)
         Me.chkGrpByStk.TabIndex = 21
         Me.chkGrpByStk.TabStop = True
         Me.chkGrpByStk.Text = "ÃÇÁÃÒÂ¡ÒÃµÒÁÊÔ¹¤éÒ"
@@ -1413,9 +1508,10 @@ Public Class frmBegin
         Me.chkGrpByDoc.Enabled = False
         Me.chkGrpByDoc.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.chkGrpByDoc.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.chkGrpByDoc.Location = New System.Drawing.Point(507, 141)
+        Me.chkGrpByDoc.Location = New System.Drawing.Point(338, 94)
+        Me.chkGrpByDoc.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkGrpByDoc.Name = "chkGrpByDoc"
-        Me.chkGrpByDoc.Size = New System.Drawing.Size(241, 28)
+        Me.chkGrpByDoc.Size = New System.Drawing.Size(159, 20)
         Me.chkGrpByDoc.TabIndex = 20
         Me.chkGrpByDoc.TabStop = True
         Me.chkGrpByDoc.Text = "ÃÇÁÃÒÂ¡ÒÃµÒÁàÍ¡ÊÒÃ"
@@ -1424,27 +1520,30 @@ Public Class frmBegin
         'chkSelPO
         '
         Me.chkSelPO.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.chkSelPO.Location = New System.Drawing.Point(264, 16)
+        Me.chkSelPO.Location = New System.Drawing.Point(176, 11)
+        Me.chkSelPO.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkSelPO.Name = "chkSelPO"
-        Me.chkSelPO.Size = New System.Drawing.Size(246, 36)
+        Me.chkSelPO.Size = New System.Drawing.Size(164, 24)
         Me.chkSelPO.TabIndex = 26
         Me.chkSelPO.Text = "áÊ´§àÅ¢·Õè #PO"
         '
         'chkAddComment
         '
         Me.chkAddComment.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.chkAddComment.Location = New System.Drawing.Point(39, 171)
+        Me.chkAddComment.Location = New System.Drawing.Point(26, 114)
+        Me.chkAddComment.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkAddComment.Name = "chkAddComment"
-        Me.chkAddComment.Size = New System.Drawing.Size(392, 36)
+        Me.chkAddComment.Size = New System.Drawing.Size(261, 24)
         Me.chkAddComment.TabIndex = 25
         Me.chkAddComment.Text = "áÊ´§-ËÁÒÂàËµØ"
         '
         'chkOnDetail
         '
         Me.chkOnDetail.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.chkOnDetail.Location = New System.Drawing.Point(264, 48)
+        Me.chkOnDetail.Location = New System.Drawing.Point(176, 32)
+        Me.chkOnDetail.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkOnDetail.Name = "chkOnDetail"
-        Me.chkOnDetail.Size = New System.Drawing.Size(219, 36)
+        Me.chkOnDetail.Size = New System.Drawing.Size(146, 24)
         Me.chkOnDetail.TabIndex = 13
         Me.chkOnDetail.Text = "µéÍ§¡ÒÃ´ÙÃÒÂÅÐàÍÕÂ´"
         Me.chkOnDetail.Visible = False
@@ -1452,9 +1551,10 @@ Public Class frmBegin
         'chkProDDetl
         '
         Me.chkProDDetl.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.chkProDDetl.Location = New System.Drawing.Point(38, 126)
+        Me.chkProDDetl.Location = New System.Drawing.Point(25, 84)
+        Me.chkProDDetl.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkProDDetl.Name = "chkProDDetl"
-        Me.chkProDDetl.Size = New System.Drawing.Size(392, 36)
+        Me.chkProDDetl.Size = New System.Drawing.Size(261, 24)
         Me.chkProDDetl.TabIndex = 18
         Me.chkProDDetl.Text = "áÊ´§-ÃÒÂÅÐàÍÕÂ´ÊÔ¹¤éÒ ( »ÃÐàÀ·/¡ÅØèÁ/ÊÕ )"
         '
@@ -1463,18 +1563,20 @@ Public Class frmBegin
         Me.chkCost.Checked = True
         Me.chkCost.CheckState = System.Windows.Forms.CheckState.Checked
         Me.chkCost.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.chkCost.Location = New System.Drawing.Point(15, 82)
+        Me.chkCost.Location = New System.Drawing.Point(10, 55)
+        Me.chkCost.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkCost.Name = "chkCost"
-        Me.chkCost.Size = New System.Drawing.Size(360, 36)
+        Me.chkCost.Size = New System.Drawing.Size(240, 24)
         Me.chkCost.TabIndex = 17
         Me.chkCost.Text = "áÊ´§-¡ÓäÃ/¢Ò´·Ø¹"
         '
         'chkDispSale
         '
         Me.chkDispSale.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.chkDispSale.Location = New System.Drawing.Point(15, 21)
+        Me.chkDispSale.Location = New System.Drawing.Point(10, 14)
+        Me.chkDispSale.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkDispSale.Name = "chkDispSale"
-        Me.chkDispSale.Size = New System.Drawing.Size(286, 24)
+        Me.chkDispSale.Size = New System.Drawing.Size(191, 16)
         Me.chkDispSale.TabIndex = 14
         Me.chkDispSale.Text = "áÊ´§ÃÒÂª×èÍ¾¹Ñ¡§Ò¹¢ÒÂ"
         '
@@ -1484,44 +1586,49 @@ Public Class frmBegin
         Me.lsvShow.Font = New System.Drawing.Font("Tahoma", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lsvShow.FullRowSelect = True
         Me.lsvShow.HideSelection = False
-        Me.lsvShow.Location = New System.Drawing.Point(12, 9)
+        Me.lsvShow.Location = New System.Drawing.Point(8, 6)
+        Me.lsvShow.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.lsvShow.Name = "lsvShow"
-        Me.lsvShow.Size = New System.Drawing.Size(1909, 448)
+        Me.lsvShow.Size = New System.Drawing.Size(1274, 300)
         Me.lsvShow.TabIndex = 21
         Me.lsvShow.UseCompatibleStateImageBehavior = False
         '
         'Label5
         '
-        Me.Label5.Location = New System.Drawing.Point(-214, 33)
+        Me.Label5.Location = New System.Drawing.Point(-143, 22)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(142, 36)
+        Me.Label5.Size = New System.Drawing.Size(95, 24)
         Me.Label5.TabIndex = 22
         Me.Label5.Text = "¨Ó¹Ç¹ÃÒÂ¡ÒÃ"
         '
         'Label6
         '
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label6.Location = New System.Drawing.Point(152, 36)
+        Me.Label6.Location = New System.Drawing.Point(101, 24)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(78, 36)
+        Me.Label6.Size = New System.Drawing.Size(52, 24)
         Me.Label6.TabIndex = 23
         Me.Label6.Text = "จำนวน"
         '
         'Label7
         '
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label7.Location = New System.Drawing.Point(420, 36)
+        Me.Label7.Location = New System.Drawing.Point(280, 24)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(78, 27)
+        Me.Label7.Size = New System.Drawing.Size(52, 18)
         Me.Label7.TabIndex = 24
         Me.Label7.Text = "น้ำหนัก"
         '
         'Label8
         '
         Me.Label8.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label8.Location = New System.Drawing.Point(1104, 32)
+        Me.Label8.Location = New System.Drawing.Point(736, 21)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(63, 36)
+        Me.Label8.Size = New System.Drawing.Size(42, 24)
         Me.Label8.TabIndex = 25
         Me.Label8.Text = "ขาย"
         '
@@ -1531,9 +1638,10 @@ Public Class frmBegin
         Me.lbTranQty.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbTranQty.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lbTranQty.ForeColor = System.Drawing.Color.White
-        Me.lbTranQty.Location = New System.Drawing.Point(8, 24)
+        Me.lbTranQty.Location = New System.Drawing.Point(5, 16)
+        Me.lbTranQty.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbTranQty.Name = "lbTranQty"
-        Me.lbTranQty.Size = New System.Drawing.Size(74, 36)
+        Me.lbTranQty.Size = New System.Drawing.Size(50, 25)
         Me.lbTranQty.TabIndex = 26
         Me.lbTranQty.Text = "0"
         Me.lbTranQty.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1544,9 +1652,10 @@ Public Class frmBegin
         Me.lbQty1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbQty1.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lbQty1.ForeColor = System.Drawing.Color.White
-        Me.lbQty1.Location = New System.Drawing.Point(213, 27)
+        Me.lbQty1.Location = New System.Drawing.Point(142, 18)
+        Me.lbQty1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbQty1.Name = "lbQty1"
-        Me.lbQty1.Size = New System.Drawing.Size(150, 36)
+        Me.lbQty1.Size = New System.Drawing.Size(101, 25)
         Me.lbQty1.TabIndex = 27
         Me.lbQty1.Text = "0"
         Me.lbQty1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1557,9 +1666,10 @@ Public Class frmBegin
         Me.lbQty2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbQty2.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lbQty2.ForeColor = System.Drawing.Color.White
-        Me.lbQty2.Location = New System.Drawing.Point(489, 24)
+        Me.lbQty2.Location = New System.Drawing.Point(326, 16)
+        Me.lbQty2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbQty2.Name = "lbQty2"
-        Me.lbQty2.Size = New System.Drawing.Size(96, 36)
+        Me.lbQty2.Size = New System.Drawing.Size(65, 25)
         Me.lbQty2.TabIndex = 28
         Me.lbQty2.Text = "0"
         Me.lbQty2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1568,9 +1678,10 @@ Public Class frmBegin
         '
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label15.Location = New System.Drawing.Point(586, 36)
+        Me.Label15.Location = New System.Drawing.Point(391, 24)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(60, 36)
+        Me.Label15.Size = New System.Drawing.Size(40, 24)
         Me.Label15.TabIndex = 31
         Me.Label15.Text = "Ton."
         '
@@ -1578,9 +1689,10 @@ Public Class frmBegin
         '
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label16.Location = New System.Drawing.Point(366, 36)
+        Me.Label16.Location = New System.Drawing.Point(244, 24)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(56, 36)
+        Me.Label16.Size = New System.Drawing.Size(37, 24)
         Me.Label16.TabIndex = 32
         Me.Label16.Text = "แผ่น"
         '
@@ -1588,9 +1700,10 @@ Public Class frmBegin
         '
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.Label17.ForeColor = System.Drawing.Color.DarkRed
-        Me.Label17.Location = New System.Drawing.Point(78, 36)
+        Me.Label17.Location = New System.Drawing.Point(52, 24)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(78, 22)
+        Me.Label17.Size = New System.Drawing.Size(52, 15)
         Me.Label17.TabIndex = 33
         Me.Label17.Text = "รายการ"
         '
@@ -1615,9 +1728,11 @@ Public Class frmBegin
         Me.GroupBox6.Controls.Add(Me.Label8)
         Me.GroupBox6.Controls.Add(Me.Label16)
         Me.GroupBox6.Controls.Add(Me.Label15)
-        Me.GroupBox6.Location = New System.Drawing.Point(15, 460)
+        Me.GroupBox6.Location = New System.Drawing.Point(10, 307)
+        Me.GroupBox6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(1908, 70)
+        Me.GroupBox6.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox6.Size = New System.Drawing.Size(1272, 47)
         Me.GroupBox6.TabIndex = 35
         Me.GroupBox6.TabStop = False
         '
@@ -1627,9 +1742,10 @@ Public Class frmBegin
         Me.txtCost.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCost.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.txtCost.ForeColor = System.Drawing.Color.White
-        Me.txtCost.Location = New System.Drawing.Point(1412, 26)
+        Me.txtCost.Location = New System.Drawing.Point(941, 17)
+        Me.txtCost.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtCost.Name = "txtCost"
-        Me.txtCost.Size = New System.Drawing.Size(200, 32)
+        Me.txtCost.Size = New System.Drawing.Size(134, 24)
         Me.txtCost.TabIndex = 44
         Me.txtCost.Text = "0"
         Me.txtCost.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1637,9 +1753,10 @@ Public Class frmBegin
         'Label22
         '
         Me.Label22.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label22.Location = New System.Drawing.Point(1374, 33)
+        Me.Label22.Location = New System.Drawing.Point(916, 22)
+        Me.Label22.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(54, 28)
+        Me.Label22.Size = New System.Drawing.Size(36, 19)
         Me.Label22.TabIndex = 43
         Me.Label22.Text = "ทุน"
         '
@@ -1649,9 +1766,10 @@ Public Class frmBegin
         Me.txtDiscItem.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDiscItem.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.txtDiscItem.ForeColor = System.Drawing.Color.White
-        Me.txtDiscItem.Location = New System.Drawing.Point(706, 28)
+        Me.txtDiscItem.Location = New System.Drawing.Point(471, 19)
+        Me.txtDiscItem.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtDiscItem.Name = "txtDiscItem"
-        Me.txtDiscItem.Size = New System.Drawing.Size(172, 30)
+        Me.txtDiscItem.Size = New System.Drawing.Size(115, 23)
         Me.txtDiscItem.TabIndex = 42
         Me.txtDiscItem.Text = "0"
         Me.txtDiscItem.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1659,9 +1777,10 @@ Public Class frmBegin
         'Label14
         '
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label14.Location = New System.Drawing.Point(633, 34)
+        Me.Label14.Location = New System.Drawing.Point(422, 23)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(99, 36)
+        Me.Label14.Size = New System.Drawing.Size(66, 24)
         Me.Label14.TabIndex = 41
         Me.Label14.Text = "ลด Item"
         '
@@ -1671,9 +1790,10 @@ Public Class frmBegin
         Me.txtDiscH.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDiscH.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.txtDiscH.ForeColor = System.Drawing.Color.White
-        Me.txtDiscH.Location = New System.Drawing.Point(966, 28)
+        Me.txtDiscH.Location = New System.Drawing.Point(644, 19)
+        Me.txtDiscH.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtDiscH.Name = "txtDiscH"
-        Me.txtDiscH.Size = New System.Drawing.Size(128, 30)
+        Me.txtDiscH.Size = New System.Drawing.Size(86, 23)
         Me.txtDiscH.TabIndex = 40
         Me.txtDiscH.Text = "0"
         Me.txtDiscH.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1681,9 +1801,10 @@ Public Class frmBegin
         'Label13
         '
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label13.Location = New System.Drawing.Point(886, 30)
+        Me.Label13.Location = New System.Drawing.Point(591, 20)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(99, 36)
+        Me.Label13.Size = New System.Drawing.Size(66, 24)
         Me.Label13.TabIndex = 39
         Me.Label13.Text = "ลดหัวบิล"
         '
@@ -1693,9 +1814,10 @@ Public Class frmBegin
         Me.lbProfitAmt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbProfitAmt.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lbProfitAmt.ForeColor = System.Drawing.Color.White
-        Me.lbProfitAmt.Location = New System.Drawing.Point(1692, 26)
+        Me.lbProfitAmt.Location = New System.Drawing.Point(1128, 17)
+        Me.lbProfitAmt.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.lbProfitAmt.Name = "lbProfitAmt"
-        Me.lbProfitAmt.Size = New System.Drawing.Size(191, 32)
+        Me.lbProfitAmt.Size = New System.Drawing.Size(128, 24)
         Me.lbProfitAmt.TabIndex = 38
         Me.lbProfitAmt.Text = "0"
         Me.lbProfitAmt.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1706,9 +1828,10 @@ Public Class frmBegin
         Me.lbAmt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbAmt.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lbAmt.ForeColor = System.Drawing.Color.White
-        Me.lbAmt.Location = New System.Drawing.Point(1152, 26)
+        Me.lbAmt.Location = New System.Drawing.Point(768, 17)
+        Me.lbAmt.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.lbAmt.Name = "lbAmt"
-        Me.lbAmt.Size = New System.Drawing.Size(200, 32)
+        Me.lbAmt.Size = New System.Drawing.Size(134, 24)
         Me.lbAmt.TabIndex = 34
         Me.lbAmt.Text = "0"
         Me.lbAmt.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -1716,18 +1839,20 @@ Public Class frmBegin
         'Label9
         '
         Me.Label9.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label9.Location = New System.Drawing.Point(1641, 33)
+        Me.Label9.Location = New System.Drawing.Point(1094, 22)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(76, 36)
+        Me.Label9.Size = New System.Drawing.Size(51, 24)
         Me.Label9.TabIndex = 36
         Me.Label9.Text = "กำไร"
         '
         'indexBar
         '
         Me.indexBar.BackColor = System.Drawing.Color.Gold
-        Me.indexBar.Location = New System.Drawing.Point(456, 540)
+        Me.indexBar.Location = New System.Drawing.Point(304, 360)
+        Me.indexBar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.indexBar.Name = "indexBar"
-        Me.indexBar.Size = New System.Drawing.Size(558, 34)
+        Me.indexBar.Size = New System.Drawing.Size(372, 23)
         Me.indexBar.TabIndex = 35
         '
         'GroupBox8
@@ -1738,18 +1863,21 @@ Public Class frmBegin
         Me.GroupBox8.Controls.Add(Me.cmbPrint)
         Me.GroupBox8.Controls.Add(Me.cmbRun)
         Me.GroupBox8.Controls.Add(Me.cmbExit)
-        Me.GroupBox8.Location = New System.Drawing.Point(1725, 540)
+        Me.GroupBox8.Location = New System.Drawing.Point(1150, 360)
+        Me.GroupBox8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox8.Name = "GroupBox8"
-        Me.GroupBox8.Size = New System.Drawing.Size(198, 492)
+        Me.GroupBox8.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox8.Size = New System.Drawing.Size(132, 328)
         Me.GroupBox8.TabIndex = 36
         Me.GroupBox8.TabStop = False
         '
         'optSoft
         '
         Me.optSoft.AutoSize = True
-        Me.optSoft.Location = New System.Drawing.Point(20, 316)
+        Me.optSoft.Location = New System.Drawing.Point(13, 211)
+        Me.optSoft.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.optSoft.Name = "optSoft"
-        Me.optSoft.Size = New System.Drawing.Size(106, 24)
+        Me.optSoft.Size = New System.Drawing.Size(71, 17)
         Me.optSoft.TabIndex = 28
         Me.optSoft.Text = "Color-Soft"
         Me.optSoft.UseVisualStyleBackColor = True
@@ -1759,9 +1887,10 @@ Public Class frmBegin
         '
         Me.RadioButton1.BackColor = System.Drawing.Color.Beige
         Me.RadioButton1.Checked = True
-        Me.RadioButton1.Location = New System.Drawing.Point(20, 278)
+        Me.RadioButton1.Location = New System.Drawing.Point(13, 185)
+        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(147, 33)
+        Me.RadioButton1.Size = New System.Drawing.Size(98, 22)
         Me.RadioButton1.TabIndex = 27
         Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "Color-Light"
@@ -1770,9 +1899,10 @@ Public Class frmBegin
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(21, 423)
+        Me.Button1.Location = New System.Drawing.Point(14, 282)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(165, 46)
+        Me.Button1.Size = New System.Drawing.Size(110, 31)
         Me.Button1.TabIndex = 26
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
@@ -1782,9 +1912,10 @@ Public Class frmBegin
         '
         Me.cmbPrint.BackColor = System.Drawing.Color.YellowGreen
         Me.cmbPrint.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.cmbPrint.Location = New System.Drawing.Point(9, 110)
+        Me.cmbPrint.Location = New System.Drawing.Point(6, 73)
+        Me.cmbPrint.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cmbPrint.Name = "cmbPrint"
-        Me.cmbPrint.Size = New System.Drawing.Size(176, 63)
+        Me.cmbPrint.Size = New System.Drawing.Size(117, 42)
         Me.cmbPrint.TabIndex = 25
         Me.cmbPrint.Text = "Print"
         Me.cmbPrint.UseVisualStyleBackColor = False
@@ -1793,9 +1924,10 @@ Public Class frmBegin
         '
         Me.cmbRun.BackColor = System.Drawing.Color.Gold
         Me.cmbRun.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.cmbRun.Location = New System.Drawing.Point(9, 27)
+        Me.cmbRun.Location = New System.Drawing.Point(6, 18)
+        Me.cmbRun.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cmbRun.Name = "cmbRun"
-        Me.cmbRun.Size = New System.Drawing.Size(176, 68)
+        Me.cmbRun.Size = New System.Drawing.Size(117, 45)
         Me.cmbRun.TabIndex = 23
         Me.cmbRun.Text = "Run"
         Me.cmbRun.UseVisualStyleBackColor = False
@@ -1803,9 +1935,10 @@ Public Class frmBegin
         'cmbExit
         '
         Me.cmbExit.BackColor = System.Drawing.Color.DarkOrange
-        Me.cmbExit.Location = New System.Drawing.Point(12, 184)
+        Me.cmbExit.Location = New System.Drawing.Point(8, 123)
+        Me.cmbExit.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cmbExit.Name = "cmbExit"
-        Me.cmbExit.Size = New System.Drawing.Size(176, 69)
+        Me.cmbExit.Size = New System.Drawing.Size(117, 46)
         Me.cmbExit.TabIndex = 24
         Me.cmbExit.Text = "Exit"
         Me.cmbExit.UseVisualStyleBackColor = False
@@ -1817,10 +1950,11 @@ Public Class frmBegin
         Me.TabControl2.Controls.Add(Me.tabOpt2)
         Me.TabControl2.Controls.Add(Me.tabDisp)
         Me.TabControl2.Controls.Add(Me.tabCost)
-        Me.TabControl2.Location = New System.Drawing.Point(12, 584)
+        Me.TabControl2.Location = New System.Drawing.Point(8, 389)
+        Me.TabControl2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabControl2.Name = "TabControl2"
         Me.TabControl2.SelectedIndex = 0
-        Me.TabControl2.Size = New System.Drawing.Size(1707, 472)
+        Me.TabControl2.Size = New System.Drawing.Size(1138, 315)
         Me.TabControl2.TabIndex = 38
         '
         'tabOpt1
@@ -1828,9 +1962,10 @@ Public Class frmBegin
         Me.tabOpt1.BackColor = System.Drawing.Color.Transparent
         Me.tabOpt1.Controls.Add(Me.GroupBox3)
         Me.tabOpt1.Location = New System.Drawing.Point(4, 4)
+        Me.tabOpt1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.tabOpt1.Name = "tabOpt1"
-        Me.tabOpt1.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
-        Me.tabOpt1.Size = New System.Drawing.Size(1699, 439)
+        Me.tabOpt1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.tabOpt1.Size = New System.Drawing.Size(1130, 289)
         Me.tabOpt1.TabIndex = 0
         Me.tabOpt1.Text = "รายงานขาย"
         '
@@ -1838,8 +1973,9 @@ Public Class frmBegin
         '
         Me.tabOpt2.BackColor = System.Drawing.Color.Silver
         Me.tabOpt2.Location = New System.Drawing.Point(4, 4)
+        Me.tabOpt2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.tabOpt2.Name = "tabOpt2"
-        Me.tabOpt2.Size = New System.Drawing.Size(1699, 439)
+        Me.tabOpt2.Size = New System.Drawing.Size(1130, 289)
         Me.tabOpt2.TabIndex = 2
         Me.tabOpt2.Text = "ตัวเลือกสินค้า"
         '
@@ -1851,8 +1987,9 @@ Public Class frmBegin
         Me.tabDisp.Controls.Add(Me.chkWH)
         Me.tabDisp.Controls.Add(Me.GroupBox4)
         Me.tabDisp.Location = New System.Drawing.Point(4, 4)
+        Me.tabDisp.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.tabDisp.Name = "tabDisp"
-        Me.tabDisp.Size = New System.Drawing.Size(1699, 439)
+        Me.tabDisp.Size = New System.Drawing.Size(1130, 289)
         Me.tabDisp.TabIndex = 3
         Me.tabDisp.Text = "การแสดงผล"
         Me.tabDisp.UseVisualStyleBackColor = True
@@ -1863,9 +2000,10 @@ Public Class frmBegin
         Me.lbWHname.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbWHname.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lbWHname.ForeColor = System.Drawing.Color.White
-        Me.lbWHname.Location = New System.Drawing.Point(862, 195)
+        Me.lbWHname.Location = New System.Drawing.Point(575, 130)
+        Me.lbWHname.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbWHname.Name = "lbWHname"
-        Me.lbWHname.Size = New System.Drawing.Size(401, 36)
+        Me.lbWHname.Size = New System.Drawing.Size(268, 25)
         Me.lbWHname.TabIndex = 43
         '
         'lbWHCode
@@ -1873,9 +2011,10 @@ Public Class frmBegin
         Me.lbWHCode.BackColor = System.Drawing.Color.Yellow
         Me.lbWHCode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbWHCode.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lbWHCode.Location = New System.Drawing.Point(711, 196)
+        Me.lbWHCode.Location = New System.Drawing.Point(474, 131)
+        Me.lbWHCode.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbWHCode.Name = "lbWHCode"
-        Me.lbWHCode.Size = New System.Drawing.Size(104, 36)
+        Me.lbWHCode.Size = New System.Drawing.Size(70, 25)
         Me.lbWHCode.TabIndex = 42
         Me.lbWHCode.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
@@ -1885,9 +2024,10 @@ Public Class frmBegin
         Me.lbFindWh.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbFindWh.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lbFindWh.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.lbFindWh.Location = New System.Drawing.Point(813, 196)
+        Me.lbFindWh.Location = New System.Drawing.Point(542, 131)
+        Me.lbFindWh.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbFindWh.Name = "lbFindWh"
-        Me.lbFindWh.Size = New System.Drawing.Size(40, 36)
+        Me.lbFindWh.Size = New System.Drawing.Size(27, 25)
         Me.lbFindWh.TabIndex = 44
         Me.lbFindWh.Text = "..."
         Me.lbFindWh.TextAlign = System.Drawing.ContentAlignment.BottomLeft
@@ -1896,9 +2036,10 @@ Public Class frmBegin
         '
         Me.chkWH.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.chkWH.ForeColor = System.Drawing.Color.Black
-        Me.chkWH.Location = New System.Drawing.Point(572, 204)
+        Me.chkWH.Location = New System.Drawing.Point(381, 136)
+        Me.chkWH.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.chkWH.Name = "chkWH"
-        Me.chkWH.Size = New System.Drawing.Size(198, 32)
+        Me.chkWH.Size = New System.Drawing.Size(132, 21)
         Me.chkWH.TabIndex = 45
         Me.chkWH.Text = "¤ÅÑ§ÊÔ¹¤éÒ"
         '
@@ -1931,9 +2072,10 @@ Public Class frmBegin
         Me.tabCost.Controls.Add(Me.txtStkCode)
         Me.tabCost.Controls.Add(Me.Label18)
         Me.tabCost.Location = New System.Drawing.Point(4, 4)
+        Me.tabCost.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.tabCost.Name = "tabCost"
-        Me.tabCost.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
-        Me.tabCost.Size = New System.Drawing.Size(1699, 439)
+        Me.tabCost.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.tabCost.Size = New System.Drawing.Size(1130, 289)
         Me.tabCost.TabIndex = 1
         Me.tabCost.Text = "แก้ไขต้นทุน"
         Me.tabCost.UseVisualStyleBackColor = True
@@ -1942,9 +2084,10 @@ Public Class frmBegin
         '
         Me.Label30.AutoSize = True
         Me.Label30.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(606, 393)
+        Me.Label30.Location = New System.Drawing.Point(404, 262)
+        Me.Label30.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(161, 29)
+        Me.Label30.Size = New System.Drawing.Size(93, 20)
         Me.Label30.TabIndex = 31
         Me.Label30.Text = "ประมาณการต้นทุน"
         '
@@ -1953,9 +2096,10 @@ Public Class frmBegin
         Me.lbCost_Pr.BackColor = System.Drawing.Color.Black
         Me.lbCost_Pr.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbCost_Pr.ForeColor = System.Drawing.Color.Yellow
-        Me.lbCost_Pr.Location = New System.Drawing.Point(774, 375)
+        Me.lbCost_Pr.Location = New System.Drawing.Point(516, 250)
+        Me.lbCost_Pr.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbCost_Pr.Name = "lbCost_Pr"
-        Me.lbCost_Pr.Size = New System.Drawing.Size(327, 50)
+        Me.lbCost_Pr.Size = New System.Drawing.Size(218, 33)
         Me.lbCost_Pr.TabIndex = 30
         Me.lbCost_Pr.Text = "0"
         Me.lbCost_Pr.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1964,9 +2108,10 @@ Public Class frmBegin
         '
         Me.Label27.AutoSize = True
         Me.Label27.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(669, 340)
+        Me.Label27.Location = New System.Drawing.Point(446, 227)
+        Me.Label27.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(95, 29)
+        Me.Label27.Size = New System.Drawing.Size(56, 20)
         Me.Label27.TabIndex = 29
         Me.Label27.Text = "วันที่ต้นทุน"
         '
@@ -1975,9 +2120,10 @@ Public Class frmBegin
         Me.lbCostDate.BackColor = System.Drawing.Color.Black
         Me.lbCostDate.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbCostDate.ForeColor = System.Drawing.Color.Yellow
-        Me.lbCostDate.Location = New System.Drawing.Point(776, 321)
+        Me.lbCostDate.Location = New System.Drawing.Point(517, 214)
+        Me.lbCostDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbCostDate.Name = "lbCostDate"
-        Me.lbCostDate.Size = New System.Drawing.Size(327, 50)
+        Me.lbCostDate.Size = New System.Drawing.Size(218, 33)
         Me.lbCostDate.TabIndex = 28
         Me.lbCostDate.Text = "0"
         Me.lbCostDate.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -1987,9 +2133,10 @@ Public Class frmBegin
         Me.lbDocNo.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.lbDocNo.Font = New System.Drawing.Font("MS Reference Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbDocNo.ForeColor = System.Drawing.SystemColors.Menu
-        Me.lbDocNo.Location = New System.Drawing.Point(190, 20)
+        Me.lbDocNo.Location = New System.Drawing.Point(127, 13)
+        Me.lbDocNo.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.lbDocNo.Name = "lbDocNo"
-        Me.lbDocNo.Size = New System.Drawing.Size(205, 46)
+        Me.lbDocNo.Size = New System.Drawing.Size(138, 33)
         Me.lbDocNo.TabIndex = 27
         '
         'txtCusCode
@@ -1997,18 +2144,20 @@ Public Class frmBegin
         Me.txtCusCode.BackColor = System.Drawing.SystemColors.Highlight
         Me.txtCusCode.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtCusCode.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCusCode.Location = New System.Drawing.Point(15, 321)
+        Me.txtCusCode.Location = New System.Drawing.Point(10, 214)
+        Me.txtCusCode.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtCusCode.Name = "txtCusCode"
-        Me.txtCusCode.Size = New System.Drawing.Size(190, 30)
+        Me.txtCusCode.Size = New System.Drawing.Size(127, 20)
         Me.txtCusCode.TabIndex = 26
         '
         'lbWeigth
         '
         Me.lbWeigth.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.lbWeigth.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbWeigth.Location = New System.Drawing.Point(393, 135)
+        Me.lbWeigth.Location = New System.Drawing.Point(262, 90)
+        Me.lbWeigth.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbWeigth.Name = "lbWeigth"
-        Me.lbWeigth.Size = New System.Drawing.Size(270, 50)
+        Me.lbWeigth.Size = New System.Drawing.Size(180, 33)
         Me.lbWeigth.TabIndex = 25
         Me.lbWeigth.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
@@ -2016,9 +2165,10 @@ Public Class frmBegin
         '
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(321, 154)
+        Me.Label24.Location = New System.Drawing.Point(214, 103)
+        Me.Label24.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(71, 29)
+        Me.Label24.Size = New System.Drawing.Size(42, 20)
         Me.Label24.TabIndex = 24
         Me.Label24.Text = "น้ำหนัก"
         '
@@ -2026,9 +2176,10 @@ Public Class frmBegin
         '
         Me.Label25.AutoSize = True
         Me.Label25.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(681, 154)
+        Me.Label25.Location = New System.Drawing.Point(454, 103)
+        Me.Label25.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(82, 29)
+        Me.Label25.Size = New System.Drawing.Size(48, 20)
         Me.Label25.TabIndex = 23
         Me.Label25.Text = "มูลค่าทุน"
         '
@@ -2036,9 +2187,10 @@ Public Class frmBegin
         '
         Me.Label26.AutoSize = True
         Me.Label26.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.Location = New System.Drawing.Point(672, 94)
+        Me.Label26.Location = New System.Drawing.Point(448, 63)
+        Me.Label26.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(92, 29)
+        Me.Label26.Size = New System.Drawing.Size(52, 20)
         Me.Label26.TabIndex = 22
         Me.Label26.Text = "มูลค่าขาย"
         '
@@ -2046,9 +2198,10 @@ Public Class frmBegin
         '
         Me.lbSumCost.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.lbSumCost.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbSumCost.Location = New System.Drawing.Point(774, 135)
+        Me.lbSumCost.Location = New System.Drawing.Point(516, 90)
+        Me.lbSumCost.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbSumCost.Name = "lbSumCost"
-        Me.lbSumCost.Size = New System.Drawing.Size(327, 50)
+        Me.lbSumCost.Size = New System.Drawing.Size(218, 33)
         Me.lbSumCost.TabIndex = 21
         Me.lbSumCost.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
@@ -2056,9 +2209,10 @@ Public Class frmBegin
         '
         Me.lbSumSales.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.lbSumSales.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbSumSales.Location = New System.Drawing.Point(774, 75)
+        Me.lbSumSales.Location = New System.Drawing.Point(516, 50)
+        Me.lbSumSales.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbSumSales.Name = "lbSumSales"
-        Me.lbSumSales.Size = New System.Drawing.Size(327, 50)
+        Me.lbSumSales.Size = New System.Drawing.Size(218, 33)
         Me.lbSumSales.TabIndex = 20
         Me.lbSumSales.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
@@ -2069,9 +2223,11 @@ Public Class frmBegin
         Me.GroupBox12.Controls.Add(Me.Label19)
         Me.GroupBox12.Controls.Add(Me.GroupBox11)
         Me.GroupBox12.Controls.Add(Me.cmdSave)
-        Me.GroupBox12.Location = New System.Drawing.Point(1114, 9)
+        Me.GroupBox12.Location = New System.Drawing.Point(743, 6)
+        Me.GroupBox12.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox12.Name = "GroupBox12"
-        Me.GroupBox12.Size = New System.Drawing.Size(585, 326)
+        Me.GroupBox12.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox12.Size = New System.Drawing.Size(390, 217)
         Me.GroupBox12.TabIndex = 19
         Me.GroupBox12.TabStop = False
         Me.GroupBox12.Text = "แก้ไข"
@@ -2081,9 +2237,10 @@ Public Class frmBegin
         Me.cmbCal.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.cmbCal.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cmbCal.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.cmbCal.Location = New System.Drawing.Point(351, 194)
+        Me.cmbCal.Location = New System.Drawing.Point(234, 129)
+        Me.cmbCal.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cmbCal.Name = "cmbCal"
-        Me.cmbCal.Size = New System.Drawing.Size(216, 75)
+        Me.cmbCal.Size = New System.Drawing.Size(144, 50)
         Me.cmbCal.TabIndex = 9
         Me.cmbCal.Text = "คำนวนต้นทุน"
         Me.cmbCal.UseVisualStyleBackColor = False
@@ -2094,18 +2251,20 @@ Public Class frmBegin
         Me.txtCostPr.BackColor = System.Drawing.SystemColors.HotTrack
         Me.txtCostPr.Font = New System.Drawing.Font("Tahoma", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.txtCostPr.ForeColor = System.Drawing.SystemColors.Info
-        Me.txtCostPr.Location = New System.Drawing.Point(339, 44)
+        Me.txtCostPr.Location = New System.Drawing.Point(226, 29)
+        Me.txtCostPr.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtCostPr.Name = "txtCostPr"
-        Me.txtCostPr.Size = New System.Drawing.Size(229, 46)
+        Me.txtCostPr.Size = New System.Drawing.Size(154, 33)
         Me.txtCostPr.TabIndex = 6
         '
         'Label19
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label19.Location = New System.Drawing.Point(255, 60)
+        Me.Label19.Location = New System.Drawing.Point(170, 40)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(77, 24)
+        Me.Label19.Size = New System.Drawing.Size(56, 17)
         Me.Label19.TabIndex = 7
         Me.Label19.Text = "ราคาทุน"
         '
@@ -2114,9 +2273,11 @@ Public Class frmBegin
         Me.GroupBox11.Controls.Add(Me.optType1)
         Me.GroupBox11.Controls.Add(Me.optType0)
         Me.GroupBox11.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.GroupBox11.Location = New System.Drawing.Point(15, 18)
+        Me.GroupBox11.Location = New System.Drawing.Point(10, 12)
+        Me.GroupBox11.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox11.Name = "GroupBox11"
-        Me.GroupBox11.Size = New System.Drawing.Size(231, 132)
+        Me.GroupBox11.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox11.Size = New System.Drawing.Size(154, 88)
         Me.GroupBox11.TabIndex = 8
         Me.GroupBox11.TabStop = False
         Me.GroupBox11.Text = "วิธีคิดต้นทุน"
@@ -2124,9 +2285,10 @@ Public Class frmBegin
         'optType1
         '
         Me.optType1.AutoSize = True
-        Me.optType1.Location = New System.Drawing.Point(30, 81)
+        Me.optType1.Location = New System.Drawing.Point(20, 54)
+        Me.optType1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.optType1.Name = "optType1"
-        Me.optType1.Size = New System.Drawing.Size(184, 33)
+        Me.optType1.Size = New System.Drawing.Size(124, 23)
         Me.optType1.TabIndex = 1
         Me.optType1.TabStop = True
         Me.optType1.Text = "1. ทุนต่อหน่วย"
@@ -2135,9 +2297,10 @@ Public Class frmBegin
         'optType0
         '
         Me.optType0.AutoSize = True
-        Me.optType0.Location = New System.Drawing.Point(24, 38)
+        Me.optType0.Location = New System.Drawing.Point(16, 25)
+        Me.optType0.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.optType0.Name = "optType0"
-        Me.optType0.Size = New System.Drawing.Size(199, 33)
+        Me.optType0.Size = New System.Drawing.Size(134, 23)
         Me.optType0.TabIndex = 0
         Me.optType0.TabStop = True
         Me.optType0.Text = "0. ทุนต่อน้ำหนัก"
@@ -2147,9 +2310,10 @@ Public Class frmBegin
         '
         Me.cmdSave.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.cmdSave.Font = New System.Drawing.Font("Tahoma", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.cmdSave.Location = New System.Drawing.Point(351, 108)
+        Me.cmdSave.Location = New System.Drawing.Point(234, 72)
+        Me.cmdSave.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cmdSave.Name = "cmdSave"
-        Me.cmdSave.Size = New System.Drawing.Size(216, 75)
+        Me.cmdSave.Size = New System.Drawing.Size(144, 50)
         Me.cmdSave.TabIndex = 5
         Me.cmdSave.Text = "บันทึกต้นทุน"
         Me.cmdSave.UseVisualStyleBackColor = False
@@ -2159,9 +2323,10 @@ Public Class frmBegin
         Me.lbProFicPer.BackColor = System.Drawing.Color.Yellow
         Me.lbProFicPer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lbProFicPer.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbProFicPer.Location = New System.Drawing.Point(777, 254)
+        Me.lbProFicPer.Location = New System.Drawing.Point(518, 169)
+        Me.lbProFicPer.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbProFicPer.Name = "lbProFicPer"
-        Me.lbProFicPer.Size = New System.Drawing.Size(326, 50)
+        Me.lbProFicPer.Size = New System.Drawing.Size(218, 34)
         Me.lbProFicPer.TabIndex = 18
         Me.lbProFicPer.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
@@ -2169,9 +2334,10 @@ Public Class frmBegin
         '
         Me.lbPrCost.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.lbPrCost.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbPrCost.Location = New System.Drawing.Point(393, 195)
+        Me.lbPrCost.Location = New System.Drawing.Point(262, 130)
+        Me.lbPrCost.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbPrCost.Name = "lbPrCost"
-        Me.lbPrCost.Size = New System.Drawing.Size(270, 50)
+        Me.lbPrCost.Size = New System.Drawing.Size(180, 33)
         Me.lbPrCost.TabIndex = 17
         Me.lbPrCost.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
@@ -2179,9 +2345,10 @@ Public Class frmBegin
         '
         Me.lbQty.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.lbQty.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbQty.Location = New System.Drawing.Point(15, 74)
+        Me.lbQty.Location = New System.Drawing.Point(10, 49)
+        Me.lbQty.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbQty.Name = "lbQty"
-        Me.lbQty.Size = New System.Drawing.Size(150, 50)
+        Me.lbQty.Size = New System.Drawing.Size(100, 33)
         Me.lbQty.TabIndex = 16
         Me.lbQty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
@@ -2189,9 +2356,10 @@ Public Class frmBegin
         '
         Me.Label28.AutoSize = True
         Me.Label28.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(9, 129)
+        Me.Label28.Location = New System.Drawing.Point(6, 86)
+        Me.Label28.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(68, 29)
+        Me.Label28.Size = New System.Drawing.Size(39, 20)
         Me.Label28.TabIndex = 15
         Me.Label28.Text = "จำนวน"
         '
@@ -2199,9 +2367,10 @@ Public Class frmBegin
         '
         Me.lbProFic.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.lbProFic.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbProFic.Location = New System.Drawing.Point(774, 195)
+        Me.lbProFic.Location = New System.Drawing.Point(516, 130)
+        Me.lbProFic.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbProFic.Name = "lbProFic"
-        Me.lbProFic.Size = New System.Drawing.Size(327, 50)
+        Me.lbProFic.Size = New System.Drawing.Size(218, 33)
         Me.lbProFic.TabIndex = 14
         Me.lbProFic.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
@@ -2209,9 +2378,10 @@ Public Class frmBegin
         '
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(710, 214)
+        Me.Label23.Location = New System.Drawing.Point(473, 143)
+        Me.Label23.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(52, 29)
+        Me.Label23.Size = New System.Drawing.Size(31, 20)
         Me.Label23.TabIndex = 13
         Me.Label23.Text = "กำไร"
         '
@@ -2219,9 +2389,10 @@ Public Class frmBegin
         '
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(321, 214)
+        Me.Label21.Location = New System.Drawing.Point(214, 143)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(78, 29)
+        Me.Label21.Size = New System.Drawing.Size(45, 20)
         Me.Label21.TabIndex = 12
         Me.Label21.Text = "ราคาทุน"
         '
@@ -2229,9 +2400,10 @@ Public Class frmBegin
         '
         Me.lbPrSales.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.lbPrSales.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbPrSales.Location = New System.Drawing.Point(393, 75)
+        Me.lbPrSales.Location = New System.Drawing.Point(262, 50)
+        Me.lbPrSales.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbPrSales.Name = "lbPrSales"
-        Me.lbPrSales.Size = New System.Drawing.Size(270, 50)
+        Me.lbPrSales.Size = New System.Drawing.Size(180, 33)
         Me.lbPrSales.TabIndex = 10
         Me.lbPrSales.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
@@ -2239,9 +2411,10 @@ Public Class frmBegin
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(312, 94)
+        Me.Label20.Location = New System.Drawing.Point(208, 63)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(88, 29)
+        Me.Label20.Size = New System.Drawing.Size(49, 20)
         Me.Label20.TabIndex = 9
         Me.Label20.Text = "ราคาขาย"
         '
@@ -2249,17 +2422,19 @@ Public Class frmBegin
         '
         Me.lbStkNameD.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.lbStkNameD.Font = New System.Drawing.Font("MS Reference Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbStkNameD.Location = New System.Drawing.Point(399, 18)
+        Me.lbStkNameD.Location = New System.Drawing.Point(266, 12)
+        Me.lbStkNameD.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lbStkNameD.Name = "lbStkNameD"
-        Me.lbStkNameD.Size = New System.Drawing.Size(702, 46)
+        Me.lbStkNameD.Size = New System.Drawing.Size(468, 31)
         Me.lbStkNameD.TabIndex = 3
         '
         'txtDateD
         '
         Me.txtDateD.Font = New System.Drawing.Font("MS Reference Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDateD.Location = New System.Drawing.Point(15, 21)
+        Me.txtDateD.Location = New System.Drawing.Point(10, 14)
+        Me.txtDateD.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtDateD.Name = "txtDateD"
-        Me.txtDateD.Size = New System.Drawing.Size(172, 42)
+        Me.txtDateD.Size = New System.Drawing.Size(116, 30)
         Me.txtDateD.TabIndex = 2
         '
         'txtStkCode
@@ -2267,18 +2442,20 @@ Public Class frmBegin
         Me.txtStkCode.BackColor = System.Drawing.SystemColors.HotTrack
         Me.txtStkCode.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtStkCode.ForeColor = System.Drawing.SystemColors.Window
-        Me.txtStkCode.Location = New System.Drawing.Point(15, 354)
+        Me.txtStkCode.Location = New System.Drawing.Point(10, 236)
+        Me.txtStkCode.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtStkCode.Name = "txtStkCode"
-        Me.txtStkCode.Size = New System.Drawing.Size(560, 37)
+        Me.txtStkCode.Size = New System.Drawing.Size(375, 27)
         Me.txtStkCode.TabIndex = 1
         '
         'Label18
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("MS Reference Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(15, 393)
+        Me.Label18.Location = New System.Drawing.Point(10, 262)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(90, 29)
+        Me.Label18.Size = New System.Drawing.Size(52, 20)
         Me.Label18.TabIndex = 0
         Me.Label18.Text = "รหัสสินค้า"
         '
@@ -2287,11 +2464,11 @@ Public Class frmBegin
         '
         'frmBegin
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(144.0!, 144.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.Beige
-        Me.ClientSize = New System.Drawing.Size(1924, 1050)
+        Me.ClientSize = New System.Drawing.Size(1296, 718)
         Me.Controls.Add(Me.cboDType)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TabControl2)
@@ -2305,6 +2482,7 @@ Public Class frmBegin
         Me.Controls.Add(Me.Label3)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.KeyPreview = True
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "frmBegin"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "รายงานเอกสารต่างๆ 20-05-63"

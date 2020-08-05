@@ -258,7 +258,7 @@ Public Class frmCSreport
         lbCusYellowQty.Text = 0
         lbCusOrangQty.Text = 0
         lbCusRedQty.Text = 0
-
+        '=========================================================
         For i = 0 To subDS.Tables("csShow").Rows.Count - 1
 
             Dim intCountAR As Integer = 0
@@ -489,6 +489,7 @@ Public Class frmCSreport
             End If
 
         Next
+        '====================================
         lbCusItem0.Text = Format(lbCusItem.Text - lbCusItem1M.Text - lbCusItem2M.Text - lbCusItem6M.Text, "#,##0.00")
 
         If chk100.Checked = True Then
@@ -982,9 +983,27 @@ Public Class frmCSreport
 
     End Sub
 
-    Private Sub lsvDetail_DoubleClick(sender As Object, e As EventArgs) Handles lsvGreen.DoubleClick
+    Private Sub lsvGreen_Click(sender As Object, e As EventArgs) Handles lsvGreen.Click
+
+    End Sub
 
 
+    Private Sub lsvYellow_DoubleClick(sender As Object, e As EventArgs) Handles lsvYellow.DoubleClick
+        Dim lvi0 As ListViewItem
+        Dim frmChangeCS As New frmChangeCS
+
+        For i = 0 To lsvYellow.SelectedItems.Count - 1
+            lvi0 = lsvYellow.SelectedItems(i)
+            ' Dim strGrpID As String = ""
+            selCusID = lsvYellow.Items(lvi0.Index).SubItems(1).Text
+
+        Next
+
+        frmChangeCS.ShowDialog()
+        Call showData()
+    End Sub
+
+    Private Sub lsvGreen_DoubleClick(sender As Object, e As EventArgs) Handles lsvGreen.DoubleClick
         Dim lvi0 As ListViewItem
         Dim frmChangeCS As New frmChangeCS
 
@@ -995,9 +1014,9 @@ Public Class frmCSreport
 
         Next
 
-        frmChangeCS.Show()
+        frmChangeCS.ShowDialog()
+        Call showData()
     End Sub
-
     Private Sub optOrdTarget_CheckedChanged(sender As Object, e As EventArgs) Handles optOrdTarget.CheckedChanged
         If frmLoad = True Then
             Call showData()
@@ -1078,11 +1097,41 @@ Public Class frmCSreport
 
     End Sub
 
-    Private Sub TabPage1_Click(sender As Object, e As EventArgs) Handles TabPage1.Click
+    Private Sub lsvOrang_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lsvOrang.SelectedIndexChanged
 
     End Sub
 
-    Private Sub Label60_Click(sender As Object, e As EventArgs) Handles lbCusOrangQty.Click
+    Private Sub lsvOrang_DoubleClick(sender As Object, e As EventArgs) Handles lsvOrang.DoubleClick
+        Dim lvi0 As ListViewItem
+        Dim frmChangeCS As New frmChangeCS
 
+        For i = 0 To lsvOrang.SelectedItems.Count - 1
+            lvi0 = lsvOrang.SelectedItems(i)
+            ' Dim strGrpID As String = ""
+            selCusID = lsvOrang.Items(lvi0.Index).SubItems(1).Text
+
+        Next
+
+        frmChangeCS.ShowDialog()
+        Call showData()
+    End Sub
+
+    Private Sub lsvRed_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lsvRed.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub lsvRed_DoubleClick(sender As Object, e As EventArgs) Handles lsvRed.DoubleClick
+        Dim lvi0 As ListViewItem
+        Dim frmChangeCS As New frmChangeCS
+
+        For i = 0 To lsvRed.SelectedItems.Count - 1
+            lvi0 = lsvRed.SelectedItems(i)
+            ' Dim strGrpID As String = ""
+            selCusID = lsvRed.Items(lvi0.Index).SubItems(1).Text
+
+        Next
+
+        frmChangeCS.ShowDialog()
+        Call showData()
     End Sub
 End Class

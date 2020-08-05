@@ -35,4 +35,12 @@
         Me.Close()
 
     End Sub
+
+    Private Sub cmbEdit_Click(sender As Object, e As EventArgs) Handles cmbEdit.Click
+        Dim frmEditCus As New searchCus
+
+        selCusID = lbCusID.Text
+        frmEditCus.ShowDialog()
+
+    End Sub
 End Class

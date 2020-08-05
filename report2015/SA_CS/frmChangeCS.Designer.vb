@@ -30,6 +30,7 @@ Partial Class frmChangeCS
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.lbCScode = New System.Windows.Forms.Label()
+        Me.cmbEdit = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lbCusName
@@ -54,9 +55,9 @@ Partial Class frmChangeCS
         '
         Me.cmbUpdate.BackColor = System.Drawing.Color.Goldenrod
         Me.cmbUpdate.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.cmbUpdate.Location = New System.Drawing.Point(418, 9)
+        Me.cmbUpdate.Location = New System.Drawing.Point(439, 9)
         Me.cmbUpdate.Name = "cmbUpdate"
-        Me.cmbUpdate.Size = New System.Drawing.Size(114, 47)
+        Me.cmbUpdate.Size = New System.Drawing.Size(136, 47)
         Me.cmbUpdate.TabIndex = 2
         Me.cmbUpdate.Text = "Update"
         Me.cmbUpdate.UseVisualStyleBackColor = False
@@ -66,9 +67,9 @@ Partial Class frmChangeCS
         Me.cmbExit.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.cmbExit.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cmbExit.ForeColor = System.Drawing.Color.White
-        Me.cmbExit.Location = New System.Drawing.Point(418, 73)
+        Me.cmbExit.Location = New System.Drawing.Point(439, 122)
         Me.cmbExit.Name = "cmbExit"
-        Me.cmbExit.Size = New System.Drawing.Size(114, 47)
+        Me.cmbExit.Size = New System.Drawing.Size(136, 47)
         Me.cmbExit.TabIndex = 3
         Me.cmbExit.Text = "Exit"
         Me.cmbExit.UseVisualStyleBackColor = False
@@ -116,11 +117,23 @@ Partial Class frmChangeCS
         Me.lbCScode.TabIndex = 7
         Me.lbCScode.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
+        'cmbEdit
+        '
+        Me.cmbEdit.BackColor = System.Drawing.Color.Yellow
+        Me.cmbEdit.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.cmbEdit.Location = New System.Drawing.Point(439, 62)
+        Me.cmbEdit.Name = "cmbEdit"
+        Me.cmbEdit.Size = New System.Drawing.Size(136, 47)
+        Me.cmbEdit.TabIndex = 8
+        Me.cmbEdit.Text = "แก้ไขข้อมูลลูกค้า"
+        Me.cmbEdit.UseVisualStyleBackColor = False
+        '
         'frmChangeCS
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(550, 162)
+        Me.ClientSize = New System.Drawing.Size(607, 181)
+        Me.Controls.Add(Me.cmbEdit)
         Me.Controls.Add(Me.lbCScode)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -143,4 +156,5 @@ Partial Class frmChangeCS
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents lbCScode As Label
+    Friend WithEvents cmbEdit As Button
 End Class

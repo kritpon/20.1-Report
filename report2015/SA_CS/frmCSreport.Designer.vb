@@ -22,18 +22,18 @@ Partial Class frmCSreport
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim ChartArea5 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend5 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series5 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim ChartArea6 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend6 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series6 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim ChartArea8 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend8 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series8 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim ChartArea7 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend7 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series7 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea1 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend1 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series1 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea2 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend2 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series2 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea3 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend3 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series3 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea4 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend4 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series4 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Me.lsvGreen = New System.Windows.Forms.ListView()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.lbCSname = New System.Windows.Forms.Label()
@@ -261,6 +261,13 @@ Partial Class frmCSreport
         Me.TabPage5 = New System.Windows.Forms.TabPage()
         Me.lsvRed = New System.Windows.Forms.ListView()
         Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.Label66 = New System.Windows.Forms.Label()
+        Me.lbCusTotal = New System.Windows.Forms.Label()
+        Me.lbcustotalStr = New System.Windows.Forms.Label()
+        Me.Label59 = New System.Windows.Forms.Label()
+        Me.Label60 = New System.Windows.Forms.Label()
+        Me.Label63 = New System.Windows.Forms.Label()
+        Me.Label64 = New System.Windows.Forms.Label()
         Me.lbCusRedQty = New System.Windows.Forms.Label()
         Me.lbCusOrangQty = New System.Windows.Forms.Label()
         Me.lbCusYellowQty = New System.Windows.Forms.Label()
@@ -274,13 +281,6 @@ Partial Class frmCSreport
         Me.chk0 = New System.Windows.Forms.RadioButton()
         Me.chk100 = New System.Windows.Forms.RadioButton()
         Me.cmbRptDetl = New System.Windows.Forms.Button()
-        Me.Label59 = New System.Windows.Forms.Label()
-        Me.Label60 = New System.Windows.Forms.Label()
-        Me.Label63 = New System.Windows.Forms.Label()
-        Me.Label64 = New System.Windows.Forms.Label()
-        Me.Label66 = New System.Windows.Forms.Label()
-        Me.lbCusTotal = New System.Windows.Forms.Label()
-        Me.lbcustotalStr = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.chartYear, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -544,16 +544,16 @@ Partial Class frmCSreport
         '
         'chartYear
         '
-        ChartArea5.Name = "ChartArea1"
-        Me.chartYear.ChartAreas.Add(ChartArea5)
-        Legend5.Name = "Legend1"
-        Me.chartYear.Legends.Add(Legend5)
+        ChartArea1.Name = "ChartArea1"
+        Me.chartYear.ChartAreas.Add(ChartArea1)
+        Legend1.Name = "Legend1"
+        Me.chartYear.Legends.Add(Legend1)
         Me.chartYear.Location = New System.Drawing.Point(5, 17)
         Me.chartYear.Name = "chartYear"
-        Series5.ChartArea = "ChartArea1"
-        Series5.Legend = "Legend1"
-        Series5.Name = "Series1"
-        Me.chartYear.Series.Add(Series5)
+        Series1.ChartArea = "ChartArea1"
+        Series1.Legend = "Legend1"
+        Series1.Name = "Series1"
+        Me.chartYear.Series.Add(Series1)
         Me.chartYear.Size = New System.Drawing.Size(259, 144)
         Me.chartYear.TabIndex = 24
         Me.chartYear.Text = "Chart1"
@@ -570,16 +570,16 @@ Partial Class frmCSreport
         '
         'chartAct
         '
-        ChartArea6.Name = "ChartArea1"
-        Me.chartAct.ChartAreas.Add(ChartArea6)
-        Legend6.Name = "Legend1"
-        Me.chartAct.Legends.Add(Legend6)
+        ChartArea2.Name = "ChartArea1"
+        Me.chartAct.ChartAreas.Add(ChartArea2)
+        Legend2.Name = "Legend1"
+        Me.chartAct.Legends.Add(Legend2)
         Me.chartAct.Location = New System.Drawing.Point(6, 17)
         Me.chartAct.Name = "chartAct"
-        Series6.ChartArea = "ChartArea1"
-        Series6.Legend = "Legend1"
-        Series6.Name = "Series1"
-        Me.chartAct.Series.Add(Series6)
+        Series2.ChartArea = "ChartArea1"
+        Series2.Legend = "Legend1"
+        Series2.Name = "Series1"
+        Me.chartAct.Series.Add(Series2)
         Me.chartAct.Size = New System.Drawing.Size(265, 144)
         Me.chartAct.TabIndex = 25
         Me.chartAct.Text = "Chart2"
@@ -2061,16 +2061,16 @@ Partial Class frmCSreport
         '
         'chartCusItem
         '
-        ChartArea8.Name = "ChartArea1"
-        Me.chartCusItem.ChartAreas.Add(ChartArea8)
-        Legend8.Name = "Legend1"
-        Me.chartCusItem.Legends.Add(Legend8)
+        ChartArea3.Name = "ChartArea1"
+        Me.chartCusItem.ChartAreas.Add(ChartArea3)
+        Legend3.Name = "Legend1"
+        Me.chartCusItem.Legends.Add(Legend3)
         Me.chartCusItem.Location = New System.Drawing.Point(289, 13)
         Me.chartCusItem.Name = "chartCusItem"
-        Series8.ChartArea = "ChartArea1"
-        Series8.Legend = "Legend1"
-        Series8.Name = "Series1"
-        Me.chartCusItem.Series.Add(Series8)
+        Series3.ChartArea = "ChartArea1"
+        Series3.Legend = "Legend1"
+        Series3.Name = "Series1"
+        Me.chartCusItem.Series.Add(Series3)
         Me.chartCusItem.Size = New System.Drawing.Size(265, 144)
         Me.chartCusItem.TabIndex = 57
         Me.chartCusItem.Text = "Chart1"
@@ -3131,6 +3131,90 @@ Partial Class frmCSreport
         Me.TabPage6.Text = "กราฟลูกค้า Active"
         Me.TabPage6.UseVisualStyleBackColor = True
         '
+        'Label66
+        '
+        Me.Label66.BackColor = System.Drawing.Color.DodgerBlue
+        Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label66.ForeColor = System.Drawing.Color.White
+        Me.Label66.Location = New System.Drawing.Point(1223, 355)
+        Me.Label66.Name = "Label66"
+        Me.Label66.Size = New System.Drawing.Size(53, 37)
+        Me.Label66.TabIndex = 73
+        Me.Label66.Text = "ราย"
+        Me.Label66.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'lbCusTotal
+        '
+        Me.lbCusTotal.BackColor = System.Drawing.Color.DodgerBlue
+        Me.lbCusTotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lbCusTotal.ForeColor = System.Drawing.Color.White
+        Me.lbCusTotal.Location = New System.Drawing.Point(1079, 355)
+        Me.lbCusTotal.Name = "lbCusTotal"
+        Me.lbCusTotal.Size = New System.Drawing.Size(115, 37)
+        Me.lbCusTotal.TabIndex = 72
+        Me.lbCusTotal.Text = "0"
+        Me.lbCusTotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'lbcustotalStr
+        '
+        Me.lbcustotalStr.BackColor = System.Drawing.Color.DodgerBlue
+        Me.lbcustotalStr.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lbcustotalStr.ForeColor = System.Drawing.Color.White
+        Me.lbcustotalStr.Location = New System.Drawing.Point(834, 355)
+        Me.lbcustotalStr.Name = "lbcustotalStr"
+        Me.lbcustotalStr.Size = New System.Drawing.Size(405, 37)
+        Me.lbcustotalStr.TabIndex = 71
+        Me.lbcustotalStr.Text = "รวมทั้งหมด"
+        Me.lbcustotalStr.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label59
+        '
+        Me.Label59.BackColor = System.Drawing.Color.Brown
+        Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label59.ForeColor = System.Drawing.Color.White
+        Me.Label59.Location = New System.Drawing.Point(1223, 296)
+        Me.Label59.Name = "Label59"
+        Me.Label59.Size = New System.Drawing.Size(53, 37)
+        Me.Label59.TabIndex = 69
+        Me.Label59.Text = "ราย"
+        Me.Label59.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label60
+        '
+        Me.Label60.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label60.ForeColor = System.Drawing.Color.Black
+        Me.Label60.Location = New System.Drawing.Point(1223, 236)
+        Me.Label60.Name = "Label60"
+        Me.Label60.Size = New System.Drawing.Size(53, 37)
+        Me.Label60.TabIndex = 70
+        Me.Label60.Text = "ราย"
+        Me.Label60.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label63
+        '
+        Me.Label63.BackColor = System.Drawing.Color.Yellow
+        Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label63.ForeColor = System.Drawing.Color.Black
+        Me.Label63.Location = New System.Drawing.Point(1223, 174)
+        Me.Label63.Name = "Label63"
+        Me.Label63.Size = New System.Drawing.Size(53, 37)
+        Me.Label63.TabIndex = 68
+        Me.Label63.Text = "ราย"
+        Me.Label63.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label64
+        '
+        Me.Label64.BackColor = System.Drawing.Color.GreenYellow
+        Me.Label64.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.Label64.ForeColor = System.Drawing.Color.Black
+        Me.Label64.Location = New System.Drawing.Point(1223, 121)
+        Me.Label64.Name = "Label64"
+        Me.Label64.Size = New System.Drawing.Size(53, 37)
+        Me.Label64.TabIndex = 67
+        Me.Label64.Text = "ราย"
+        Me.Label64.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
         'lbCusRedQty
         '
         Me.lbCusRedQty.BackColor = System.Drawing.Color.Brown
@@ -3229,16 +3313,16 @@ Partial Class frmCSreport
         '
         'chartCusActive
         '
-        ChartArea7.Name = "ChartArea1"
-        Me.chartCusActive.ChartAreas.Add(ChartArea7)
-        Legend7.Name = "Legend1"
-        Me.chartCusActive.Legends.Add(Legend7)
+        ChartArea4.Name = "ChartArea1"
+        Me.chartCusActive.ChartAreas.Add(ChartArea4)
+        Legend4.Name = "Legend1"
+        Me.chartCusActive.Legends.Add(Legend4)
         Me.chartCusActive.Location = New System.Drawing.Point(3, 7)
         Me.chartCusActive.Name = "chartCusActive"
-        Series7.ChartArea = "ChartArea1"
-        Series7.Legend = "Legend1"
-        Series7.Name = "Series1"
-        Me.chartCusActive.Series.Add(Series7)
+        Series4.ChartArea = "ChartArea1"
+        Series4.Legend = "Legend1"
+        Series4.Name = "Series1"
+        Me.chartCusActive.Series.Add(Series4)
         Me.chartCusActive.Size = New System.Drawing.Size(929, 623)
         Me.chartCusActive.TabIndex = 58
         Me.chartCusActive.Text = "Chart1"
@@ -3287,90 +3371,6 @@ Partial Class frmCSreport
         Me.cmbRptDetl.TabIndex = 47
         Me.cmbRptDetl.Text = "รายละเอียด "
         Me.cmbRptDetl.UseVisualStyleBackColor = False
-        '
-        'Label59
-        '
-        Me.Label59.BackColor = System.Drawing.Color.Brown
-        Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label59.ForeColor = System.Drawing.Color.White
-        Me.Label59.Location = New System.Drawing.Point(1223, 296)
-        Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(53, 37)
-        Me.Label59.TabIndex = 69
-        Me.Label59.Text = "ราย"
-        Me.Label59.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label60
-        '
-        Me.Label60.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label60.ForeColor = System.Drawing.Color.Black
-        Me.Label60.Location = New System.Drawing.Point(1223, 236)
-        Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(53, 37)
-        Me.Label60.TabIndex = 70
-        Me.Label60.Text = "ราย"
-        Me.Label60.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label63
-        '
-        Me.Label63.BackColor = System.Drawing.Color.Yellow
-        Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label63.ForeColor = System.Drawing.Color.Black
-        Me.Label63.Location = New System.Drawing.Point(1223, 174)
-        Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(53, 37)
-        Me.Label63.TabIndex = 68
-        Me.Label63.Text = "ราย"
-        Me.Label63.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label64
-        '
-        Me.Label64.BackColor = System.Drawing.Color.GreenYellow
-        Me.Label64.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label64.ForeColor = System.Drawing.Color.Black
-        Me.Label64.Location = New System.Drawing.Point(1223, 121)
-        Me.Label64.Name = "Label64"
-        Me.Label64.Size = New System.Drawing.Size(53, 37)
-        Me.Label64.TabIndex = 67
-        Me.Label64.Text = "ราย"
-        Me.Label64.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label66
-        '
-        Me.Label66.BackColor = System.Drawing.Color.DodgerBlue
-        Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label66.ForeColor = System.Drawing.Color.White
-        Me.Label66.Location = New System.Drawing.Point(1223, 355)
-        Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(53, 37)
-        Me.Label66.TabIndex = 73
-        Me.Label66.Text = "ราย"
-        Me.Label66.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'lbCusTotal
-        '
-        Me.lbCusTotal.BackColor = System.Drawing.Color.DodgerBlue
-        Me.lbCusTotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lbCusTotal.ForeColor = System.Drawing.Color.White
-        Me.lbCusTotal.Location = New System.Drawing.Point(1079, 355)
-        Me.lbCusTotal.Name = "lbCusTotal"
-        Me.lbCusTotal.Size = New System.Drawing.Size(115, 37)
-        Me.lbCusTotal.TabIndex = 72
-        Me.lbCusTotal.Text = "0"
-        Me.lbCusTotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'lbcustotalStr
-        '
-        Me.lbcustotalStr.BackColor = System.Drawing.Color.DodgerBlue
-        Me.lbcustotalStr.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lbcustotalStr.ForeColor = System.Drawing.Color.White
-        Me.lbcustotalStr.Location = New System.Drawing.Point(834, 355)
-        Me.lbcustotalStr.Name = "lbcustotalStr"
-        Me.lbcustotalStr.Size = New System.Drawing.Size(405, 37)
-        Me.lbcustotalStr.TabIndex = 71
-        Me.lbcustotalStr.Text = "รวมทั้งหมด"
-        Me.lbcustotalStr.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'frmCSreport
         '

@@ -851,7 +851,7 @@ Public Class frmMenu
         indexBar.Value = 0
         indexBar.Minimum = 0
         indexBar.Maximum = subDS.Tables("rptCS01").Rows.Count + 1
-        Me.Refresh()
+        'Me.Refresh()
         lbOrder_Sales.Text = 0
         lbOrder_Profit.Text = 0
         lbOrder_GP.Text = 0
@@ -883,7 +883,7 @@ Public Class frmMenu
 
 
             End With
-            Me.Refresh()
+            'Me.Refresh()
         Next
 
         lbOrRatio_Sales.Text = Format((((lbOrder_Sales.Text - lbStd_Sales.Text) / lbStd_Sales.Text) * 100), "#,##0.00")
@@ -1054,7 +1054,7 @@ Public Class frmMenu
         indexBar.Minimum = 0
         indexBar.Maximum = subDS.Tables("rptSL01").Rows.Count + 1
 
-        ' Me.Refresh()
+        Me.Refresh()
 
         lbDaily_Sales.Text = 0
         lbDaily_Profit.Text = 0
@@ -1274,13 +1274,16 @@ Public Class frmMenu
             .Series.Add(serWeightGP_SL)
             '.Series.Add(serProfitTT)
         End With
+
     End Sub
 
 
     Sub CS_genDataSales()
 
+        Dim viewSales As New DataView(sales.SalesMan)
+
         txtSQL = "Select Trh_ProD_Sales,Trh_Type,(Ar_CS)as Ar_Sales,"
-        txtSQL = txtSQL & "(CS_Name)as Sale,"
+        txtSQL = txtSQL & "isnull(CS_Name,'')as Sale,"
         'txtSQL=txtSQL & ",Progrp_Name,"
 
         'txtSQL = txtSQL & "sum(Dtl_price*Dtl_Num)as SumAmt,"
@@ -1314,24 +1317,27 @@ Public Class frmMenu
         'txtSQL = txtSQL & "On Trh_ProD_Sales=Progrp_id "
 
         txtSQL = txtSQL & "Where Trh_D_Amt>0 "
-        txtSQL = txtSQL & "And (Trh_Type='S' "
+        ' txtSQL = txtSQL & "And not(Ar_Sales='') "
+        txtSQL = txtSQL & "And Trh_Type='S' "
         txtSQL = txtSQL & "And (Trh_NoType='V' Or Trh_NoType='N' "
-        txtSQL = txtSQL & "Or Trh_NoType='B' Or Trh_NoType='M' Or Trh_NoType='Y' Or Trh_NoType='Z' ) ) "
+        txtSQL = txtSQL & "Or Trh_NoType='B' Or Trh_NoType='M' "
+        txtSQL = txtSQL & "Or Trh_NoType='Y' Or Trh_NoType='Z' )  "
 
         'txtSQL = txtSQL & "and Trh_Date='" & Format(DateAdd(DateInterval.Year, -543, Now), "MM/dd/yyyy") & "' "
 
         txtSQL = txtSQL & "And Trh_date >= '" & Year(txtDate01.Value) - 543 & "/" & Month(txtDate01.Value) & "/" & Microsoft.VisualBasic.Day(txtDate01.Value) & "' "
         txtSQL = txtSQL & "And Trh_date <= '" & Year(txtDate02.Value) - 543 & "/" & Month(txtDate02.Value) & "/" & Microsoft.VisualBasic.Day(txtDate02.Value) & "' "
-
+        ' txtSQL = txtSQL & "And Trh_Date='2020-07-16' "
 
         ' ==========  เลือกช่วงเวลา ================
         txtSQL = txtSQL & "And ("
-        txtSQL = txtSQL & "Trh_ProD_Sales='01' or Trh_Prod_Sales='02' or Trh_Prod_Sales='05' "
+        txtSQL = txtSQL & "Trh_ProD_Sales='01' or Trh_Prod_Sales='02'    "
+        'Trh_ProD_Sales='01' or
         txtSQL = txtSQL & ") "
 
         ' txtSQL = txtSQL & "and not(Trh_sale='SL03'or TRh_Sale='SL14' or Trh_Sale='SL12' ) "
-        txtSQL = txtSQL & "and not(Trh_sale='SL03'or TRh_Sale='SL14' or Trh_Sale='SL12' or Trh_Sale='SL99' ) "
-
+        txtSQL = txtSQL & "and not(Trh_sale='SL03' or TRh_Sale='SL14' or Trh_Sale='SL12' or Trh_Sale='SL99' ) "
+        'txtSQL = txtSQL & "And not(Ar_Sales='0003') "
         txtSQL = txtSQL & "Group by  TRh_Prod_Sales,Trh_Type,Ar_CS,CS_Name "
         txtSQL = txtSQL & "Order by sumQw desc  "
 
@@ -1381,7 +1387,9 @@ Public Class frmMenu
         indexBar.Minimum = 0
         indexBar.Maximum = subDS.Tables("rptSL01").Rows.Count + 1
 
-        Me.Refresh()
+        'Me.Refresh()
+
+        '63-07-30
 
         'lbDaily_Sales.Text = 0
         'lbDaily_Profit.Text = 0
@@ -1392,10 +1400,16 @@ Public Class frmMenu
         'lbDaily_GPProfit.Text = 0
         'lbDaily_TT.Text = 0
         'lbDaily_TTProfit.Text = 0
-
+        Dim vBar As Integer = 0
         For i = 0 To subDS.Tables("rptSL01").Rows.Count - 1
             indexBar.PerformStep()
-            indexBar.Value = i
+            If vBar < 100 Then
+                vBar = vBar + 1
+            Else
+                vBar = 0
+
+            End If
+            indexBar.Value = vBar
             With subDS.Tables("rptSL01").Rows(i)
                 'Dim sumAmt As Double
                 'If IsDBNull(.Item("sumAmt")) Then
@@ -1413,16 +1427,16 @@ Public Class frmMenu
 
                     sales.setSalesTT_D(.Item("Ar_Sales"), .Item("sumAmt"), .Item("sumCost"))
                     sales.setProfitTT_D(.Item("Ar_Sales"), .Item("sumProfit"))
+
                 End If
 
             End With
-            Me.Refresh()
-
+            ' Me.Refresh()
         Next
         lbTotalSL_Sales_CS.Text = 0
         lbTotalSL_W_CS.Text = 0
         lbTotalSL_Profit_CS.Text = 0
-        Dim viewSales As New DataView(sales.SalesMan)
+
         viewSales.RowFilter = "Type='CS' And Profit_D > 0 "
         viewSales.Sort = "Profit_D desc"
         For Each row As DataRowView In viewSales
@@ -1628,6 +1642,7 @@ Public Class frmMenu
             .Series.Add(serWeightGP_SL)
             '.Series.Add(serProfitTT)
         End With
+        ' Me.Refresh()
     End Sub
     Function getCarNum() As String
         Dim subDS As New DataSet
@@ -1785,7 +1800,7 @@ Public Class frmMenu
         indexBar.Minimum = 0
         indexBar.Maximum = subDS.Tables("rptSLRev01").Rows.Count + 1
 
-        Me.Refresh()
+        ' Me.Refresh()
 
         For i = 0 To subDS.Tables("rptSLRev01").Rows.Count - 1
             indexBar.PerformStep()
@@ -1801,7 +1816,7 @@ Public Class frmMenu
 
                 lbTotalRev.Text = Format((.Item("sumQw") + CDbl(lbTotalRev.Text)), "#,##0.00")
             End With
-            Me.Refresh()
+            ' Me.Refresh()
         Next
 
         With slRevArea
@@ -2467,7 +2482,7 @@ Public Class frmMenu
     End Sub
 
     Private Sub txtDate01_ValueChanged(sender As Object, e As EventArgs) Handles txtDate01.ValueChanged
-
+        txtDate02.Value = txtDate01.Value
     End Sub
 
     Private Sub chkShowKPI_CheckedChanged(sender As Object, e As EventArgs) Handles chkShowKPI.CheckedChanged

@@ -4,7 +4,7 @@
     Dim strConn3 As String = ""
     Dim strConn4 As String = ""
     Dim strConn5 As String = ""
-
+    Dim frmMenu As New frmMenu
     Private Sub frmConnectDB_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         Dim dTB As New DataTable()
@@ -86,13 +86,18 @@
     End Sub
     Sub RunDB()
         ' Dim frmBegin As New frmBegin
-        Dim frmMenu As New frmMenu
+
 
         dbTools.openDB()
         With Conn
             If .State = ConnectionState.Open Then
-                Me.Hide()
-                frmMenu.ShowDialog()
+                Me.WindowState = FormWindowState.Minimized
+                Try
+                    frmMenu.ShowDialog()
+                Catch ex As Exception
+                    MsgBox("Error  " & ex.Message)
+                End Try
+
 
                 ' frmBegin.Show()
 
